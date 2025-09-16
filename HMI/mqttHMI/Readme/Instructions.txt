@@ -1,0 +1,27 @@
+Last update: 18/09/2023
+Requirements:
+1. Mosquito broker for simulation : https://mosquitto.org/download/
+2. For python paho-mqtt : pip install paho-mqtt 
+
+
+For initializing the broker :
+1. Open command prompt/ terminal/powershell etc in administrator right.
+2. Open the installation drive for mosquito default : C:\Program Files\mosquitto
+3. Initialize broker using command mosquitto – v
+
+For starting client simulating DIE publishing random data:
+1. Open another terminal
+2. Run the file PubDIE.py : python …\mqttHMI\ PubDIE.py
+3. This will initiate endless loop of simulation of DIE message publishing
+4. For HMI Subscribing data run the file main.py : python …\mqttHMI\ main.py
+5. The helper functions for calling, logging, logout etc are described in SubHMIv2a.py
+
+Changes to make for individual user:
+1. Address where the recieved_messages to be saved is hard coded in SubHMIv2a.py
+2. The number of messages needs to be changed based on requirement (max_messages) in SubHMIv2a.py
+3. The subscription sustem is mentioned in main.py and its time based system unlike PubDIE.py 
+so to adjust the time in seconds change value of abort_after variable
+4. Change the messages needed for subscription by adjusting the variable topics_to_subscribe in main.py
+5. For subscribing to multiple topics under a same main topic use # wildcard . eg /DCWallbox/HMI/ChargingProgressPage/#
+
+

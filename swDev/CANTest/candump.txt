@@ -1,0 +1,1130 @@
+TimeStamp: 1694429833.66633	ID: 0x5C0	Data: 3a 21 f7 ff 01 00 00 35       DLC: 8
+{'CHRGR_iDcAct': 'Error', 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 53, 'mc_OBC_Status': 10}
+TimeStamp: 1694429841.254199	ID: 0x5C0	Data: 36 21 e7 ff 01 00 00 d7       DLC: 8
+{'CHRGR_iDcAct': 'Init', 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 215, 'mc_OBC_Status': 6}
+TimeStamp: 1694429856.500076	ID: 0x5C0	Data: 3f 21 17 10 01 00 00 c7       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 199, 'mc_OBC_Status': 15}
+TimeStamp: 1694429915.696002	ID: 0x5C1	Data: e0 7f ff fb 5f ce a5 6e       DLC: 8
+{'CHRGR_iAcAct': 'Init', 'CHRGR_iAcAct2': 'Init', 'CHRGR_iAcAct3': 'Init', 'CRC_OBC_AcCurrents': 110, 'mc_OBC_AcCurrents': 0}
+TimeStamp: 1694429929.760642	ID: 0x5C1	Data: fd ff ff ff 5f ce a5 a2       DLC: 8
+{'CHRGR_iAcAct': 'Error', 'CHRGR_iAcAct2': 'Error', 'CHRGR_iAcAct3': 'Error', 'CRC_OBC_AcCurrents': 162, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694429978.07388	ID: 0x5C1	Data: 00 42 cf a9 51 ce a5 71       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 113, 'mc_OBC_AcCurrents': 0}
+TimeStamp: 1694430005.026116	ID: 0x5C3	Data: 21 00 00 00 03 00 00 82       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 130, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 1}
+TimeStamp: 1694430009.036378	ID: 0x5C0	Data: 34 21 17 10 01 00 00 03       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 3, 'mc_OBC_Status': 4}
+TimeStamp: 1694430010.666455	ID: 0x5C2	Data: 31 39 9e 53 3d 00 00 67       DLC: 8
+{'CHRGR_uAcActPha1': 228.75, 'CHRGR_uActPha2': 231.5, 'CHRGR_uActPha3': 245.25, 'CRC_OBC_AcVoltages': 103, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430170.119171	ID: 0x5C2	Data: fb ff ff ff ff 00 00 11       DLC: 8
+{'CHRGR_uAcActPha1': 'Error', 'CHRGR_uActPha2': 'Error', 'CHRGR_uActPha3': 'Error', 'CRC_OBC_AcVoltages': 17, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430181.477236	ID: 0x5C2	Data: ed ff fe ef ff 00 00 82       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 130, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430275.026283	ID: 0x5C3	Data: 2d 00 00 00 03 00 00 99       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 153, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 13}
+TimeStamp: 1694430408.059169	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430408.309061	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430408.559059	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430408.657025	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430408.809036	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430408.907136	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430409.059043	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430409.157456	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430409.309073	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430409.407133	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430409.559074	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430409.657507	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430409.808992	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430409.907099	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430410.059104	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430410.157388	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430410.309459	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430410.407129	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430410.535201	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430410.559077	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430410.657202	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430410.785157	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430410.809018	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430410.907508	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430411.035301	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430411.059234	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430411.157128	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430411.285176	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430411.309088	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430411.407145	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430411.535521	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430411.559477	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430411.657176	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430411.78533	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430411.809021	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430411.907542	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430412.035136	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430412.059137	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430412.092159	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430412.15712	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430412.285201	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430412.30916	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430412.342171	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430412.407097	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430412.516559	ID: 0x5C1	Data: 08 42 cf a9 51 ce a5 01       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 1, 'mc_OBC_AcCurrents': 8}
+TimeStamp: 1694430412.535148	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430412.559454	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430412.592191	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430412.61614	ID: 0x5C1	Data: 09 42 cf a9 51 ce a5 21       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 33, 'mc_OBC_AcCurrents': 9}
+TimeStamp: 1694430412.65718	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430412.716232	ID: 0x5C1	Data: 0a 42 cf a9 51 ce a5 02       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 2, 'mc_OBC_AcCurrents': 10}
+TimeStamp: 1694430412.785074	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430412.80912	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430412.842194	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430412.907174	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430413.01619	ID: 0x5C1	Data: 0d 42 cf a9 51 ce a5 b2       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 178, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694430413.035479	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430413.059181	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430413.09216	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430413.116126	ID: 0x5C1	Data: 0e 42 cf a9 51 ce a5 b0       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 176, 'mc_OBC_AcCurrents': 14}
+TimeStamp: 1694430413.157137	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430413.216336	ID: 0x5C1	Data: 0f 42 cf a9 51 ce a5 8c       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 140, 'mc_OBC_AcCurrents': 15}
+TimeStamp: 1694430413.28529	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430413.309309	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430413.342531	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430413.407165	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430413.470407	ID: 0x5C2	Data: ed ff fe ef ff 00 00 b9       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 185, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430413.516575	ID: 0x5C1	Data: 02 42 cf a9 51 ce a5 84       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 132, 'mc_OBC_AcCurrents': 2}
+TimeStamp: 1694430413.535169	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430413.559484	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430413.592102	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430413.616239	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 73       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 115, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430413.657123	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430413.670149	ID: 0x5C2	Data: ef ff fe ef ff 00 00 ed       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 237, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430413.716197	ID: 0x5C1	Data: 04 42 cf a9 51 ce a5 e4       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 228, 'mc_OBC_AcCurrents': 4}
+TimeStamp: 1694430413.770163	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 fc       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 252, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430413.785104	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430413.809036	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430413.842508	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430413.870469	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 ce       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 206, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430413.907562	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430413.970212	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 73       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 115, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430414.025109	ID: 0x5C0	Data: 36 21 17 10 01 00 00 94       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 148, 'mc_OBC_Status': 6}
+TimeStamp: 1694430414.035173	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430414.059109	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430414.070176	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 db       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 219, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430414.092156	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430414.1162	ID: 0x5C1	Data: 08 42 cf a9 51 ce a5 53       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 83, 'mc_OBC_AcCurrents': 8}
+TimeStamp: 1694430414.157132	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430414.170207	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 26       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 38, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430414.216195	ID: 0x5C1	Data: 09 42 cf a9 51 ce a5 1f       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 31, 'mc_OBC_AcCurrents': 9}
+TimeStamp: 1694430414.270192	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 3c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 60, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430414.285159	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430414.309099	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430414.325255	ID: 0x5C0	Data: 39 21 17 10 01 00 00 b9       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 185, 'mc_OBC_Status': 9}
+TimeStamp: 1694430414.342288	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430414.370201	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 b4       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 180, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430414.407122	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430414.42518	ID: 0x5C0	Data: 3a 21 17 10 01 00 00 45       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 69, 'mc_OBC_Status': 10}
+TimeStamp: 1694430414.470248	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 02       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 2, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430414.516298	ID: 0x5C1	Data: 0c 42 cf a9 51 ce a5 98       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 152, 'mc_OBC_AcCurrents': 12}
+TimeStamp: 1694430414.535147	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430414.559084	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430414.570199	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 c4       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 196, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430414.592101	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430414.616244	ID: 0x5C1	Data: 0d 42 cf a9 51 ce a5 11       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 17, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694430414.657143	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430414.670162	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 68       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 104, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430414.716191	ID: 0x5C1	Data: 0e 42 cf a9 51 ce a5 47       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 71, 'mc_OBC_AcCurrents': 14}
+TimeStamp: 1694430414.770146	ID: 0x5C2	Data: ea ff fe ef ff 00 00 3d       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 61, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430414.785126	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430414.809037	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430414.825107	ID: 0x5C0	Data: 3e 21 17 10 01 00 00 dd       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 221, 'mc_OBC_Status': 14}
+TimeStamp: 1694430414.842104	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430414.870198	ID: 0x5C2	Data: eb ff fe ef ff 00 00 64       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 100, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430414.907248	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430414.925326	ID: 0x5C0	Data: 3f 21 17 10 01 00 00 c4       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 196, 'mc_OBC_Status': 15}
+TimeStamp: 1694430414.970158	ID: 0x5C2	Data: ec ff fe ef ff 00 00 7a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 122, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430415.016254	ID: 0x5C1	Data: 01 42 cf a9 51 ce a5 60       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 96, 'mc_OBC_AcCurrents': 1}
+TimeStamp: 1694430415.035166	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430415.059137	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430415.070258	ID: 0x5C2	Data: ed ff fe ef ff 00 00 e6       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 230, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430415.092228	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430415.116098	ID: 0x5C1	Data: 02 42 cf a9 51 ce a5 af       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 175, 'mc_OBC_AcCurrents': 2}
+TimeStamp: 1694430415.157302	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430415.170197	ID: 0x5C2	Data: ee ff fe ef ff 00 00 36       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 54, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430415.216196	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 d3       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 211, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430415.270119	ID: 0x5C2	Data: ef ff fe ef ff 00 00 70       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 112, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430415.285089	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430415.316131	ID: 0x5C1	Data: 04 42 cf a9 51 ce a5 24       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 36, 'mc_OBC_AcCurrents': 4}
+TimeStamp: 1694430415.325158	ID: 0x5C0	Data: 33 21 17 10 01 00 00 d1       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 209, 'mc_OBC_Status': 3}
+TimeStamp: 1694430415.342198	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430415.370181	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 46       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 70, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430415.407074	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430415.425258	ID: 0x5C0	Data: 34 21 17 10 01 00 00 e4       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 228, 'mc_OBC_Status': 4}
+TimeStamp: 1694430415.470154	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 c8       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 200, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430415.516138	ID: 0x5C1	Data: 06 42 cf a9 51 ce a5 93       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 147, 'mc_OBC_AcCurrents': 6}
+TimeStamp: 1694430415.535171	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430415.559088	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430415.57026	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 55       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 85, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430415.592098	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430415.616193	ID: 0x5C1	Data: 07 42 cf a9 51 ce a5 b6       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 182, 'mc_OBC_AcCurrents': 7}
+TimeStamp: 1694430415.657318	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430415.670184	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 5d       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 93, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430415.716276	ID: 0x5C1	Data: 08 42 cf a9 51 ce a5 50       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 80, 'mc_OBC_AcCurrents': 8}
+TimeStamp: 1694430415.770206	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 29       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 41, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430415.7852	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430415.809031	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430415.825305	ID: 0x5C0	Data: 38 21 17 10 01 00 00 e8       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 232, 'mc_OBC_Status': 8}
+TimeStamp: 1694430415.842224	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430415.870513	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 1e       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 30, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430415.907191	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430415.925195	ID: 0x5C0	Data: 39 21 17 10 01 00 00 e8       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 232, 'mc_OBC_Status': 9}
+TimeStamp: 1694430415.970626	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 59       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 89, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430416.016258	ID: 0x5C1	Data: 0b 42 cf a9 51 ce a5 7d       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 125, 'mc_OBC_AcCurrents': 11}
+TimeStamp: 1694430416.035138	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430416.059142	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430416.070123	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 2a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 42, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430416.092273	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430416.116198	ID: 0x5C1	Data: 0c 42 cf a9 51 ce a5 b8       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 184, 'mc_OBC_AcCurrents': 12}
+TimeStamp: 1694430416.157183	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430416.170109	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 7e       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 126, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430416.216231	ID: 0x5C1	Data: 0d 42 cf a9 51 ce a5 46       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 70, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694430416.270222	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 f3       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 243, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430416.285153	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430416.309135	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430416.325142	ID: 0x5C0	Data: 3d 21 17 10 01 00 00 01       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 1, 'mc_OBC_Status': 13}
+TimeStamp: 1694430416.342131	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430416.370159	ID: 0x5C2	Data: ea ff fe ef ff 00 00 de       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 222, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430416.407059	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430416.425109	ID: 0x5C0	Data: 3e 21 17 10 01 00 00 07       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 7, 'mc_OBC_Status': 14}
+TimeStamp: 1694430416.451113	ID: 0x5C3	Data: 2c 00 00 00 03 00 00 18       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 24, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 12}
+TimeStamp: 1694430416.47027	ID: 0x5C2	Data: eb ff fe ef ff 00 00 bf       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 191, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430416.491378	ID: 0x5C3	Data: 2e 00 00 00 03 00 00 07       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 7, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 14}
+TimeStamp: 1694430416.511551	ID: 0x5C3	Data: 2f 00 00 00 03 00 00 cb       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 203, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 15}
+TimeStamp: 1694430416.525511	ID: 0x5C0	Data: 3f 21 17 10 01 00 00 16       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 22, 'mc_OBC_Status': 15}
+TimeStamp: 1694430416.551474	ID: 0x5C3	Data: 21 00 00 00 03 00 00 f4       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 244, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 1}
+TimeStamp: 1694430416.559113	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430416.570132	ID: 0x5C2	Data: ec ff fe ef ff 00 00 eb       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 235, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430416.591129	ID: 0x5C3	Data: 23 00 00 00 03 00 00 53       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 83, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 3}
+TimeStamp: 1694430416.611218	ID: 0x5C3	Data: 24 00 00 00 03 00 00 4c       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 76, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 4}
+TimeStamp: 1694430416.631255	ID: 0x5C3	Data: 25 00 00 00 03 00 00 4a       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 74, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 5}
+TimeStamp: 1694430416.651237	ID: 0x5C3	Data: 26 00 00 00 03 00 00 08       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 8, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 6}
+TimeStamp: 1694430416.670228	ID: 0x5C2	Data: ed ff fe ef ff 00 00 d6       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 214, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430416.691194	ID: 0x5C3	Data: 28 00 00 00 03 00 00 13       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 19, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 8}
+TimeStamp: 1694430416.711162	ID: 0x5C3	Data: 29 00 00 00 03 00 00 7a       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 122, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 9}
+TimeStamp: 1694430416.725413	ID: 0x5C0	Data: 31 21 17 10 01 00 00 b8       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 184, 'mc_OBC_Status': 1}
+TimeStamp: 1694430416.751107	ID: 0x5C3	Data: 2b 00 00 00 03 00 00 da       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 218, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 11}
+TimeStamp: 1694430416.770641	ID: 0x5C2	Data: ee ff fe ef ff 00 00 f4       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 244, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430416.785126	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430416.816131	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 ec       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 236, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430416.825208	ID: 0x5C0	Data: 32 21 17 10 01 00 00 19       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 25, 'mc_OBC_Status': 2}
+TimeStamp: 1694430416.842222	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430416.870231	ID: 0x5C2	Data: ef ff fe ef ff 00 00 1a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 26, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430416.891297	ID: 0x5C3	Data: 22 00 00 00 03 00 00 a2       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 162, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 2}
+TimeStamp: 1694430416.907167	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430416.925575	ID: 0x5C0	Data: 33 21 17 10 01 00 00 92       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 146, 'mc_OBC_Status': 3}
+TimeStamp: 1694430416.95117	ID: 0x5C3	Data: 25 00 00 00 03 00 00 22       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 34, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 5}
+TimeStamp: 1694430416.970563	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 67       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 103, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430416.991257	ID: 0x5C3	Data: 27 00 00 00 03 00 00 a0       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 160, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 7}
+TimeStamp: 1694430417.011308	ID: 0x5C3	Data: 28 00 00 00 03 00 00 b8       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 184, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 8}
+TimeStamp: 1694430417.025141	ID: 0x5C0	Data: 34 21 17 10 01 00 00 b6       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 182, 'mc_OBC_Status': 4}
+TimeStamp: 1694430417.051272	ID: 0x5C3	Data: 2a 00 00 00 03 00 00 20       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 32, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 10}
+TimeStamp: 1694430417.059034	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430417.070235	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 dd       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 221, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430417.091308	ID: 0x5C3	Data: 2c 00 00 00 03 00 00 03       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 3, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 12}
+TimeStamp: 1694430417.11119	ID: 0x5C3	Data: 2d 00 00 00 03 00 00 af       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 175, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 13}
+TimeStamp: 1694430417.125303	ID: 0x5C0	Data: 35 21 17 10 01 00 00 e9       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 233, 'mc_OBC_Status': 5}
+TimeStamp: 1694430417.151217	ID: 0x5C3	Data: 2f 00 00 00 03 00 00 55       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 85, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 15}
+TimeStamp: 1694430417.170232	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 90       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 144, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430417.191189	ID: 0x5C3	Data: 21 00 00 00 03 00 00 53       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 83, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 1}
+TimeStamp: 1694430417.2112	ID: 0x5C3	Data: 22 00 00 00 03 00 00 47       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 71, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 2}
+TimeStamp: 1694430417.225153	ID: 0x5C0	Data: 36 21 17 10 01 00 00 df       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 223, 'mc_OBC_Status': 6}
+TimeStamp: 1694430417.231185	ID: 0x5C3	Data: 23 00 00 00 03 00 00 28       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 40, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 3}
+TimeStamp: 1694430417.251217	ID: 0x5C3	Data: 24 00 00 00 03 00 00 ff       DLC: 8
+{'CHRGR_stErr': 'warning present', 'CHRGR_stHvIntlck': 'closed', 'CRC_OBC_WarnInfo': 255, 'DC1_bReqMIL': 'MIL Off', 'DC1_stT30c': 'init', 'mc_OBC_WarnInfo': 4}
+TimeStamp: 1694430417.27041	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 72       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 114, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430417.285254	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430417.309131	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430417.325614	ID: 0x5C0	Data: 37 21 17 10 01 00 00 4f       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 79, 'mc_OBC_Status': 7}
+TimeStamp: 1694430417.342235	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430417.370302	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 0f       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 15, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430417.407256	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430417.42557	ID: 0x5C0	Data: 38 21 17 10 01 00 00 3c       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 60, 'mc_OBC_Status': 8}
+TimeStamp: 1694430417.470296	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 9b       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 155, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430417.516599	ID: 0x5C1	Data: 0a 42 cf a9 51 ce a5 f7       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 247, 'mc_OBC_AcCurrents': 10}
+TimeStamp: 1694430417.535608	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430417.559132	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430417.570213	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 1f       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 31, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430417.592258	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430417.616253	ID: 0x5C1	Data: 0b 42 cf a9 51 ce a5 d6       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 214, 'mc_OBC_AcCurrents': 11}
+TimeStamp: 1694430417.657592	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430417.670618	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 9f       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 159, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430417.716183	ID: 0x5C1	Data: 0c 42 cf a9 51 ce a5 4b       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 75, 'mc_OBC_AcCurrents': 12}
+TimeStamp: 1694430417.770616	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 53       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 83, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430417.785596	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430417.809081	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430417.825124	ID: 0x5C0	Data: 3c 21 17 10 01 00 00 93       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 147, 'mc_OBC_Status': 12}
+TimeStamp: 1694430417.842171	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430417.87067	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 90       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 144, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430417.907532	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430417.925572	ID: 0x5C0	Data: 3d 21 17 10 01 00 00 aa       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 170, 'mc_OBC_Status': 13}
+TimeStamp: 1694430417.97059	ID: 0x5C2	Data: ea ff fe ef ff 00 00 e1       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 225, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430418.016284	ID: 0x5C1	Data: 0f 42 cf a9 51 ce a5 a4       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 164, 'mc_OBC_AcCurrents': 15}
+TimeStamp: 1694430418.035174	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430418.059178	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430418.070664	ID: 0x5C2	Data: eb ff fe ef ff 00 00 95       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 149, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430418.092593	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430418.116563	ID: 0x5C1	Data: 00 42 cf a9 51 ce a5 87       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 135, 'mc_OBC_AcCurrents': 0}
+TimeStamp: 1694430418.157501	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430418.170526	ID: 0x5C2	Data: ec ff fe ef ff 00 00 e4       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 228, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430418.216173	ID: 0x5C1	Data: 01 42 cf a9 51 ce a5 6c       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 108, 'mc_OBC_AcCurrents': 1}
+TimeStamp: 1694430418.270155	ID: 0x5C2	Data: ed ff fe ef ff 00 00 9a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 154, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430418.285153	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430418.309066	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430418.325176	ID: 0x5C0	Data: 31 21 17 10 01 00 00 ec       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 236, 'mc_OBC_Status': 1}
+TimeStamp: 1694430418.342231	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430418.370228	ID: 0x5C2	Data: ee ff fe ef ff 00 00 09       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 9, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430418.416316	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 de       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 222, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430418.425399	ID: 0x5C0	Data: 32 21 17 10 01 00 00 10       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 16, 'mc_OBC_Status': 2}
+TimeStamp: 1694430418.470382	ID: 0x5C2	Data: ef ff fe ef ff 00 00 54       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 84, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430418.516257	ID: 0x5C1	Data: 04 42 cf a9 51 ce a5 aa       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 170, 'mc_OBC_AcCurrents': 4}
+TimeStamp: 1694430418.535338	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430418.559495	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430418.570631	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 50       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 80, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430418.592329	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430418.616334	ID: 0x5C1	Data: 05 42 cf a9 51 ce a5 c1       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 193, 'mc_OBC_AcCurrents': 5}
+TimeStamp: 1694430418.657544	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430418.670527	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 a1       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 161, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430418.716287	ID: 0x5C1	Data: 06 42 cf a9 51 ce a5 9b       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 155, 'mc_OBC_AcCurrents': 6}
+TimeStamp: 1694430418.770212	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 b0       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 176, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430418.785179	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430418.809103	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430418.825602	ID: 0x5C0	Data: 36 21 17 10 01 00 00 90       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 144, 'mc_OBC_Status': 6}
+TimeStamp: 1694430418.842381	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430418.870637	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 77       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 119, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430418.907574	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430418.92527	ID: 0x5C0	Data: 37 21 17 10 01 00 00 81       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 129, 'mc_OBC_Status': 7}
+TimeStamp: 1694430418.970425	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 a5       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 165, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430419.016192	ID: 0x5C1	Data: 09 42 cf a9 51 ce a5 cc       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 204, 'mc_OBC_AcCurrents': 9}
+TimeStamp: 1694430419.035192	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430419.059133	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430419.070299	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 ce       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 206, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430419.09238	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430419.116233	ID: 0x5C1	Data: 0a 42 cf a9 51 ce a5 9f       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 159, 'mc_OBC_AcCurrents': 10}
+TimeStamp: 1694430419.157206	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430419.170275	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 61       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 97, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430419.216147	ID: 0x5C1	Data: 0b 42 cf a9 51 ce a5 bd       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 189, 'mc_OBC_AcCurrents': 11}
+TimeStamp: 1694430419.27054	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 f6       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 246, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430419.285258	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430419.30918	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430419.325224	ID: 0x5C0	Data: 3b 21 17 10 01 00 00 07       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 7, 'mc_OBC_Status': 11}
+TimeStamp: 1694430419.342224	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430419.370136	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 96       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 150, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430419.407187	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430419.425264	ID: 0x5C0	Data: 3c 21 17 10 01 00 00 01       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 1, 'mc_OBC_Status': 12}
+TimeStamp: 1694430419.470263	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 0c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 12, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430419.516243	ID: 0x5C1	Data: 0e 42 cf a9 51 ce a5 f9       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 249, 'mc_OBC_AcCurrents': 14}
+TimeStamp: 1694430419.535508	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430419.559129	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430419.570205	ID: 0x5C2	Data: ea ff fe ef ff 00 00 fd       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 253, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430419.592162	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430419.616213	ID: 0x5C1	Data: 0f 42 cf a9 51 ce a5 a5       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 165, 'mc_OBC_AcCurrents': 15}
+TimeStamp: 1694430419.657261	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430419.670204	ID: 0x5C2	Data: eb ff fe ef ff 00 00 a8       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 168, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430419.716227	ID: 0x5C1	Data: 00 42 cf a9 51 ce a5 71       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 113, 'mc_OBC_AcCurrents': 0}
+TimeStamp: 1694430419.770186	ID: 0x5C2	Data: ec ff fe ef ff 00 00 d1       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 209, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430419.785164	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430419.809185	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430419.825258	ID: 0x5C0	Data: 30 21 17 10 01 00 00 08       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 8, 'mc_OBC_Status': 0}
+TimeStamp: 1694430419.842372	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430419.861007	ID: 0x306	Data:                               DLC: 0
+TimeStamp: 1694430419.91623	ID: 0x5C1	Data: 02 42 cf a9 51 ce a5 8b       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 139, 'mc_OBC_AcCurrents': 2}
+TimeStamp: 1694430419.925223	ID: 0x5C0	Data: 31 21 17 10 01 00 00 a4       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 164, 'mc_OBC_Status': 1}
+TimeStamp: 1694430419.970266	ID: 0x5C2	Data: ee ff fe ef ff 00 00 6b       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 107, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430420.016275	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 83       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 131, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430420.035222	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430420.059319	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430420.070177	ID: 0x5C2	Data: ef ff fe ef ff 00 00 3d       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 61, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430420.092282	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430420.125185	ID: 0x5C0	Data: 33 21 17 10 01 00 00 fb       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 251, 'mc_OBC_Status': 3}
+TimeStamp: 1694430420.15721	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430420.17035	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 b5       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 181, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430420.216138	ID: 0x5C1	Data: 05 42 cf a9 51 ce a5 92       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 146, 'mc_OBC_AcCurrents': 5}
+TimeStamp: 1694430420.270502	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 4c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 76, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430420.285255	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430420.309128	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430420.325287	ID: 0x5C0	Data: 35 21 17 10 01 00 00 07       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 7, 'mc_OBC_Status': 5}
+TimeStamp: 1694430420.342609	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430420.370265	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 62       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 98, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430420.407219	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430420.425184	ID: 0x5C0	Data: 36 21 17 10 01 00 00 ca       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 202, 'mc_OBC_Status': 6}
+TimeStamp: 1694430420.470178	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 2a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 42, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430420.516199	ID: 0x5C1	Data: 08 42 cf a9 51 ce a5 55       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 85, 'mc_OBC_AcCurrents': 8}
+TimeStamp: 1694430420.535139	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430420.559204	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430420.57031	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 28       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 40, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430420.592167	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430420.616251	ID: 0x5C1	Data: 09 42 cf a9 51 ce a5 18       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 24, 'mc_OBC_AcCurrents': 9}
+TimeStamp: 1694430420.657215	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430420.670245	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 a3       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 163, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430420.683161	ID: 0x308	Data: ff ff ff ff 00 00             DLC: 6
+{'vehicleId': 0}
+TimeStamp: 1694430420.716193	ID: 0x5C1	Data: 0a 42 cf a9 51 ce a5 df       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 223, 'mc_OBC_AcCurrents': 10}
+TimeStamp: 1694430420.770273	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 7a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 122, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430420.785342	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430420.81625	ID: 0x5C1	Data: 0b 42 cf a9 51 ce a5 2b       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 43, 'mc_OBC_AcCurrents': 11}
+TimeStamp: 1694430420.825346	ID: 0x5C0	Data: 3a 21 17 10 01 00 00 2c       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 44, 'mc_OBC_Status': 10}
+TimeStamp: 1694430420.842624	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430420.870221	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 48       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 72, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430420.907474	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430420.925535	ID: 0x5C0	Data: 3b 21 17 10 01 00 00 15       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 21, 'mc_OBC_Status': 11}
+TimeStamp: 1694430420.970256	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 c0       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 192, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430421.016188	ID: 0x5C1	Data: 0d 42 cf a9 51 ce a5 91       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 145, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694430421.035253	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430421.059146	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430421.070172	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 2e       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 46, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430421.092264	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430421.116411	ID: 0x5C1	Data: 0e 42 cf a9 51 ce a5 9a       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 154, 'mc_OBC_AcCurrents': 14}
+TimeStamp: 1694430421.157184	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430421.170364	ID: 0x5C2	Data: ea ff fe ef ff 00 00 bd       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 189, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430421.216291	ID: 0x5C1	Data: 0f 42 cf a9 51 ce a5 a6       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 166, 'mc_OBC_AcCurrents': 15}
+TimeStamp: 1694430421.270623	ID: 0x5C2	Data: eb ff fe ef ff 00 00 8a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 138, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430421.285259	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430421.309196	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430421.325227	ID: 0x5C0	Data: 3f 21 17 10 01 00 00 b4       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 180, 'mc_OBC_Status': 15}
+TimeStamp: 1694430421.342249	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430421.37026	ID: 0x5C2	Data: ec ff fe ef ff 00 00 fb       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 251, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430421.407186	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430421.425263	ID: 0x5C0	Data: 30 21 17 10 01 00 00 48       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 72, 'mc_OBC_Status': 0}
+TimeStamp: 1694430421.470232	ID: 0x5C2	Data: ed ff fe ef ff 00 00 6d       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 109, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430421.516193	ID: 0x5C1	Data: 02 42 cf a9 51 ce a5 83       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 131, 'mc_OBC_AcCurrents': 2}
+TimeStamp: 1694430421.535177	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430421.559116	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430421.570231	ID: 0x5C2	Data: ee ff fe ef ff 00 00 ec       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 236, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430421.592147	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430421.616312	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 b0       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 176, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430421.657202	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430421.670311	ID: 0x5C2	Data: ef ff fe ef ff 00 00 98       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 152, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430421.725307	ID: 0x5C0	Data: 33 21 17 10 01 00 00 64       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 100, 'mc_OBC_Status': 3}
+TimeStamp: 1694430421.770277	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 b3       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 179, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430421.785179	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430421.809092	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430421.825641	ID: 0x5C0	Data: 34 21 17 10 01 00 00 21       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 33, 'mc_OBC_Status': 4}
+TimeStamp: 1694430421.842566	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430421.87052	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 ca       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 202, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430421.907292	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430421.925583	ID: 0x5C0	Data: 35 21 17 10 01 00 00 97       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 151, 'mc_OBC_Status': 5}
+TimeStamp: 1694430421.970233	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 c0       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 192, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430422.025162	ID: 0x5C0	Data: 36 21 17 10 01 00 00 76       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 118, 'mc_OBC_Status': 6}
+TimeStamp: 1694430422.03521	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430422.059232	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430422.070203	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 af       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 175, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430422.09231	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430422.116255	ID: 0x5C1	Data: 08 42 cf a9 51 ce a5 07       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 7, 'mc_OBC_AcCurrents': 8}
+TimeStamp: 1694430422.157606	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430422.170284	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 9c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 156, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430422.216329	ID: 0x5C1	Data: 09 42 cf a9 51 ce a5 4f       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 79, 'mc_OBC_AcCurrents': 9}
+TimeStamp: 1694430422.270323	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 b2       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 178, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430422.285148	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430422.309135	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430422.325198	ID: 0x5C0	Data: 39 21 17 10 01 00 00 e9       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 233, 'mc_OBC_Status': 9}
+TimeStamp: 1694430422.342592	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430422.370632	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 42       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 66, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430422.407448	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430422.425193	ID: 0x5C0	Data: 3a 21 17 10 01 00 00 e1       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 225, 'mc_OBC_Status': 10}
+TimeStamp: 1694430422.470256	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 9f       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 159, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430422.516304	ID: 0x5C1	Data: 0c 42 cf a9 51 ce a5 89       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 137, 'mc_OBC_AcCurrents': 12}
+TimeStamp: 1694430422.535266	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430422.559164	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430422.570298	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 e9       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 233, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430422.592179	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430422.616178	ID: 0x5C1	Data: 0d 42 cf a9 51 ce a5 1d       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 29, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694430422.657203	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430422.670325	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 23       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 35, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430422.716394	ID: 0x5C1	Data: 0e 42 cf a9 51 ce a5 1f       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 31, 'mc_OBC_AcCurrents': 14}
+TimeStamp: 1694430422.770642	ID: 0x5C2	Data: ea ff fe ef ff 00 00 95       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 149, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430422.785178	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430422.809199	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430422.825211	ID: 0x5C0	Data: 3e 21 17 10 01 00 00 46       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 70, 'mc_OBC_Status': 14}
+TimeStamp: 1694430422.842368	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430422.870644	ID: 0x5C2	Data: eb ff fe ef ff 00 00 36       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 54, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430422.907248	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430422.925428	ID: 0x5C0	Data: 3f 21 17 10 01 00 00 be       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 190, 'mc_OBC_Status': 15}
+TimeStamp: 1694430422.970251	ID: 0x5C2	Data: ec ff fe ef ff 00 00 e9       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 233, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430423.01637	ID: 0x5C1	Data: 01 42 cf a9 51 ce a5 6f       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 111, 'mc_OBC_AcCurrents': 1}
+TimeStamp: 1694430423.035261	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430423.059558	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430423.09219	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430423.116631	ID: 0x5C1	Data: 02 42 cf a9 51 ce a5 b8       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 184, 'mc_OBC_AcCurrents': 2}
+TimeStamp: 1694430423.157231	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430423.170324	ID: 0x5C2	Data: ee ff fe ef ff 00 00 4f       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 79, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430423.216224	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 59       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 89, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430423.270303	ID: 0x5C2	Data: ef ff fe ef ff 00 00 f4       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 244, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430423.285229	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430423.309558	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430423.325657	ID: 0x5C0	Data: 33 21 17 10 01 00 00 6a       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 106, 'mc_OBC_Status': 3}
+TimeStamp: 1694430423.34261	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430423.37068	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 c1       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 193, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430423.407578	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430423.425221	ID: 0x5C0	Data: 34 21 17 10 01 00 00 aa       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 170, 'mc_OBC_Status': 4}
+TimeStamp: 1694430423.470622	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 59       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 89, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430423.516334	ID: 0x5C1	Data: 06 42 cf a9 51 ce a5 27       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 39, 'mc_OBC_AcCurrents': 6}
+TimeStamp: 1694430423.535271	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430423.559346	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430423.570175	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 a5       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 165, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430423.592282	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430423.61619	ID: 0x5C1	Data: 07 42 cf a9 51 ce a5 a1       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 161, 'mc_OBC_AcCurrents': 7}
+TimeStamp: 1694430423.657235	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430423.67026	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 72       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 114, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430423.71636	ID: 0x5C1	Data: 08 42 cf a9 51 ce a5 ac       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 172, 'mc_OBC_AcCurrents': 8}
+TimeStamp: 1694430423.770331	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 03       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 3, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430423.785226	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430423.809329	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430423.825239	ID: 0x5C0	Data: 38 21 17 10 01 00 00 63       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 99, 'mc_OBC_Status': 8}
+TimeStamp: 1694430423.842246	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430423.870252	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 ef       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 239, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430423.907273	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430423.925242	ID: 0x5C0	Data: 39 21 17 10 01 00 00 60       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 96, 'mc_OBC_Status': 9}
+TimeStamp: 1694430423.970284	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 99       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 153, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430424.0163	ID: 0x5C1	Data: 0b 42 cf a9 51 ce a5 3b       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 59, 'mc_OBC_AcCurrents': 11}
+TimeStamp: 1694430424.035278	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430424.05922	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430424.070258	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 26       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 38, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430424.092229	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430424.1163	ID: 0x5C1	Data: 0c 42 cf a9 51 ce a5 29       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 41, 'mc_OBC_AcCurrents': 12}
+TimeStamp: 1694430424.157211	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430424.170286	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 5c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 92, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430424.21623	ID: 0x5C1	Data: 0d 42 cf a9 51 ce a5 8f       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 143, 'mc_OBC_AcCurrents': 13}
+TimeStamp: 1694430424.270239	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 8f       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 143, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430424.285227	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430424.309182	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430424.325238	ID: 0x5C0	Data: 3d 21 17 10 01 00 00 f4       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 244, 'mc_OBC_Status': 13}
+TimeStamp: 1694430424.342264	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430424.370281	ID: 0x5C2	Data: ea ff fe ef ff 00 00 7d       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 125, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430424.407187	ID: 0x30B	Data: 58 02 14 00 14 00             DLC: 6
+{'evMaxCurent': 20, 'evMaxPower': 20000, 'evMaxVoltage': 600}
+TimeStamp: 1694430424.425259	ID: 0x5C0	Data: 3e 21 17 10 01 00 00 45       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 69, 'mc_OBC_Status': 14}
+TimeStamp: 1694430424.470284	ID: 0x5C2	Data: eb ff fe ef ff 00 00 18       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 24, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430424.51634	ID: 0x5C1	Data: 00 42 cf a9 51 ce a5 0c       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 12, 'mc_OBC_AcCurrents': 0}
+TimeStamp: 1694430424.535235	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430424.559221	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430424.570306	ID: 0x5C2	Data: ec ff fe ef ff 00 00 11       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 17, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430424.592215	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430424.616331	ID: 0x5C1	Data: 01 42 cf a9 51 ce a5 9c       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 156, 'mc_OBC_AcCurrents': 1}
+TimeStamp: 1694430424.670274	ID: 0x5C2	Data: ed ff fe ef ff 00 00 58       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 88, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430424.716284	ID: 0x5C1	Data: 02 42 cf a9 51 ce a5 47       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 71, 'mc_OBC_AcCurrents': 2}
+TimeStamp: 1694430424.77027	ID: 0x5C2	Data: ee ff fe ef ff 00 00 cb       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 203, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430424.785197	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430424.8092	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430424.825255	ID: 0x5C0	Data: 32 21 17 10 01 00 00 61       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 97, 'mc_OBC_Status': 2}
+TimeStamp: 1694430424.842316	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430424.870321	ID: 0x5C2	Data: ef ff fe ef ff 00 00 2c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 44, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430424.916236	ID: 0x5C1	Data: 04 42 cf a9 51 ce a5 ae       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 174, 'mc_OBC_AcCurrents': 4}
+TimeStamp: 1694430424.970271	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 79       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 121, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430425.01628	ID: 0x5C1	Data: 05 42 cf a9 51 ce a5 08       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 8, 'mc_OBC_AcCurrents': 5}
+TimeStamp: 1694430425.035283	ID: 0x30D	Data: 00 00 00 00 00 00 01          DLC: 7
+{'chargeMode': 'scheduled', 'evMinPower': 0, 'evMinCurrent': 0.0, 'evMinVoltage': 0}
+TimeStamp: 1694430425.059176	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430425.070268	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 5c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 92, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430425.092309	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430425.116287	ID: 0x5C1	Data: 06 42 cf a9 51 ce a5 d2       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 210, 'mc_OBC_AcCurrents': 6}
+TimeStamp: 1694430425.170281	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 d9       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 217, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430425.216273	ID: 0x5C1	Data: 07 42 cf a9 51 ce a5 8d       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 141, 'mc_OBC_AcCurrents': 7}
+TimeStamp: 1694430425.270284	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 7b       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 123, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430425.309166	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430425.325261	ID: 0x5C0	Data: 37 21 17 10 01 00 00 d4       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 212, 'mc_OBC_Status': 7}
+TimeStamp: 1694430425.342227	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430425.370266	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 3b       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 59, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430425.416363	ID: 0x5C1	Data: 09 42 cf a9 51 ce a5 b4       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 180, 'mc_OBC_AcCurrents': 9}
+TimeStamp: 1694430425.470292	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 11       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 17, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430425.516315	ID: 0x5C1	Data: 0a 42 cf a9 51 ce a5 46       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 70, 'mc_OBC_AcCurrents': 10}
+TimeStamp: 1694430425.559201	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430425.570294	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 4b       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 75, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430425.592263	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430425.616245	ID: 0x5C1	Data: 0b 42 cf a9 51 ce a5 4d       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 77, 'mc_OBC_AcCurrents': 11}
+TimeStamp: 1694430425.670282	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 7e       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 126, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430425.716283	ID: 0x5C1	Data: 0c 42 cf a9 51 ce a5 0a       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 10, 'mc_OBC_AcCurrents': 12}
+TimeStamp: 1694430425.770267	ID: 0x5C2	Data: e8 ff fe ef ff 00 00 79       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 121, 'mc_OBC_AcVoltages': 8}
+TimeStamp: 1694430425.809181	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430425.825238	ID: 0x5C0	Data: 3c 21 17 10 01 00 00 1b       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 27, 'mc_OBC_Status': 12}
+TimeStamp: 1694430425.842264	ID: 0x301	Data: 0a d0 07 ce ff 2d 90 01       DLC: 8
+{'targetContactorsStatus': 'open', 'evConnectionState ': 'connected', 'chargingState': 'cableCheck', 'targetVoltage': 200.0, 'targetCurrent': -5.0, 'batteryStateOfCharge': 45, 'cableCheckVoltage ': 400}
+TimeStamp: 1694430425.870281	ID: 0x5C2	Data: e9 ff fe ef ff 00 00 ed       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 237, 'mc_OBC_AcVoltages': 9}
+TimeStamp: 1694430425.91627	ID: 0x5C1	Data: 0e 42 cf a9 51 ce a5 fc       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 252, 'mc_OBC_AcCurrents': 14}
+TimeStamp: 1694430425.970243	ID: 0x5C2	Data: ea ff fe ef ff 00 00 c9       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 201, 'mc_OBC_AcVoltages': 10}
+TimeStamp: 1694430426.016228	ID: 0x5C1	Data: 0f 42 cf a9 51 ce a5 e1       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 225, 'mc_OBC_AcCurrents': 15}
+TimeStamp: 1694430426.059199	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430426.070288	ID: 0x5C2	Data: eb ff fe ef ff 00 00 72       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 114, 'mc_OBC_AcVoltages': 11}
+TimeStamp: 1694430426.116296	ID: 0x5C1	Data: 00 42 cf a9 51 ce a5 c4       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 196, 'mc_OBC_AcCurrents': 0}
+TimeStamp: 1694430426.170348	ID: 0x5C2	Data: ec ff fe ef ff 00 00 b1       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 177, 'mc_OBC_AcVoltages': 12}
+TimeStamp: 1694430426.21634	ID: 0x5C1	Data: 01 42 cf a9 51 ce a5 48       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 72, 'mc_OBC_AcCurrents': 1}
+TimeStamp: 1694430426.270336	ID: 0x5C2	Data: ed ff fe ef ff 00 00 e5       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 229, 'mc_OBC_AcVoltages': 13}
+TimeStamp: 1694430426.309166	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430426.325337	ID: 0x5C0	Data: 31 21 17 10 01 00 00 ee       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 238, 'mc_OBC_Status': 1}
+TimeStamp: 1694430426.370321	ID: 0x5C2	Data: ee ff fe ef ff 00 00 f2       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 242, 'mc_OBC_AcVoltages': 14}
+TimeStamp: 1694430426.416289	ID: 0x5C1	Data: 03 42 cf a9 51 ce a5 48       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 72, 'mc_OBC_AcCurrents': 3}
+TimeStamp: 1694430426.470243	ID: 0x5C2	Data: ef ff fe ef ff 00 00 c2       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 194, 'mc_OBC_AcVoltages': 15}
+TimeStamp: 1694430426.516251	ID: 0x5C1	Data: 04 42 cf a9 51 ce a5 99       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 153, 'mc_OBC_AcCurrents': 4}
+TimeStamp: 1694430426.559264	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430426.570329	ID: 0x5C2	Data: e0 ff fe ef ff 00 00 7a       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 122, 'mc_OBC_AcVoltages': 0}
+TimeStamp: 1694430426.616316	ID: 0x5C1	Data: 05 42 cf a9 51 ce a5 19       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 25, 'mc_OBC_AcCurrents': 5}
+TimeStamp: 1694430426.670328	ID: 0x5C2	Data: e1 ff fe ef ff 00 00 bd       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 189, 'mc_OBC_AcVoltages': 1}
+TimeStamp: 1694430426.716251	ID: 0x5C1	Data: 06 42 cf a9 51 ce a5 5e       DLC: 8
+{'CHRGR_iAcAct': 3.4000000000000057, 'CHRGR_iAcAct2': -9.599999999999994, 'CHRGR_iAcAct3': 10.799999999999997, 'CRC_OBC_AcCurrents': 94, 'mc_OBC_AcCurrents': 6}
+TimeStamp: 1694430426.770301	ID: 0x5C2	Data: e2 ff fe ef ff 00 00 f8       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 248, 'mc_OBC_AcVoltages': 2}
+TimeStamp: 1694430426.809176	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430426.825245	ID: 0x5C0	Data: 36 21 17 10 01 00 00 e3       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 227, 'mc_OBC_Status': 6}
+TimeStamp: 1694430426.870317	ID: 0x5C2	Data: e3 ff fe ef ff 00 00 cb       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 203, 'mc_OBC_AcVoltages': 3}
+TimeStamp: 1694430426.925567	ID: 0x5C0	Data: 37 21 17 10 01 00 00 d8       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 216, 'mc_OBC_Status': 7}
+TimeStamp: 1694430426.970424	ID: 0x5C2	Data: e4 ff fe ef ff 00 00 aa       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 170, 'mc_OBC_AcVoltages': 4}
+TimeStamp: 1694430427.02533	ID: 0x5C0	Data: 38 21 17 10 01 00 00 e3       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 227, 'mc_OBC_Status': 8}
+TimeStamp: 1694430427.059135	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430427.070223	ID: 0x5C2	Data: e5 ff fe ef ff 00 00 df       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 223, 'mc_OBC_AcVoltages': 5}
+TimeStamp: 1694430427.125321	ID: 0x5C0	Data: 39 21 17 10 01 00 00 67       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 103, 'mc_OBC_Status': 9}
+TimeStamp: 1694430427.170324	ID: 0x5C2	Data: e6 ff fe ef ff 00 00 8c       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 140, 'mc_OBC_AcVoltages': 6}
+TimeStamp: 1694430427.225318	ID: 0x5C0	Data: 3a 21 17 10 01 00 00 e7       DLC: 8
+{'CHRGR_iDcAct': 25.900000000000034, 'CHRGR_stOperAct': 'charging', 'CHRGR_uDcAct': 456.25, 'CRC_OBC_Status': 231, 'mc_OBC_Status': 10}
+TimeStamp: 1694430427.270509	ID: 0x5C2	Data: e7 ff fe ef ff 00 00 f0       DLC: 8
+{'CHRGR_uAcActPha1': 'Init', 'CHRGR_uActPha2': 'Init', 'CHRGR_uActPha3': 'Init', 'CRC_OBC_AcVoltages': 240, 'mc_OBC_AcVoltages': 7}
+TimeStamp: 1694430427.309328	ID: 0x30A	Data: d0 07 00 00                   DLC: 4
+{'chargingProfileMaxPowerLimit': 20000, 'timeToFullSoc': 0}
+TimeStamp: 1694430427.325394	ID: 0x5C0	Data: 3b 21 17 10 01 00 00 8f       DLC: 8

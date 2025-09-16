@@ -1,0 +1,282 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: PECC SECC
+VAL_TABLE_ chargeModeType 3 "dynamicBpt" 2 "dynamic" 1 "scheduled" 0 "unknown" ;
+VAL_TABLE_ evConnectionStateType 3 "error" 2 "energyTransferAllowed" 1 "connected" 0 "disconnected" ;
+VAL_TABLE_ operationalStatusType 1 "inoperative" 0 "operative" ;
+VAL_TABLE_ isolationStatusType 3 "fault" 2 "warning" 1 "valid" 0 "invalid" ;
+VAL_TABLE_ contactorsStatusType 1 "closed" 0 "open" ;
+VAL_TABLE_ chargingStateType 4 "postCharge" 3 "charge" 2 "preCharge" 1 "cableCheck" 0 "standby" ;
+
+
+BO_ 1285 AnalogIns3: 6 SECC
+ SG_ ain2 : 32|16@1+ (0.000244140625,0) [0|15.999755859375] "V"  PECC
+ SG_ ain1 : 16|16@1+ (0.000244140625,0) [0|15.999755859375] "V"  PECC
+ SG_ temperature9 : 0|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+
+BO_ 1284 AnalogIns2: 8 SECC
+ SG_ temperature8 : 48|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperature7 : 32|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperature6 : 16|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperature5 : 0|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+
+BO_ 1283 AnalogIns1: 8 SECC
+ SG_ temperature4 : 48|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperature3 : 32|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperature2 : 16|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperature1 : 0|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+
+BO_ 1282 DigitalIns: 1 SECC
+ SG_ din8 : 7|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din7 : 6|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din6 : 5|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din5 : 4|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din4 : 3|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din3 : 2|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din2 : 1|1@1+ (1,0) [0|1] ""  PECC
+ SG_ din1 : 0|1@1+ (1,0) [0|1] ""  PECC
+
+BO_ 1281 DigitalOuts2: 4 PECC
+ SG_ doutMask9 : 24|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask8 : 23|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask7 : 22|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask6 : 21|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask5 : 20|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask4 : 19|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask3 : 18|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask2 : 17|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask15 : 30|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask14 : 29|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask13 : 28|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask12 : 27|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask11 : 26|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask10 : 25|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask1 : 16|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout9 : 8|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout8 : 7|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout7 : 6|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout6 : 5|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout5 : 4|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout4 : 3|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout3 : 2|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout2 : 1|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout15 : 14|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout14 : 13|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout13 : 12|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout12 : 11|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout11 : 10|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout10 : 9|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout1 : 0|1@1+ (1,0) [0|1] ""  SECC
+
+BO_ 1280 DigitalOuts1: 4 PECC
+ SG_ doutMask9 : 24|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask8 : 23|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask7 : 22|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask6 : 21|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask5 : 20|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask4 : 19|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask3 : 18|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask2 : 17|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask15 : 30|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask14 : 29|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask13 : 28|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask12 : 27|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask11 : 26|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask10 : 25|1@1+ (1,0) [0|1] ""  SECC
+ SG_ doutMask1 : 16|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout9 : 8|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout8 : 7|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout7 : 6|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout6 : 5|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout5 : 4|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout4 : 3|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout3 : 2|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout2 : 1|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout15 : 14|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout14 : 13|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout13 : 12|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout12 : 11|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout11 : 10|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout10 : 9|1@1+ (1,0) [0|1] ""  SECC
+ SG_ dout1 : 0|1@1+ (1,0) [0|1] ""  SECC
+
+BO_ 782 ChargingSessionInfo4: 8 SECC
+ SG_ evMaxDischargePower : 48|16@1+ (-10,0) [-655350|0] "W"  PECC
+ SG_ evMinDischargePower : 32|16@1+ (-10,0) [-655350|0] "W"  PECC
+ SG_ evMaxDischargeCurrent : 16|16@1+ (-0.1,0) [-6553.5|0] "A"  PECC
+ SG_ evMinDischargeCurrent : 0|16@1+ (-0.1,0) [-6553.5|0] "A"  PECC
+
+BO_ 781 ChargingSessionInfo3: 7 SECC
+ SG_ chargeMode : 48|8@1- (1,0) [0|0] ""  PECC
+ SG_ evMinPower : 32|16@1+ (10,0) [0|655350] "W"  PECC
+ SG_ evMinCurrent : 16|16@1+ (0.1,0) [0|6553.5] "A"  PECC
+ SG_ evMinVoltage : 0|16@1+ (1,0) [0|65535] "V"  PECC
+
+BO_ 780 PECCLimits3: 8 PECC
+ SG_ limitDischargePowerMin : 32|16@1+ (-10,0) [-655350|0] "W"  SECC
+ SG_ limitDischargePowerMax : 48|16@1+ (-10,0) [-655350|0] "W"  SECC
+ SG_ limitDischargeCurrentMin : 0|16@1+ (-0.1,0) [-6553.5|0] "A"  SECC
+ SG_ limitDischargeCurrentMax : 16|16@1+ (-0.1,0) [-6553.5|0] "A"  SECC
+
+BO_ 779 ChargingSessionInfo2: 6 SECC
+ SG_ evMaxPower : 32|16@1+ (1000,0) [0|65535000] "W"  PECC
+ SG_ evMaxVoltage : 0|16@1+ (1,0) [0|65535] "V"  PECC
+ SG_ evMaxCurrent : 16|16@1+ (1,0) [0|65535] "A"  PECC
+
+BO_ 778 ChargingSessionInfo1: 4 SECC
+ SG_ timeToFullSoc : 16|16@1+ (1,0) [0|65535] "s"  PECC
+ SG_ chargingProfileMaxPowerLimit : 0|16@1+ (10,0) [0|655350] "W"  PECC
+
+BO_ 777 StopCharging: 0 PECC
+
+BO_ 776 VehicleId: 6 SECC
+ SG_ vehicleId : 0|48@1- (1,0) [0|0] ""  PECC
+
+BO_ 773 PECCLimits2: 4 PECC
+ SG_ limitCurrentMin : 0|16@1- (0.1,0) [-3276.8|3276.7] "A"  SECC
+ SG_ limitCurrentMax : 16|16@1- (0.1,0) [-3276.8|3276.7] "A"  SECC
+
+BO_ 771 PECCStatus2: 6 PECC
+ SG_ status : 32|16@1+ (1,0) [0|65535] ""  SECC
+ SG_ measuredCurrent : 16|16@1- (0.1,0) [-3276.8|3276.7] "A"  SECC
+ SG_ measuredVoltage : 0|16@1+ (0.1,0) [0|6553.5] "V"  SECC
+
+BO_ 774 Reset: 0 SECC
+
+BO_ 775 SECCSensors: 4 SECC
+ SG_ temperatureSensor2 : 16|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+ SG_ temperatureSensor1 : 0|16@1- (0.1,0) [-3276.8|3276.7] "°C"  PECC
+
+BO_ 769 VehicleStatus: 8 SECC
+ SG_ cableCheckVoltage : 48|16@1+ (1,0) [0|65535] "V"  PECC
+ SG_ targetContactorsStatus : 0|1@1+ (1,0) [0|1] ""  PECC
+ SG_ evConnectionState : 1|2@1+ (1,0) [0|3] ""  PECC
+ SG_ chargingState : 3|3@1+ (1,0) [0|7] ""  PECC
+ SG_ targetCurrent : 24|16@1- (0.1,0) [-3276.8|3276.7] "A"  PECC
+ SG_ targetVoltage : 8|16@1+ (0.1,0) [0|6553.5] "V"  PECC
+ SG_ batteryStateOfCharge : 40|7@1+ (1,0) [0|100] "%"  PECC
+
+BO_ 770 PECCStatus1: 7 PECC
+ SG_ temperature : 40|16@1- (0.1,0) [-3276.8|3276.7] "°C"  SECC
+ SG_ operationalStatus : 1|1@1+ (1,0) [0|1] ""  SECC
+ SG_ isolationStatus : 2|3@1+ (1,0) [0|7] ""  SECC
+ SG_ drivenVoltage : 8|16@1+ (0.1,0) [0|6553.5] "V"  SECC
+ SG_ drivenCurrent : 24|16@1- (0.1,0) [-3276.8|3276.7] "A"  SECC
+ SG_ contactorsStatus : 0|1@1+ (1,0) [0|1] ""  SECC
+
+BO_ 772 PECCLimits1: 8 PECC
+ SG_ limitPowerMin : 48|16@1+ (10,0) [0|655350] "W"  SECC
+ SG_ limitVoltageMin : 0|16@1+ (0.1,0) [0|6553.5] "V"  SECC
+ SG_ limitVoltageMax : 16|16@1+ (0.1,0) [0|6553.5] "V"  SECC
+ SG_ limitPowerMax : 32|16@1+ (10,0) [0|655350] "W"  SECC
+
+
+
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 100000000000;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","IfActive","NoMsgSendType","NotUsed","vector_leerstring";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 999999;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 50000;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 50000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "NmMessage" ENUM  "no","yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_ BU_  "NmStationAddress" INT 0 63;
+BA_DEF_ BU_  "NmNode" ENUM  "no","yes";
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_  "NmBaseAddress" HEX 1024 1087;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "NWM-WakeupAllowed" "";
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "NmMessage" "no";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NmNode" "no";
+BA_DEF_DEF_  "NodeLayerModules" "CANoeILNLVector.dll";
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "GenMsgSendType" BO_ 1285 0;
+BA_ "GenMsgCycleTime" BO_ 1285 250;
+BA_ "GenMsgSendType" BO_ 1284 0;
+BA_ "GenMsgCycleTime" BO_ 1284 250;
+BA_ "GenMsgSendType" BO_ 1283 0;
+BA_ "GenMsgCycleTime" BO_ 1283 250;
+BA_ "GenMsgSendType" BO_ 1282 0;
+BA_ "GenMsgCycleTime" BO_ 1282 250;
+BA_ "GenMsgSendType" BO_ 1281 0;
+BA_ "GenMsgCycleTime" BO_ 1281 250;
+BA_ "GenMsgCycleTime" BO_ 1280 250;
+BA_ "GenMsgSendType" BO_ 1280 0;
+BA_ "GenMsgSendType" BO_ 782 0;
+BA_ "GenMsgCycleTime" BO_ 782 250;
+BA_ "GenMsgSendType" BO_ 781 0;
+BA_ "GenMsgCycleTime" BO_ 781 250;
+BA_ "GenMsgSendType" BO_ 780 0;
+BA_ "GenMsgCycleTime" BO_ 780 250;
+BA_ "GenMsgCycleTime" BO_ 779 250;
+BA_ "GenMsgSendType" BO_ 779 0;
+BA_ "GenMsgCycleTime" BO_ 778 250;
+BA_ "GenMsgSendType" BO_ 778 0;
+BA_ "GenMsgCycleTime" BO_ 773 250;
+BA_ "GenMsgSendType" BO_ 773 0;
+BA_ "GenMsgCycleTime" BO_ 771 250;
+BA_ "GenMsgSendType" BO_ 771 0;
+BA_ "GenMsgSendType" BO_ 775 0;
+BA_ "GenMsgCycleTime" BO_ 775 1000;
+BA_ "GenMsgSendType" BO_ 769 0;
+BA_ "GenMsgCycleTime" BO_ 769 250;
+BA_ "GenMsgSendType" BO_ 770 0;
+BA_ "GenMsgCycleTime" BO_ 770 250;
+BA_ "GenMsgSendType" BO_ 772 0;
+BA_ "GenMsgCycleTime" BO_ 772 250;
+VAL_ 781 chargeMode 3 "dynamicBpt" 2 "dynamic" 1 "scheduled" 0 "unknown" ;
+VAL_ 769 targetContactorsStatus 1 "closed" 0 "open" ;
+VAL_ 769 evConnectionState 3 "error" 2 "energyTransferAllowed" 1 "connected" 0 "disconnected" ;
+VAL_ 769 chargingState 4 "postCharge" 3 "charge" 2 "preCharge" 1 "cableCheck" 0 "standby" ;
+VAL_ 770 operationalStatus 1 "inoperative" 0 "operative" ;
+VAL_ 770 isolationStatus 3 "fault" 2 "warning" 1 "valid" 0 "invalid" ;
+VAL_ 770 contactorsStatus 1 "closed" 0 "open" ;

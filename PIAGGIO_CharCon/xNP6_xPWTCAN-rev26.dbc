@@ -1,0 +1,1857 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: DIAG_TEST WFSI_ICE EDU_BEV BMS_BEV OBC_DCDC_BEV EMS_ICE sGW VCU_BEV ESP BCU
+
+
+BO_ 1280 P_IC_Data01_BEV: 8 VCU_BEV
+ SG_ Heat_DeltaTime_WkUp : 7|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ Heat_DeltaTime_Value : 8|11@1+ (5,0) [0|10235] "min"  BMS_BEV
+ SG_ EnergyConsInst : 45|11@1+ (0.1,0) [0|200] "kW" Vector__XXX
+ SG_ EnergyConsAvg : 34|11@1+ (0.1,0) [0|200] "kW" Vector__XXX
+ SG_ Sched_Set : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Bypass_Sched_Charge : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WakeUpSchedule : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ mc_IC_Data01 : 0|4@1+ (1,0) [0|15] "counts"  BMS_BEV
+ SG_ CRC_IC_Data01 : 56|8@1+ (1,0) [0|255] ""  BMS_BEV
+
+BO_ 412 P_VCU_CCSTemp: 8 VCU_BEV
+ SG_ CCS_DcNeg_Temp : 40|8@1+ (1,-40) [-40|214] "C deg" Vector__XXX
+ SG_ CCS_DcPos_Temp : 32|8@1+ (1,-40) [-40|214] "C deg" Vector__XXX
+ SG_ CCS_L3_Temp : 24|8@1+ (1,-40) [-40|214] "C deg" Vector__XXX
+ SG_ CCS_L2_Temp : 16|8@1+ (1,-40) [-40|214] "C deg" Vector__XXX
+ SG_ CCS_L1_Temp : 8|8@1+ (1,-40) [-40|214] "C deg" Vector__XXX
+ SG_ mc_VCU_CCSTemp : 0|4@1+ (1,0) [0|15] "counts" Vector__XXX
+ SG_ CRC_VCU_CCSTemp : 56|8@1+ (1,0) [0|255] "-" Vector__XXX
+
+BO_ 414 P_VCU_CCSInfo: 8 VCU_BEV
+ SG_ CCS_PlugLock_Sts : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ mc_VCU_CCSInfo : 0|4@1+ (1,0) [0|15] "counts" Vector__XXX
+ SG_ CRC_VCU_CCSInfo : 56|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ CCS_LED_Sts : 8|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ SLAC_Sts : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Proximity_Vlt : 14|9@1+ (0.01,0) [0|5.11] "V" Vector__XXX
+ SG_ Proximity_Sts : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ S2_Sts : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CCS_PushButton_Sts : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ EVSE_AcDuty : 37|7@1+ (1,0) [0|100] "%" Vector__XXX
+ SG_ ControlPilot_Vlt : 25|12@1+ (0.01,-13) [-13|27.95] "V" Vector__XXX
+ SG_ ControlPilot_Sts : 23|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ CCS_Plug_Sts : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 420 P_EDU_TorqueOutput: 8 EDU_BEV
+ SG_ INV_TorqueRegenAct : 16|11@1+ (1,-2047) [-2047|0] "Nm"  sGW,VCU_BEV
+ SG_ CRC_EDU_TorqueOutput : 56|8@1+ (1,0) [0|255] "-"  ESP,VCU_BEV
+ SG_ mc_EDU_TorqueOutput : 0|4@1+ (1,0) [0|15] "counts"  ESP,VCU_BEV
+ SG_ INV_TorqueRaw : 27|11@1+ (1,0) [0|2047] "Nm"  VCU_BEV
+ SG_ INV_TorqueOutput : 4|12@1+ (1,-2048) [-2048|2047] "Nm"  ESP,VCU_BEV
+
+BO_ 400 P_VCU_EDULimits: 8 VCU_BEV
+ SG_ VCU_INV_LimMinTorque : 44|12@1+ (1,-2048) [-2048|2047] "Nm" Vector__XXX
+ SG_ VCU_INV_LimMaxTorque : 32|12@1+ (1,-2048) [-2048|2047] "Nm"  EDU_BEV
+ SG_ VCU_INV_MinCurrHV : 20|12@1+ (1,0) [0|4095] "A"  EDU_BEV
+ SG_ VCU_INV_MaxCurrHV : 8|12@1+ (1,0) [0|4095] "A"  EDU_BEV
+ SG_ mc_VCU_EDULimits : 0|4@1+ (1,0) [0|15] "counts"  EDU_BEV
+ SG_ CRC_VCU_EDULimits : 56|8@1+ (1,0) [0|255] "-"  EDU_BEV
+
+BO_ 416 P_EDU_Power: 8 EDU_BEV
+ SG_ CRC_EDU_Power : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ mc_EDU_Power : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ INV_VoltageT30 : 30|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ INV_VoltageHV : 4|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ INV_CurrentHV : 16|14@1+ (0.5,-4095) [-4095|4096.5] "A"  VCU_BEV
+
+BO_ 422 P_EDU_eAxleStatus: 8 EDU_BEV
+ SG_ GenericWL_Sts : 55|1@1+ (1,0) [0|1] ""  VCU_BEV
+ SG_ EM_ResolverLearning_Sts : 22|2@1+ (1,0) [0|3] ""  sGW,VCU_BEV
+ SG_ ActiveDischarge_Sts : 40|1@1+ (1,0) [0|1] ""  sGW,VCU_BEV
+ SG_ PropulsionSys_Sts : 19|3@1+ (1,0) [0|7] ""  BMS_BEV,OBC_DCDC_BEV,sGW,VCU_BEV
+ SG_ CRC_EDU_Status : 56|8@1+ (1,0) [0|255] "-"  ESP,OBC_DCDC_BEV,BMS_BEV,VCU_BEV
+ SG_ mc_EDU_Status : 0|4@1+ (1,0) [0|15] "counts"  ESP,OBC_DCDC_BEV,BMS_BEV,VCU_BEV
+ SG_ INV_State : 14|5@1+ (1,0) [0|31] "-"  VCU_BEV
+ SG_ INV_Speed : 24|16@1+ (1,-30000) [-30000|30000] "rpm"  ESP,VCU_BEV
+ SG_ INV_ParkLock_Sts : 11|3@1+ (1,0) [0|7] "-"  VCU_BEV
+ SG_ INV_MinCoolantFlow : 4|7@1+ (1,0) [0|100] "%"  VCU_BEV
+ SG_ INV_InterlockStatus : 41|1@1+ (1,0) [0|1] "-"  VCU_BEV
+
+BO_ 418 P_EDU_TorqueRange: 8 EDU_BEV
+ SG_ mc_EDU_TorqueRange : 0|4@1+ (1,0) [0|15] "counts"  ESP,VCU_BEV
+ SG_ CRC_EDU_TorqueRange : 56|8@1+ (1,0) [0|255] "-"  ESP,VCU_BEV
+ SG_ INV_TorqueMin : 4|11@1+ (1,-2047) [-2047|0] "Nm"  ESP,VCU_BEV
+ SG_ INV_TorqueMax : 15|11@1+ (1,0) [0|2047] "Nm"  ESP,VCU_BEV
+
+BO_ 426 P_EDU_Temperature: 8 EDU_BEV
+ SG_ CRC_EDU_Temperature : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ mc_EDU_Temperature : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ INV_Coolant_Temp : 37|11@1+ (1,-40) [-40|213] "C deg"  VCU_BEV
+ SG_ INV_Stator_Temp : 26|11@1+ (1,-40) [-40|213] "C deg"  VCU_BEV
+ SG_ INV_Rotor_Temp : 15|11@1+ (1,-40) [-40|213] "C deg"  VCU_BEV
+ SG_ INV_Inverter_Temp : 4|11@1+ (1,-40) [-40|213] "C deg"  VCU_BEV
+
+BO_ 1473 P_OBC_AcCurrents: 8 OBC_DCDC_BEV
+ SG_ mc_OBC_AcCurrents : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_OBC_AcCurrents : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ CHRGR_iAcAct3 : 26|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  VCU_BEV
+ SG_ CHRGR_iAcAct2 : 15|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  VCU_BEV
+ SG_ CHRGR_iAcAct : 4|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  VCU_BEV
+
+BO_ 645 P_BMS_BattTargetCurr: 8 BMS_BEV
+ SG_ mc_BMS_BattTargetCurr : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_BattTargetCurr : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_DcChargingCurrentTarget : 16|12@1+ (0.1,0) [0|400] "A"  VCU_BEV
+ SG_ BMS_DcChargingCurrentMax : 4|12@1+ (0.1,0) [0|400] "A"  VCU_BEV
+
+BO_ 657 P_BMS_TempInfo: 8 BMS_BEV
+ SG_ mc_BMS_TempInfo : 0|4@1+ (1,0) [0|15] "counts" Vector__XXX
+ SG_ CRC_BMS_TempInfo : 56|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_CellTemp_FrameID : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_CellTemp_Cell5 : 48|8@1+ (1,-40) [-40|200] "C deg" Vector__XXX
+ SG_ BMS_CellTemp_Cell4 : 40|8@1+ (1,-40) [-40|200] "C deg" Vector__XXX
+ SG_ BMS_CellTemp_Cell3 : 32|8@1+ (1,-40) [-40|200] "C deg" Vector__XXX
+ SG_ BMS_CellTemp_Cell2 : 24|8@1+ (1,-40) [-40|200] "C deg" Vector__XXX
+ SG_ BMS_CellTemp_Cell1 : 16|8@1+ (1,-40) [-40|200] "C deg" Vector__XXX
+
+BO_ 656 P_BMS_CellInfo: 8 BMS_BEV
+ SG_ mc_BMS_CellInfo : 0|4@1+ (1,0) [0|15] "counts" Vector__XXX
+ SG_ CRC_BMS_CellInfo : 56|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_CellVolt_FrameID : 4|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_CellVolt_Cell3 : 38|13@1+ (0.001,0) [0|5] "V" Vector__XXX
+ SG_ BMS_CellVolt_Cell2 : 25|13@1+ (0.001,0) [0|5] "V" Vector__XXX
+ SG_ BMS_CellVolt_Cell1 : 12|13@1+ (0.001,0) [0|5] "V" Vector__XXX
+
+BO_ 641 P_BMS_SensingData: 8 BMS_BEV
+ SG_ mc_BMS_SensingData : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_SensingData : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_HeatPosVolt_Fdbk : 42|13@1+ (0.1,0) [0|800] "V"  VCU_BEV
+ SG_ BMS_HvPosVolt_Fdbk : 29|13@1+ (0.1,0) [0|800] "V"  VCU_BEV
+ SG_ BMS_DcPosVolt_Fdbk : 16|13@1+ (0.1,0) [0|800] "V"  VCU_BEV
+
+BO_ 424 P_EDU_WarnInfo: 8 EDU_BEV
+ SG_ INV_EmergencyShutoffRequest : 20|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ mc_EDU_WarnInfo : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_EDU_WarnInfo : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ INV_bDernOvrIdc : 13|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernOvrUdc : 12|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernTemp_Emachine : 4|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernTemp_Inverter : 5|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernTrqMax : 6|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernTrqMin : 7|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernUndrIdc : 8|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDernUndrUdc : 9|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bDiagReq : 10|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_bReadyHV : 11|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ INV_ElecTractionCtrlLight : 16|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ INV_EVServiceLight : 18|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ INV_MIL_ActReq : 14|2@1+ (1,0) [0|3] "-"  VCU_BEV
+
+BO_ 402 P_VCU_EDUCurrents: 8 VCU_BEV
+ SG_ mc_VCU_EDUCurrents : 0|4@1+ (1,0) [0|15] "counts"  EDU_BEV
+ SG_ CRC_VCU_EDUCurrents : 56|8@1+ (1,0) [0|255] "-"  EDU_BEV
+ SG_ VCU_INV_IdcMaxLongTerm : 8|12@1+ (1,0) [0|4095] "A"  EDU_BEV
+ SG_ VCU_INV_IdcMaxShortTerm : 20|12@1+ (1,0) [0|4095] "A"  EDU_BEV
+ SG_ VCU_INV_IdcMinLongTerm : 32|12@1+ (1,0) [0|4095] "A"  EDU_BEV
+ SG_ VCU_INV_IdcMinShortTerm : 44|12@1+ (1,0) [0|4095] "A"  EDU_BEV
+
+BO_ 404 P_VCU_EDUCooling: 8 VCU_BEV
+ SG_ mc_VCU_EDUCooling : 0|4@1+ (1,0) [0|15] "counts"  EDU_BEV
+ SG_ CRC_VCU_EDUCooling : 56|8@1+ (1,0) [0|255] "-"  EDU_BEV
+ SG_ VCU_INV_CoolantFlow : 4|7@1+ (1,0) [0|100] "%"  EDU_BEV
+ SG_ VCU_INV_TCooltCirc : 11|11@1+ (1,-40) [-40|213] "C deg"  EDU_BEV
+
+BO_ 388 P_VCU_EDUControl: 8 VCU_BEV
+ SG_ ActiveDischarge_Req : 27|2@1+ (1,0) [0|1] ""  EDU_BEV,sGW
+ SG_ mc_VCU_EDUControl : 0|4@1+ (1,0) [0|15] "counts"  ESP,EDU_BEV
+ SG_ CRC_VCU_EDUControl : 56|8@1+ (1,0) [0|255] "-"  ESP,EDU_BEV
+ SG_ VCU_INV_DesiredTorque : 4|12@1+ (1,-2048) [-2048|2047] "Nm"  ESP,EDU_BEV
+ SG_ VCU_INV_ParkLockUnlockRequest : 16|3@1+ (1,0) [0|7] "-"  EDU_BEV
+ SG_ VCU_INVMode_Cmd : 19|5@1+ (1,0) [0|31] "-"  EDU_BEV
+ SG_ VCU_INV_SurgeDamperState : 24|3@1+ (1,0) [0|7] "-"  EDU_BEV
+
+BO_ 646 P_BMS_BattTargetVolt: 8 BMS_BEV
+ SG_ mc_BMS_BattTargetVolt : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_BattTargetVolt : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_DischargeVoltageMin : 43|13@1+ (0.1,0) [0|800] "V"  VCU_BEV
+ SG_ BMS_ChargeVoltageMax : 30|13@1+ (0.1,0) [0|800] "V"  VCU_BEV
+ SG_ BMS_DcChargingVoltageTarget : 17|13@1+ (0.1,0) [0|800] "V"  VCU_BEV
+
+BO_ 653 P_BMS_CellVolt: 8 BMS_BEV
+ SG_ mc_BMS_CellVolt : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_CellVolt : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_CellMaxVoltCscNum : 4|6@1+ (1,0) [0|63] "-"  VCU_BEV
+ SG_ BMS_CellMaxVoltPos : 10|8@1+ (1,0) [0|250] "-"  VCU_BEV
+ SG_ BMS_CellMaxVoltage : 18|12@1+ (1,1000) [1000|5000] "mV"  VCU_BEV
+ SG_ BMS_CellMinVoltCscNum : 30|6@1+ (1,0) [0|63] "-"  VCU_BEV
+ SG_ BMS_CellMinVoltPos : 36|8@1+ (1,0) [0|250] "-"  VCU_BEV
+ SG_ BMS_CellMinVoltage : 44|12@1+ (1,1000) [1000|5000] "mV"  VCU_BEV
+
+BO_ 652 P_BMS_CellTemp: 8 BMS_BEV
+ SG_ mc_BMS_CellTemp : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_CellTemp : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_CellMaxTempCscNum : 4|6@1+ (1,0) [0|63] "-"  VCU_BEV
+ SG_ BMS_CellMaxTempPos : 10|8@1+ (1,0) [0|250] "-"  VCU_BEV
+ SG_ BMS_CellMaxTemp : 18|8@1+ (1,-40) [-40|200] "C deg"  VCU_BEV
+ SG_ BMS_CellMinTempCscNum : 26|6@1+ (1,0) [0|63] "-"  VCU_BEV
+ SG_ BMS_CellMinTempPos : 32|8@1+ (1,0) [0|250] "-"  VCU_BEV
+ SG_ BMS_CellMinTemp : 40|8@1+ (1,-40) [-40|200] "C deg"  VCU_BEV
+
+BO_ 658 P_BMS_BatterySN: 8 BMS_BEV
+ SG_ mc_BMS_BatterySN : 0|4@1+ (1,0) [0|15] "counts" Vector__XXX
+ SG_ CRC_BMS_BatterySN : 56|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_BattSN_FrameID : 8|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_BattSN_Length : 16|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_BattSN_Char1 : 24|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_BattSN_Char2 : 32|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_BattSN_Char3 : 40|8@1+ (1,0) [0|255] "-" Vector__XXX
+ SG_ BMS_BattSN_Char4 : 48|8@1+ (1,0) [0|255] "-" Vector__XXX
+
+BO_ 650 P_BMS_BattInfo: 8 BMS_BEV
+ SG_ BMS_BattSN : 57|7@1+ (1,0) [0|127] "-" Vector__XXX
+ SG_ BMS_BattNum : 46|3@1+ (1,1) [1|8] "-" Vector__XXX
+ SG_ BMS_TempSensNum : 49|8@1+ (1,50) [50|305] "-" Vector__XXX
+ SG_ BMS_TotalCellNum : 36|8@1+ (1,50) [50|305] "-" Vector__XXX
+ SG_ BMS_RatedCap : 4|16@1+ (0.1,0) [0|6553.5] "Ah" Vector__XXX
+ SG_ BMS_RatedVoltage : 20|16@1+ (0.1,0) [0|6553.5] "V" Vector__XXX
+ SG_ BMS_BatteryCoolType : 44|2@1+ (1,0) [0|3] "-" Vector__XXX
+ SG_ BMS_BattCommProt : 0|4@1+ (1,0) [0|15] "-" Vector__XXX
+
+BO_ 649 P_BMS_ErrorInfo: 8 BMS_BEV
+ SG_ mc_BMS_ErrorInfo : 0|4@1+ (1,0) [0|15] "counts"  EDU_BEV,OBC_DCDC_BEV,VCU_BEV
+ SG_ CRC_BMS_ErrorInfo : 56|8@1+ (1,0) [0|255] "-"  EDU_BEV,OBC_DCDC_BEV,VCU_BEV
+ SG_ BMS_CrashFeedback : 19|1@1+ (1,0) [0|1] "-"  OBC_DCDC_BEV,VCU_BEV
+ SG_ BMS_DcChargingVoltage_FailSts : 50|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ BMS_DcChargingCurr_FailSts : 48|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ BMS_FaultTotalNum : 24|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_FaultLevel : 20|4@1+ (1,0) [0|15] "-"  VCU_BEV
+ SG_ BMS_FaultCode : 32|16@1+ (1,0) [0|65535] "-"  VCU_BEV
+ SG_ BMS_AlarmIsoLossDouble : 12|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ HVIL_System_Sts : 18|1@1+ (1,0) [0|1] "-"  EDU_BEV,OBC_DCDC_BEV,VCU_BEV
+ SG_ BMS_AlarmDeltaTemp : 4|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmOverTemp : 5|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmPackOV : 6|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmPackUV : 7|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmPackLowSoC : 8|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmCellOV : 9|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmCellUV : 10|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmIsoLossSingle : 11|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmConsistency : 13|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmPackOverCharge : 14|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmPackHighSoC : 15|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmSoCJump : 16|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_AlarmBattSysNotMatch : 17|1@1+ (1,0) [0|1] "-"  VCU_BEV
+
+BO_ 643 P_BMS_BattStatus: 8 BMS_BEV
+ SG_ ImmoRelease_Sts : 51|2@1+ (1,0) [0|3] ""  BCU,sGW
+ SG_ BMS_Balancing_Sts : 48|2@1+ (1,0) [0|3] "-" Vector__XXX
+ SG_ BMS_Battery_Inhibit : 50|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ GenericWL_Sts : 55|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_Heating_Sts : 47|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ mc_BMS_BattStatus : 0|4@1+ (1,0) [0|15] "counts"  OBC_DCDC_BEV,VCU_BEV
+ SG_ CRC_BMS_BattStatus : 56|8@1+ (1,0) [0|255] "-"  OBC_DCDC_BEV,VCU_BEV
+ SG_ BMS_DeratingTempMax : 46|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_DeratingTempMin : 45|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_LimitedPower_Sts : 44|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_InstantEmerOpen_Req : 39|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_DelayedEmerOpen_Req : 40|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_State : 41|3@1+ (1,0) [0|7] "-"  VCU_BEV
+ SG_ BMS_BatteryAvgTemp : 31|8@1+ (1,-40) [-40|200] "C deg"  VCU_BEV
+ SG_ BMS_BatteryCurrent : 4|14@1+ (0.1,-800) [-800|800] "A"  VCU_BEV
+ SG_ BMS_BatteryVoltage : 18|13@1+ (0.1,0) [0|800] "V"  OBC_DCDC_BEV,VCU_BEV
+
+BO_ 647 P_BMS_Isolation: 8 BMS_BEV
+ SG_ mc_BMS_Isolation : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_Isolation : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_IsoMeasurement_Sts : 6|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_IsoResPos : 8|16@1+ (1,0) [0|60000] "KOhm"  VCU_BEV
+ SG_ BMS_IsoResNeg : 24|16@1+ (1,0) [0|60000] "KOhm"  VCU_BEV
+ SG_ BMS_IsoResMeasurement : 40|16@1+ (1,0) [0|60000] "kOhm"  VCU_BEV
+ SG_ BMS_SelfTest_Sts : 4|2@1+ (1,0) [0|3] "-"  VCU_BEV
+
+BO_ 640 P_BMS_RelayInfo: 8 BMS_BEV
+ SG_ mc_BMS_RelayInfo : 0|4@1+ (1,0) [0|15] "counts"  OBC_DCDC_BEV,VCU_BEV
+ SG_ CRC_BMS_RelayInfo : 56|8@1+ (1,0) [0|255] "-"  OBC_DCDC_BEV,VCU_BEV
+ SG_ BMS_DcRelayWelded_Sts : 26|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_DcRelayStuckOpen_Sts : 27|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_HvContactors_Sts : 32|4@1+ (1,0) [0|15] "-"  OBC_DCDC_BEV,VCU_BEV
+ SG_ BMS_DcContactors_Sts : 36|4@1+ (1,0) [0|15] "-"  VCU_BEV
+ SG_ BMS_HvRelayStuckOpen_Sts : 25|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_HvRelayWelded_Sts : 24|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ BMS_RelayPrech_Cmd : 13|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayHvPos_Cmd : 12|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayNeg_Cmd : 11|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayHeatPos_Cmd : 14|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayDcPos_Cmd : 16|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayNeg_Sts : 4|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayHvPos_Sts : 5|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayPrech_Sts : 6|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayHeatPos_Sts : 7|1@1+ (1,0) [0|1] "-" Vector__XXX
+ SG_ BMS_RelayDcPos_Sts : 9|1@1+ (1,0) [0|1] "-" Vector__XXX
+
+BO_ 648 P_BMS_ChargeInfo: 8 BMS_BEV
+ SG_ mc_BMS_ChargeInfo : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_ChargeInfo : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_FastChargeRemNum : 18|7@1+ (4,0) [0|508] "-"  VCU_BEV
+ SG_ BMS_DcChargeCompleted_Sts : 6|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ BMS_AcChargeCompleted_Sts : 4|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ BMS_RemainingChargeTime : 8|10@1+ (1,0) [0|1020] "min"  VCU_BEV
+
+BO_ 651 P_BMS_TotalEnergy: 8 BMS_BEV
+ SG_ mc_BMS_TotalEnergy : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_TotalEnergy : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_CumulativeChargePower : 8|24@1+ (1,0) [0|16777215] "kWh"  VCU_BEV
+ SG_ BMS_CumulativeDischargePower : 32|24@1+ (1,0) [0|16777215] "kWh"  VCU_BEV
+
+BO_ 1475 P_OBC_DCDC_WarnInfo: 8 OBC_DCDC_BEV
+ SG_ DC1_bReqMIL : 6|1@1+ (1,0) [0|1] "-"  BMS_BEV,VCU_BEV
+ SG_ DC1_stT30c : 4|2@1+ (1,0) [0|3] "-"  BMS_BEV,VCU_BEV
+ SG_ GenericWL_Sts : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CHRGR_stHvIntlck : 33|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ CHRGR_stErr : 32|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ CRC_OBC_WarnInfo : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ mc_OBC_WarnInfo : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+
+BO_ 1474 P_OBC_AcVoltages: 8 OBC_DCDC_BEV
+ SG_ CHRGR_uAcActPha3 : 28|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ CHRGR_uAcActPha2 : 16|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ CHRGR_uAcActPha1 : 4|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ mc_OBC_AcVoltages : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_OBC_AcVoltages : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+
+BO_ 1472 P_OBC_CHRGRStatus: 8 OBC_DCDC_BEV
+ SG_ CHRGR_iDcAct : 20|13@1+ (0.1,-409.4) [-409.4|409.5] "A"  VCU_BEV
+ SG_ CHRGR_uDcAct : 8|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ CHRGR_stOperAct : 4|4@1+ (1,0) [0|15] "-"  VCU_BEV
+ SG_ mc_OBC_Status : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_OBC_Status : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+
+BO_ 390 P_VCU_OBCControl: 8 VCU_BEV
+ SG_ VCU_iAcMaxAllwdChrgr : 33|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  OBC_DCDC_BEV
+ SG_ VCU_iDcLimChrgr : 20|13@1+ (0.1,-409.4) [-409.4|409.5] "A"  OBC_DCDC_BEV
+ SG_ VCU_uDcReqChrgr : 8|12@1+ (0.25,0) [0|1023.25] "V"  OBC_DCDC_BEV
+ SG_ VCU_OBCMode_Cmd : 4|4@1+ (1,0) [0|15] "-"  OBC_DCDC_BEV
+ SG_ mc_VCU_OBCControl : 0|4@1+ (1,0) [0|15] "counts"  OBC_DCDC_BEV
+ SG_ CRC_VCU_OBCControl : 56|8@1+ (1,0) [0|255] "-"  OBC_DCDC_BEV
+
+BO_ 1488 P_DCDC_Values: 8 OBC_DCDC_BEV
+ SG_ CRC_DCDC_Status : 56|8@1+ (1,0) [0|255] "-"  BMS_BEV,VCU_BEV
+ SG_ mc_DCDC_Status : 0|4@1+ (1,0) [0|15] "counts"  BMS_BEV,VCU_BEV
+ SG_ DC1_VoltageHV : 4|10@1+ (1,0) [0|1021] "V"  BMS_BEV,VCU_BEV
+ SG_ DC1_CurrentLV : 14|11@1+ (1,-1023) [-1023|1022] "A"  BMS_BEV,VCU_BEV
+ SG_ DC1_Mode : 25|3@1+ (1,0) [0|7] "-"  BMS_BEV,VCU_BEV
+ SG_ DC1_CurrentHV : 28|11@1+ (0.0625,-63.90625) [-63.90625|63.90625] "A"  BMS_BEV,VCU_BEV
+ SG_ DC1_Temp : 39|8@1+ (1,-40) [-40|213] "C deg"  BMS_BEV,VCU_BEV
+ SG_ DC1_VoltageLV : 47|9@1+ (0.125,0) [0|63.625] "V"  BMS_BEV,VCU_BEV
+
+BO_ 1489 P_DCDC_Setpoint: 8 OBC_DCDC_BEV
+ SG_ CRC_DCDC_Setpoint : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ mc_DCDC_Setpoint : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ DC1_MaxCurrentHV : 4|8@1+ (0.25,0) [0|63.75] "A"  VCU_BEV
+ SG_ DC1_MaxCurrentLV : 12|11@1+ (1,-1023) [-1023|1024] "A"  VCU_BEV
+ SG_ DC1_SetPointVoltageHV : 23|10@1+ (1,0) [0|1023] "V"  VCU_BEV
+ SG_ DC1_SetPointVoltageLV : 33|9@1+ (0.125,0) [0|63.875] "V"  VCU_BEV
+ SG_ DC1_Utilization : 42|9@1+ (0.25,0) [0|127.75] "%"  VCU_BEV
+
+BO_ 386 P_VCU_DCDCControl: 8 VCU_BEV
+ SG_ VCU_stHvDeactvnDC : 50|2@1+ (1,0) [0|3] "-"  OBC_DCDC_BEV
+ SG_ CRC_VCU_DCDCControl : 56|8@1+ (1,0) [0|255] "-"  EDU_BEV,OBC_DCDC_BEV
+ SG_ mc_VCU_DCDCControl : 0|4@1+ (1,0) [0|15] "counts"  EDU_BEV,OBC_DCDC_BEV
+ SG_ VCU_VoltageDemandHV : 4|10@1+ (1,0) [0|1021] "V"  OBC_DCDC_BEV
+ SG_ VCU_CurrentLimitHV : 14|11@1+ (0.0625,-64) [-64|63.8125] "A"  OBC_DCDC_BEV
+ SG_ VCU_CurrentLimitLV : 25|11@1+ (1,-1023) [-1023|1022] "A"  OBC_DCDC_BEV
+ SG_ VCU_VoltageDemandLV : 36|9@1+ (0.125,0) [0|63.625] "V"  OBC_DCDC_BEV
+ SG_ VCU_DCDCMode_Cmd : 45|3@1+ (1,0) [0|7] "-"  OBC_DCDC_BEV
+
+BO_ 642 P_BMS_EnergyInfo: 8 BMS_BEV
+ SG_ mc_BMS_EnergyInfo : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_EnergyInfo : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_RatedTotalEnergy : 13|12@1+ (0.1,0) [0|409.5] "kWh"  VCU_BEV
+ SG_ BMS_DisplaySoC : 25|7@1+ (1,0) [0|100] "%"  VCU_BEV
+ SG_ BMS_BatterySoH : 42|10@1+ (0.1,0) [0|100] "%"  VCU_BEV
+ SG_ BMS_RemainingEnergy : 4|9@1+ (0.32,0) [0|163.52] "kWh"  VCU_BEV
+ SG_ BMS_BatterySoC : 32|10@1+ (0.1,0) [0|100] "%"  VCU_BEV
+
+BO_ 644 P_BMS_PowerLimit: 8 BMS_BEV
+ SG_ mc_BMS_PowerLimit : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_BMS_PowerLimit : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ BMS_Power_ChargeLongTerm : 4|12@1+ (0.1,0) [0|400] "kW"  VCU_BEV
+ SG_ BMS_Power_DischargeLongTerm : 16|12@1+ (0.1,0) [0|400] "kW"  VCU_BEV
+ SG_ BMS_Power_ChargeShortTerm : 28|12@1+ (0.1,0) [0|400] "kW"  VCU_BEV
+ SG_ BMS_Power_DischargeShortTerm : 40|12@1+ (0.1,0) [0|400] "kW"  VCU_BEV
+
+BO_ 384 P_VCU_BMSControl: 8 VCU_BEV
+ SG_ VCU_CoolDownReq : 8|1@1+ (1,0) [0|1] "-"  BMS_BEV
+ SG_ CRC_VCU_BMSControl : 56|8@1+ (1,0) [0|255] "-"  BMS_BEV
+ SG_ mc_VCU_BMSControl : 0|4@1+ (1,0) [0|15] "counts"  BMS_BEV
+ SG_ VCU_BMSMode_Cmd : 4|3@1+ (1,0) [0|7] "-"  BMS_BEV
+ SG_ VCU_IsoMeasurement_Cmd : 7|1@1+ (1,0) [0|1] "-"  BMS_BEV
+
+BO_ 144 P_BCU_IMMO_ReAuthRequest: 8 BCU
+ SG_ ReAuth_Req : 0|1@1+ (1,0) [0|1] ""  BMS_BEV,sGW
+
+BO_ 56 P_BCU_IMMO_RESPONSE: 8 BCU
+ SG_ Response_Sts : 8|8@1+ (1,0) [0|255] ""  BMS_BEV,sGW
+ SG_ Response_Data : 16|48@1+ (1,0) [0|281474976710655] ""  BMS_BEV,sGW
+
+BO_ 50 P_BMS_IMMO_CHALLENGE: 8 BMS_BEV
+ SG_ Challenge_Data : 0|64@1+ (1,0) [0|1.84467440737096E+019] ""  BCU,sGW
+
+BO_ 2564554481 P_DIAG_FUNCTIONAL_REQ: 8 DIAG_TEST
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+
+BO_ 1970 P_OBC_STATUS: 8 OBC_DCDC_BEV
+ SG_ OBC_VINMismatch : 3|1@1+ (1,0) [0|1] ""  VCU_BEV
+ SG_ GenericFail_Sts : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CurrentFail_Sts : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBC_CodingMismatch : 0|1@1+ (1,0) [0|1] ""  VCU_BEV
+
+BO_ 1969 P_EDU_STATUS: 8 EDU_BEV
+ SG_ EDU_VINMismatch : 3|1@1+ (1,0) [0|1] ""  VCU_BEV
+ SG_ GenericFail_Sts : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CurrentFail_Sts : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ EDU_CodingMismatch : 0|1@1+ (1,0) [0|1] ""  VCU_BEV
+
+BO_ 1968 P_BMS_STATUS: 8 BMS_BEV
+ SG_ BMS_VINMismatch : 3|1@1+ (1,0) [0|1] ""  VCU_BEV
+ SG_ BMS_CodingMismatch : 0|1@1+ (1,0) [0|1] ""  VCU_BEV
+ SG_ GenericFail_Sts : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CurrentFail_Sts : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1282 P_IC_Data03: 8 BCU
+ SG_ ICTotOdometer : 5|24@1+ (1,0) [0|999999] "km"  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ mc_IC_Data03 : 0|4@1+ (1,0) [0|15] "counts"  sGW,WFSI_ICE,OBC_DCDC_BEV,EDU_BEV,BMS_BEV
+ SG_ CRC_IC_Data03 : 56|8@1+ (1,0) [0|255] ""  sGW,WFSI_ICE,OBC_DCDC_BEV,EDU_BEV,BMS_BEV
+
+BO_ 258 P_ACU_Crash: 8 VCU_BEV
+ SG_ CrashConfirmed_Sts : 2|1@1+ (1,0) [0|1] ""  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV
+ SG_ CrashDetect : 0|1@1+ (1,0) [0|1] ""  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV
+ SG_ mc_ACU_Crash : 3|4@1+ (1,0) [0|15] "counts"  sGW,OBC_DCDC_BEV,EDU_BEV,BMS_BEV
+ SG_ CRC_ACU_Crash : 8|8@1+ (1,0) [0|255] ""  sGW,OBC_DCDC_BEV,EDU_BEV,BMS_BEV
+
+BO_ 2564485504 P_DIAG_RESPONSE_WFSI: 8 WFSI_ICE
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  DIAG_TEST
+
+BO_ 2564485456 P_DIAG_RESPONSE_OBC: 8 OBC_DCDC_BEV
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  DIAG_TEST
+
+BO_ 2564485442 P_DIAG_RESPONSE_EDU: 8 EDU_BEV
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  DIAG_TEST
+
+BO_ 2564485444 P_DIAG_RESPONSE_BMS: 8 BMS_BEV
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  DIAG_TEST
+
+BO_ 2564456689 P_DIAG_REQUEST_WFSI: 8 DIAG_TEST
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  WFSI_ICE
+
+BO_ 2564444401 P_DIAG_REQUEST_OBC: 8 DIAG_TEST
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  OBC_DCDC_BEV
+
+BO_ 2564440817 P_DIAG_REQUEST_EDU: 8 DIAG_TEST
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  EDU_BEV
+
+BO_ 2564441329 P_DIAG_REQUEST_BMS: 8 DIAG_TEST
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] ""  BMS_BEV
+
+BO_ 1584 P_BCU_NWM: 8 BCU
+ SG_ NWM_WkUp_BCU_Rx : 0|1@1+ (1,0) [0|1] ""  BMS_BEV,EDU_BEV,ESP,OBC_DCDC_BEV,sGW,VCU_BEV
+ SG_ NWM_WkUp_BCU_Reason : 1|5@1+ (1,0) [0|31] ""  BMS_BEV,EDU_BEV,ESP,OBC_DCDC_BEV,sGW,VCU_BEV
+ SG_ NWM_WkUp_BCU_NodeAddress : 8|5@1+ (1,0) [0|63] ""  BMS_BEV,EDU_BEV,ESP,OBC_DCDC_BEV,sGW,VCU_BEV
+ SG_ NWM_Sleep_BCU_Req : 15|1@1+ (1,0) [0|1] ""  BMS_BEV,EDU_BEV,ESP,OBC_DCDC_BEV,sGW,VCU_BEV
+
+BO_ 1008 P_VCU_NWM: 8 VCU_BEV
+ SG_ NWM_WkUp_VCU_Req : 0|1@1+ (1,0) [0|1] ""  sGW,BCU
+ SG_ NWM_WkUp_VCU_Reason : 1|5@1+ (1,0) [0|31] ""  sGW,BCU
+ SG_ NWM_WkUp_VCU_NodeAddress : 8|5@1+ (1,0) [0|63] ""  sGW,BCU
+
+BO_ 752 P_BMS_NWM: 8 BMS_BEV
+ SG_ NWM_WkUp_BMS_Req : 0|1@1+ (1,0) [0|1] ""  sGW,BCU
+ SG_ NWM_WkUp_BMS_Reason : 1|5@1+ (1,0) [0|31] ""  sGW,BCU
+ SG_ NWM_WkUp_BMS_NodeAddress : 8|5@1+ (1,0) [0|63] ""  sGW,BCU
+
+BO_ 492 P_EMS_DRIVER_TORQUE_CONTROL: 6 EMS_ICE
+ SG_ AcceleratorPedal_FailSts : 25|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW,ESP
+ SG_ MDriverRequest_Status : 24|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW,ESP
+ SG_ MDriverRequest : 0|16@1+ (1,-30000) [-30000|30000] "Nm"  WFSI_ICE,sGW,ESP
+ SG_ mc_EMS_DRIVER_TORQUE_CONTROL : 32|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,sGW,ESP
+ SG_ CRC_EMS_DRIVER_TORQUE_CONTROL : 40|8@1+ (1,0) [0|255] ""  WFSI_ICE,sGW,ESP
+ SG_ AcceleratorPedal_Value : 16|8@1+ (0.393701,0) [0|100] "%"  WFSI_ICE,sGW,ESP
+
+BO_ 1561 P_EMS_STATUS_1: 8 EMS_ICE
+ SG_ PTO_Sts : 38|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ PTO_Configuration : 2|2@1+ (1,0) [0|3] ""  WFSI_ICE,sGW
+ SG_ AC_FailSts : 37|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ Tra_NumGear : 57|7@1+ (1,0) [0|7] ""  WFSI_ICE,BCU,sGW
+ SG_ ValidGear : 56|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ ClutchSwitchState : 35|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ ReverseGearSwitch : 34|1@1+ (1,0) [0|1] ""  sGW,ESP,WFSI_ICE
+ SG_ AC_Sts : 32|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ EMSService_Sts : 28|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ MILLamp_Sts : 24|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ FuelConsumption : 16|8@1+ (0.01,0) [0|2.55] "cc/100ms"  sGW,WFSI_ICE
+ SG_ Engine_Temp : 8|8@1+ (1,-40) [-40|200] "C deg"  sGW,WFSI_ICE
+ SG_ ImmoRelease_Sts : 0|2@1+ (1,0) [0|3] ""  WFSI_ICE,sGW
+ SG_ mc_EMS_STATUS_1 : 40|4@1+ (1,0) [0|15] "counts"  BCU,sGW,ESP,WFSI_ICE
+ SG_ CRC_EMS_STATUS_1 : 48|8@1+ (1,0) [0|255] ""  BCU,sGW,ESP,WFSI_ICE
+ SG_ CruiseStatus : 4|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+
+BO_ 496 P_EMS_MOTOR_DATA5: 6 EMS_ICE
+ SG_ mc_EMS_MOTOR_DATA5 : 32|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ CRC_EMS_MOTOR_DATA5 : 40|8@1+ (1,0) [0|255] ""  sGW,WFSI_ICE
+ SG_ InjMass4 : 16|16@1+ (0.005,0) [0|327.675] "mg/strk"  sGW,WFSI_ICE
+ SG_ InjMass3 : 0|16@1+ (0.005,0) [0|327.675] "mg/strk"  sGW,WFSI_ICE
+
+BO_ 500 P_EMS_MOTOR_DATA1: 8 EMS_ICE
+ SG_ FuelTemperatureCorrectionFactor : 41|8@1+ (0.0078125,0) [0|1.9921875] ""  sGW
+ SG_ IntakeAirTemperature : 11|8@1+ (1,-40) [-40|215] "°C"  sGW,WFSI_ICE
+ SG_ IntakeAirPressure : 0|11@1+ (1,0) [0|2047] "hPa"  sGW,WFSI_ICE
+ SG_ EngineLoad : 30|11@1+ (0.1,0) [0|204.7] "%"  sGW,WFSI_ICE
+ SG_ mc_EMS_MOTOR_DATA1 : 52|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ CRC_EMS_MOTOR_DATA1 : 56|8@1+ (1,0) [0|255] ""  sGW,WFSI_ICE
+ SG_ BarometricPressure : 19|11@1+ (1,0) [0|2047] "hPa"  sGW,WFSI_ICE
+
+BO_ 499 P_EMS_MOTOR_DATA2: 8 EMS_ICE
+ SG_ mc_EMS_MOTOR_DATA2 : 48|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ CRC_EMS_MOTOR_DATA2 : 56|8@1+ (1,0) [0|255] ""  sGW,WFSI_ICE
+ SG_ DiagnosticStatus : 40|6@1+ (1,0) [0|63] ""  sGW,WFSI_ICE
+ SG_ InjCutOff : 36|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ GasModeOK : 35|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ SystemStatus : 34|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ LambdaTarget : 24|8@1+ (0.01,0) [0|2.55] ""  sGW,WFSI_ICE
+ SG_ LambdaPreCat_STATUS : 32|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ LambdaPreCat : 0|12@1+ (1,0) [0|4095] "mV"  sGW,WFSI_ICE
+ SG_ LambdaPostCat_STATUS : 33|1@1+ (1,0) [0|1] ""  sGW,WFSI_ICE
+ SG_ LambdaPostCat : 12|12@1+ (1,0) [0|4095] "mV"  sGW,WFSI_ICE
+
+BO_ 498 P_EMS_MOTOR_DATA3: 8 EMS_ICE
+ SG_ CRC_EMS_MOTOR_DATA3 : 56|8@1+ (1,0) [0|255] ""  sGW,WFSI_ICE
+ SG_ mc_EMS_MOTOR_DATA3 : 52|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ LongCorrection : 42|10@1+ (0.001,0.6) [0.6|1.6] ""  sGW,WFSI_ICE
+ SG_ ShortCorrection : 32|10@1+ (0.001,0.6) [0.6|1.6] ""  sGW,WFSI_ICE
+ SG_ PetrolEOI : 24|8@1+ (6,0) [0|1530] "deg"  sGW,WFSI_ICE
+ SG_ SparkAdvanceApplied : 12|12@1+ (0.1,-127) [-127|128] "deg"  sGW,WFSI_ICE
+ SG_ SparkAdvance : 0|12@1+ (0.1,-127) [-127|128] "deg"  sGW,WFSI_ICE
+
+BO_ 497 P_EMS_MOTOR_DATA4: 7 EMS_ICE
+ SG_ mc_EMS_MOTOR_DATA4 : 40|4@1+ (1,0) [0|15] ""  sGW,WFSI_ICE
+ SG_ CRC_EMS_MOTOR_DATA4 : 48|8@1+ (1,0) [0|255] ""  sGW,WFSI_ICE
+ SG_ InjMass2 : 16|16@1+ (0.005,0) [0|327.675] "mg/strk"  sGW,WFSI_ICE
+ SG_ InjMass1 : 0|16@1+ (0.005,0) [0|327.675] "mg/strk"  sGW,WFSI_ICE
+
+BO_ 491 P_EMS_MOTOR_TORQUE_AVAILABLE: 7 EMS_ICE
+ SG_ mc_EMS_MOTOR_TORQUE_AVAILABLE : 40|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,ESP,sGW
+ SG_ CRC_EMS_MOTOR_TORQUE_AVAILABLE : 48|8@1+ (1,0) [0|255] ""  WFSI_ICE,ESP,sGW
+ SG_ MaximumTorqueAvailable_Status : 33|1@1+ (1,0) [0|1] ""  sGW,ESP,WFSI_ICE
+ SG_ MaximumTorqueAvailable : 16|16@1+ (1,-30000) [-30000|30000] "Nm"  ESP,sGW
+ SG_ MinimumTorqueAvailable_Status : 32|1@1+ (1,0) [0|1] ""  sGW,ESP,WFSI_ICE
+ SG_ MinimumTorqueAvailable : 0|16@1+ (1,-30000) [-30000|30000] "Nm"  sGW,ESP,WFSI_ICE
+
+BO_ 1408 P_IC_TIMEDATE: 8 BCU
+ SG_ TimeDate_Seconds : 0|6@1+ (1,0) [0|59] "s"  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,sGW,WFSI_ICE
+ SG_ TimeDate_Year : 40|7@1+ (1,0) [0|99] "year"  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ TimeDate_Month : 32|4@1+ (1,0) [1|12] "month"  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ TimeDate_Minutes : 8|6@1+ (1,0) [0|59] "minutes"  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ TimeDate_Hours : 16|5@1+ (1,0) [0|23] "hours"  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ TimeDate_Day : 24|5@1+ (1,0) [1|31] "day"  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+
+BO_ 274 P_BRC_Request2: 8 WFSI_ICE
+ SG_ AltFuelSelected : 24|1@1+ (1,0) [0|1] ""  sGW,EMS_ICE
+ SG_ AltFuelFlow_mass : 0|16@1+ (0.05,0) [0|3276.75] "mg/100ms"  sGW,BCU,EMS_ICE
+ SG_ MSGCNT_BRC_REQUEST2 : 48|4@1+ (1,0) [0|15] "counts"  EMS_ICE,BCU,sGW
+ SG_ CheckSum_BRC_REQUEST2 : 56|8@1+ (1,0) [0|255] ""  EMS_ICE,BCU,sGW
+ SG_ AltFuelLvl_Pc : 16|8@1+ (0.471,0) [0|119.634] "%"  EMS_ICE,sGW,BCU
+
+BO_ 273 P_BRC_Request1: 8 WFSI_ICE
+ SG_ MSGCNT_BRC_REQUEST1 : 48|4@1+ (1,0) [0|15] "counts"  BCU,sGW,EMS_ICE
+ SG_ CheckSum_BRC_REQUEST1 : 56|8@1+ (1,0) [0|255] ""  BCU,sGW,EMS_ICE
+ SG_ AltFuelFault_D_Stat : 3|2@1+ (1,0) [0|3] ""  sGW,BCU,EMS_ICE
+ SG_ AltFuelOpMde_D_Stat : 0|3@1+ (1,0) [0|7] ""  sGW,BCU,EMS_ICE
+ SG_ WallW_App_Dis : 47|1@1+ (1,0) [0|1] ""  sGW,EMS_ICE
+ SG_ LamTGT_OL_min_value : 31|8@1- (0.01,0.7) [0.7|1] "---"  sGW,EMS_ICE
+ SG_ LamTGT_CL_Offset : 39|8@1- (0.001,0) [-0.128|0.127] "---"  sGW,EMS_ICE
+ SG_ EOI_Offset : 21|10@1- (6,0) [-768|762] "deg"  sGW,EMS_ICE
+ SG_ AltFuel_DeltaSpkAdv : 5|8@1- (0.75,0) [-96|95.25] "deg"  sGW,EMS_ICE
+ SG_ LamTGT_CL_DwnstOffset : 13|8@1- (0.001,0) [-0.128|0.127] "---"  sGW,EMS_ICE
+
+BO_ 1925 P_BCU_CODING: 8 BCU
+ SG_ Coding_PCWPresence : 42|1@1+ (1,0) [0|1] ""  WFSI_ICE
+ SG_ Coding_GasolineOnly : 17|1@1+ (1,0) [0|1] ""  WFSI_ICE
+ SG_ Coding_FCAPresence : 41|1@1+ (1,0) [0|1] ""  WFSI_ICE
+ SG_ Coding_DMCPresence : 40|1@1+ (1,0) [0|1] ""  WFSI_ICE
+ SG_ Coding_RearParkingSensors : 16|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_WFSIPresence : 39|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_VCUPresence : 38|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_TBMPresence : 37|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_SGWPresence : 36|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_PRNDPresence : 35|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_OBCPresence : 34|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_ICPresence : 33|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_ESPPresence : 32|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_EPSPresence : 31|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_EMSPresence : 30|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_EDUPresence : 29|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_BMSPresence : 28|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_ExtECUPresence : 27|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_AVASPresence : 26|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_ACUPresence : 24|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_ISAPresence : 11|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_Market : 5|6@1+ (1,0) [0|63] ""  WFSI_ICE,sGW
+ SG_ Coding_RVCPresence : 12|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_WheelsNum : 15|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_ATUPresence : 25|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_Tipper : 13|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_EngineType : 1|2@1+ (1,0) [0|3] ""  WFSI_ICE,sGW
+ SG_ Coding_AC : 0|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_FrontFogLights : 3|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_WheelBase : 14|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Coding_FrontParkingSensors : 4|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+
+BO_ 410 P_VCU_Thermal: 8 VCU_BEV
+ SG_ FAN_Sts : 7|1@1+ (1,0) [0|1] ""  sGW
+ SG_ PS2_Sts : 30|2@1+ (1,0) [0|3] ""  sGW
+ SG_ PS1_Sts : 28|2@1+ (1,0) [0|3] ""  sGW
+ SG_ TS4_Value : 56|8@1+ (1,-40) [-40|215] "deg C"  sGW
+ SG_ P3_Duty : 16|7@1+ (1,0) [0|100] "%"  sGW
+ SG_ TV4_Sts : 27|1@1+ (1,0) [0|1] ""  sGW
+ SG_ TV2_Sts : 25|1@1+ (1,0) [0|1] ""  sGW
+ SG_ TV1_Sts : 24|1@1+ (1,0) [0|1] ""  sGW
+ SG_ P1_Duty : 0|7@1+ (1,0) [0|100] "%"  sGW
+ SG_ P2_Duty : 8|7@1+ (1,0) [0|100] "%"  sGW
+ SG_ TS3_Value : 48|8@1+ (1,-40) [-40|215] "deg C"  sGW
+ SG_ TS2_Value : 40|8@1+ (1,-40) [-40|215] "deg C"  sGW
+ SG_ TS1_Value : 32|8@1+ (1,-40) [-40|215] "deg C"  sGW
+ SG_ TV3_Sts : 26|1@1+ (1,0) [0|1] ""  sGW
+
+BO_ 1616 P_BCU_VIN: 8 BCU
+ SG_ VIN_chars_3 m2 : 8|24@1+ (1,0) [0|16777215] ""  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,sGW,WFSI_ICE
+ SG_ VIN_chars_2 m1 : 8|56@1+ (1,0) [0|7.20575940379279E+016] ""  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,sGW,WFSI_ICE
+ SG_ VIN_SeqNum M : 0|2@1+ (1,0) [0|3] ""  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ VIN_chars_1 m0 : 8|56@1+ (1,0) [0|7.20575940379279E+016] ""  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+
+BO_ 385 P_EMS_Data01: 8 EMS_ICE
+ SG_ EngineShutOff_Req : 9|1@1+ (1,0) [0|1] ""  WFSI_ICE
+ SG_ KL15_EMS_Sts : 7|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ KickDown_Req : 8|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ StarterRelay_Sts : 10|3@1+ (1,0) [0|7] ""  sGW,WFSI_ICE
+ SG_ mc_EMS_Data01 : 0|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,sGW
+ SG_ CRC_EMS_Data01 : 56|8@1+ (1,0) [0|255] ""  WFSI_ICE,sGW
+ SG_ PropulsionSys_Sts : 4|3@1+ (1,0) [0|7] ""  sGW,WFSI_ICE
+
+BO_ 490 P_EMS_MOTOR_TORQUE_CONTROL: 6 EMS_ICE
+ SG_ mc_EMS_MOTOR_TORQUE_CONTROL : 32|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,ESP,sGW
+ SG_ CRC_EMS_MOTOR_TORQUE_CONTROL : 40|8@1+ (1,0) [0|255] ""  WFSI_ICE,ESP,sGW
+ SG_ MMotAct_Status : 37|1@1+ (1,0) [0|1] ""  sGW,ESP,WFSI_ICE
+ SG_ MMotAct : 0|16@1+ (1,-30000) [-30000|30000] "Nm"  sGW,ESP,WFSI_ICE
+ SG_ EngineRPM_FailSts : 36|1@1+ (1,0) [0|1] ""  ESP,sGW
+ SG_ EngineRPM : 16|16@1+ (1,0) [0|30000] "1/min"  ESP,sGW,WFSI_ICE
+
+BO_ 392 P_VCU_SysControl: 8 VCU_BEV
+ SG_ CRC_VCU_SysControl : 56|8@1+ (1,0) [0|255] "-"  ESP,OBC_DCDC_BEV,EDU_BEV,BMS_BEV
+ SG_ mc_VCU_SysControl : 0|4@1+ (1,0) [0|15] "counts"  ESP,OBC_DCDC_BEV,EDU_BEV,BMS_BEV
+ SG_ ePWT_AvgCoolant_Temp : 16|8@1+ (1,-40) [-40|215] "deg C" Vector__XXX
+ SG_ HV_HVIL_Sts : 24|1@1+ (1,0) [0|1] ""  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,sGW
+ SG_ KL15_VCU_Sts : 4|3@1+ (1,0) [0|7] ""  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,sGW
+ SG_ AcceleratorPedal_Value : 8|8@1+ (0.4,0) [0|100] "%"  ESP,sGW,EDU_BEV
+ SG_ AcceleratorPedal_FailSts : 7|1@1+ (1,0) [0|1] ""  ESP,sGW,EDU_BEV
+
+BO_ 528 P_ESP_Data02: 8 ESP
+ SG_ VehicleMoving : 48|2@1+ (1,0) [0|3] ""  WFSI_ICE,BMS_BEV,sGW
+ SG_ VehicleSpeed_FailSts : 27|2@1+ (1,0) [0|3] ""  WFSI_ICE,sGW,EMS_ICE,BMS_BEV,EDU_BEV,OBC_DCDC_BEV
+ SG_ VehicleSpeed : 32|13@1+ (0.05625,0) [0|360] "km/h"  WFSI_ICE,sGW,BMS_BEV,EDU_BEV,EMS_ICE,OBC_DCDC_BEV
+ SG_ BrakePedalActuated : 25|2@1+ (1,0) [0|3] ""  WFSI_ICE,sGW,BMS_BEV,EDU_BEV,EMS_ICE,OBC_DCDC_BEV
+ SG_ RollBenchMode_Sts : 4|2@1+ (1,0) [0|3] ""  WFSI_ICE,sGW,EDU_BEV
+ SG_ MasterCylinderPressure : 16|9@1+ (1,0) [0|280] "bar"  WFSI_ICE,sGW,EDU_BEV
+ SG_ EstimatedBrakePedalPos_Value : 8|8@1+ (0.4,0) [0|100] "%"  WFSI_ICE,sGW,EDU_BEV
+ SG_ mc_ESP_Data02 : 0|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,OBC_DCDC_BEV,EMS_ICE,EDU_BEV,BMS_BEV,sGW
+ SG_ CRC_ESP_Data02 : 56|8@1+ (1,0) [0|255] ""  WFSI_ICE,OBC_DCDC_BEV,EMS_ICE,EDU_BEV,BMS_BEV,sGW
+
+BO_ 544 P_ESP_Data09: 8 ESP
+ SG_ BAsc : 4|1@1+ (1,0) [0|1] ""  sGW,EDU_BEV,EMS_ICE
+ SG_ BMsr : 5|1@1+ (1,0) [0|1] ""  sGW,EDU_BEV,EMS_ICE
+ SG_ MMotRedSlow : 40|16@1+ (1,-30000) [-30000|30000] ""  sGW,EDU_BEV,EMS_ICE
+ SG_ MMotRedFast : 8|16@1+ (1,-30000) [-30000|30000] ""  sGW,EDU_BEV,EMS_ICE
+ SG_ MMotInc : 24|16@1+ (1,-30000) [-30000|30000] ""  sGW,EDU_BEV,EMS_ICE
+ SG_ mc_ESP_Data09 : 0|4@1+ (1,0) [0|15] "counts"  EMS_ICE,EDU_BEV,sGW
+ SG_ CRC_ESP_Data09 : 56|8@1+ (1,0) [0|255] ""  EMS_ICE,EDU_BEV,sGW
+
+BO_ 529 P_ESP_Data03: 8 ESP
+ SG_ CRC_ESP_Data03 : 56|8@1+ (1,0) [0|255] ""  WFSI_ICE,sGW
+ SG_ mc_ESP_Data03 : 0|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,sGW
+ SG_ Ax_LongAcc : 4|12@1+ (0.02,-40.96) [-40.96|40.96] "m/s²"  WFSI_ICE,sGW
+ SG_ Ay_LatAcc : 16|12@1+ (0.02,-40.96) [-40.96|40.96] "m/s²"  WFSI_ICE,sGW
+ SG_ YawRate : 28|16@1+ (0.005,-163.84) [-163.84|163.84] "deg/s"  WFSI_ICE,sGW
+ SG_ Slope : 48|8@1+ (0.5,0) [0|100] "%"  WFSI_ICE,sGW
+ SG_ Ax_LongAcc_FailSts : 44|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ Ay_LatAcc_FailSts : 45|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+ SG_ YawRate_FailSts : 46|1@1+ (1,0) [0|1] ""  WFSI_ICE,sGW
+
+BO_ 1024 P_BCU_Data03: 8 BCU
+ SG_ LogisticMode_Sts : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Doors_Sts : 4|2@1+ (1,0) [0|3] ""  sGW,BMS_BEV
+ SG_ mc_BCU_Data03 : 0|4@1+ (1,0) [0|15] "counts"  BMS_BEV,sGW
+ SG_ CRC_BCU_Data03 : 56|8@1+ (1,0) [0|255] ""  BMS_BEV,sGW
+
+BO_ 1536 P_BCU_Data01: 8 BCU
+ SG_ Vehicle_Sts : 4|4@1+ (1,0) [0|15] ""  WFSI_ICE,sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV
+ SG_ KL15On_Counter : 32|24@1+ (1,0) [0|16777215] "counts"  BMS_BEV,EDU_BEV,OBC_DCDC_BEV,sGW,WFSI_ICE
+ SG_ KL15_BCU_Sts : 11|3@1+ (1,0) [0|7] ""  sGW,WFSI_ICE
+ SG_ KeyPawlPos_Sts : 8|3@1+ (1,0) [0|7] ""  sGW,BMS_BEV,EDU_BEV,OBC_DCDC_BEV,WFSI_ICE
+ SG_ CRC_BCU_Data01 : 56|8@1+ (1,0) [0|255] ""  WFSI_ICE,OBC_DCDC_BEV,EDU_BEV,BMS_BEV,sGW
+ SG_ mc_BCU_Data01 : 0|4@1+ (1,0) [0|15] "counts"  WFSI_ICE,OBC_DCDC_BEV,EDU_BEV,BMS_BEV,sGW
+
+
+
+CM_ BU_ sGW "Secure Gateway";
+CM_ SG_ 1280 Heat_DeltaTime_WkUp "Remaining time until next vehicle mission defined by the user on IC.";
+CM_ SG_ 1280 Heat_DeltaTime_Value "Remaining time until next vehicle mission defined by the user on IC.";
+CM_ SG_ 1280 EnergyConsInst "Instantaneous energy consumption computed by IC";
+CM_ SG_ 1280 EnergyConsAvg "Average energy consumption computed by IC";
+CM_ SG_ 1280 Sched_Set "Status of charge scheduled";
+CM_ SG_ 1280 Bypass_Sched_Charge "Request to bypass the function of charge scheduled";
+CM_ SG_ 1280 WakeUpSchedule "Wake up by IC flag";
+CM_ SG_ 1280 mc_IC_Data01 "Counter for IC_Data01 message";
+CM_ SG_ 1280 CRC_IC_Data01 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 412 CCS_DcNeg_Temp "Phase 3 Temperature";
+CM_ SG_ 412 CCS_DcPos_Temp "Phase 3 Temperature";
+CM_ SG_ 412 CCS_L3_Temp "Phase 3 Temperature";
+CM_ SG_ 412 CCS_L2_Temp "Phase 2 Temperature";
+CM_ SG_ 412 CCS_L1_Temp "Phase 1 Temperature";
+CM_ SG_ 412 mc_VCU_CCSTemp "Message counter signal.";
+CM_ SG_ 412 CRC_VCU_CCSTemp "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 414 CCS_PlugLock_Sts "Plug status on OBC";
+CM_ SG_ 414 mc_VCU_CCSInfo "Message counter signal.";
+CM_ SG_ 414 CRC_VCU_CCSInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 414 CCS_LED_Sts "Status of led during the connect/disconnect procedure of the plug.";
+CM_ SG_ 414 SLAC_Sts "information regarding V2G communication.";
+CM_ SG_ 414 Proximity_Vlt "Proximity Pin Voltage";
+CM_ SG_ 414 Proximity_Sts "Information regarding the state of the proximity";
+CM_ SG_ 414 S2_Sts "Information regarding the status of the switch S2.";
+CM_ SG_ 414 CCS_PushButton_Sts "Status of the button present on EVSE or CCS. The OBC sends this signal when is required to stop charging even if the battery in not 100% of the charge.";
+CM_ SG_ 414 EVSE_AcDuty "value of PWM on ControlPilot. (See ISO 151178 and IEC 61851)";
+CM_ SG_ 414 ControlPilot_Vlt "Control Pilot Pin Voltage";
+CM_ SG_ 414 ControlPilot_Sts "ControlPilot state";
+CM_ SG_ 414 CCS_Plug_Sts "Plug status on OBC";
+CM_ SG_ 420 INV_TorqueRegenAct "Actual regenerative torque value";
+CM_ SG_ 420 CRC_EDU_TorqueOutput "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 420 mc_EDU_TorqueOutput "Message counter signal.";
+CM_ SG_ 420 INV_TorqueRaw "Actual torque without disturbance control";
+CM_ SG_ 420 INV_TorqueOutput "E-machine output torque (pos: torque in principal rotational direction of EM | neg: torque against principal rotational direction of EM)";
+CM_ SG_ 400 VCU_INV_LimMinTorque "Limited minimum torque of eMachine.";
+CM_ SG_ 400 VCU_INV_LimMaxTorque "Limited maximum torque of eMachine.";
+CM_ SG_ 400 VCU_INV_MinCurrHV "Min. HV current allowed to the inverter.";
+CM_ SG_ 400 VCU_INV_MaxCurrHV "Max. HV current allowed to the inverter.";
+CM_ SG_ 400 mc_VCU_EDULimits "Message counter signal.";
+CM_ SG_ 400 CRC_VCU_EDULimits "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 416 CRC_EDU_Power "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 416 mc_EDU_Power "Message counter signal.";
+CM_ SG_ 416 INV_VoltageT30 "T30 voltage at inverter";
+CM_ SG_ 416 INV_VoltageHV "HV voltage at the DC/AC converter";
+CM_ SG_ 416 INV_CurrentHV "DC current of inverter (pos: into inverter | neg: into HV power net)";
+CM_ SG_ 422 GenericWL_Sts "Request to activate the Generic Warning Lamp, following a Safety Relevant DTC presence.";
+CM_ SG_ 422 EM_ResolverLearning_Sts "Resolver Offset Learning status";
+CM_ SG_ 422 ActiveDischarge_Sts "Status of the HV Bus Active Discharge procedure.";
+CM_ SG_ 422 PropulsionSys_Sts "The scope of this signal is to provide the information regarding the motor (for BEV vehicle) actual mode status.";
+CM_ SG_ 422 CRC_EDU_Status "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 422 mc_EDU_Status "Message counter signal.";
+CM_ SG_ 422 INV_State "Information of the state of the electric machine";
+CM_ SG_ 422 INV_Speed "Rotational speed of electric machine (pos: rotation in principal direction of EM | neg: rotation against principal direction of EM)";
+CM_ SG_ 422 INV_ParkLock_Sts "Status of park lock system actuator";
+CM_ SG_ 422 INV_MinCoolantFlow "Minimum coolant flow needed for full operation";
+CM_ SG_ 422 INV_InterlockStatus "Interlock Status";
+CM_ SG_ 418 mc_EDU_TorqueRange "Message counter signal.";
+CM_ SG_ 418 CRC_EDU_TorqueRange "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 418 INV_TorqueMin "Electric machine minimum available torque (pos: unused | neg: torque against principal rotational direction of EM)";
+CM_ SG_ 418 INV_TorqueMax "Electric machine maximum available torque (pos: torque in principal rotational direction of EM | neg: unused)";
+CM_ SG_ 426 CRC_EDU_Temperature "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 426 mc_EDU_Temperature "Message counter signal.";
+CM_ SG_ 426 INV_Coolant_Temp "temperature of inverter cooling water";
+CM_ SG_ 426 INV_Stator_Temp "Temperature of stator";
+CM_ SG_ 426 INV_Rotor_Temp "Temperature of rotor";
+CM_ SG_ 426 INV_Inverter_Temp "temperature of inverter";
+CM_ SG_ 1473 mc_OBC_AcCurrents "Message counter signal.";
+CM_ SG_ 1473 CRC_OBC_AcCurrents "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1473 CHRGR_iAcAct3 "AC current (RMS, phase 3 current for 3p-supply), 
+sign convention:
+- neagtive: energy flow from AC grid to vehicles DC bus (vehicle charging)
+- positive: energy from vehicles DC bus to AC grid (veh2grid)";
+CM_ SG_ 1473 CHRGR_iAcAct2 "AC current (RMS, phase 2 current for 3p-supply), 
+sign convention:
+- neagtive: energy flow from AC grid to vehicles DC bus (vehicle charging)
+- positive: energy from vehicles DC bus to AC grid (veh2grid)";
+CM_ SG_ 1473 CHRGR_iAcAct "AC current (RMS, phase 1 for 1p-supply, maximum phase current for 3p-supply), 
+sign convention:
+- neagtive: energy flow from AC grid to vehicles DC bus (vehicle charging)
+- positive: energy from vehicles DC bus to AC grid (veh2grid)";
+CM_ SG_ 645 mc_BMS_BattTargetCurr "Message counter signal.";
+CM_ SG_ 645 CRC_BMS_BattTargetCurr "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 645 BMS_DcChargingCurrentTarget "DC charging request current";
+CM_ SG_ 645 BMS_DcChargingCurrentMax "Max current supported during charging.";
+CM_ SG_ 657 mc_BMS_TempInfo "Message counter signal.";
+CM_ SG_ 657 CRC_BMS_TempInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 657 BMS_CellTemp_FrameID "The id number of the starting battery temperature in this frame, the sequence of the id number is 1, 6, 11...";
+CM_ SG_ 657 BMS_CellTemp_Cell5 "The temperature of the No. 5 battery in this frame (if the last frame is not full, send 0xFF).";
+CM_ SG_ 657 BMS_CellTemp_Cell4 "The temperature of the No. 4 battery in this frame (if the last frame is not full, send 0xFF).";
+CM_ SG_ 657 BMS_CellTemp_Cell3 "The temperature of the No. 3 battery in this frame (if the last frame is not full, send 0xFF).";
+CM_ SG_ 657 BMS_CellTemp_Cell2 "The temperature of the No. 2 battery in this frame (if the last frame is not full, send 0xFF).";
+CM_ SG_ 657 BMS_CellTemp_Cell1 "The temperature of the No. 1 battery in this frame (if the last frame is not full, send 0xFF).";
+CM_ SG_ 656 mc_BMS_CellInfo "Message counter signal.";
+CM_ SG_ 656 CRC_BMS_CellInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 656 BMS_CellVolt_FrameID "The id number of the starting battery voltage in this frame, the sequence of the id number is 1, 4, 7...";
+CM_ SG_ 656 BMS_CellVolt_Cell3 "The voltage of battery No. 3 in this frame (if the last frame is not full, send 0x1FFF).";
+CM_ SG_ 656 BMS_CellVolt_Cell2 "The voltage of battery No. 2 in this frame (if the last frame is not full, send 0x1FFF).";
+CM_ SG_ 656 BMS_CellVolt_Cell1 "The voltage of battery No. 1 in this frame (if the last frame is not full, send 0x1FFF).";
+CM_ SG_ 641 mc_BMS_SensingData "Message counter signal.";
+CM_ SG_ 641 CRC_BMS_SensingData "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 641 BMS_HeatPosVolt_Fdbk "Heater positive relay voltage feedback.";
+CM_ SG_ 641 BMS_HvPosVolt_Fdbk "Hv positive relay voltage feedback.";
+CM_ SG_ 641 BMS_DcPosVolt_Fdbk "DC positive relay voltage feedback.";
+CM_ SG_ 424 INV_EmergencyShutoffRequest "Emergency shut off requested by inverter ECU";
+CM_ SG_ 424 mc_EDU_WarnInfo "Message counter signal.";
+CM_ SG_ 424 CRC_EDU_WarnInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 424 INV_bDernOvrIdc "Derating because of overcurrent inverter e-machine";
+CM_ SG_ 424 INV_bDernOvrUdc "Derating because of overvoltage HV";
+CM_ SG_ 424 INV_bDernTemp_Emachine "Derating because of overtemperature e-machine";
+CM_ SG_ 424 INV_bDernTemp_Inverter "Derating because of overtemperature Inverter";
+CM_ SG_ 424 INV_bDernTrqMax "Derating because of max torque";
+CM_ SG_ 424 INV_bDernTrqMin "Derating because of max torque regenerative";
+CM_ SG_ 424 INV_bDernUndrIdc "Derating because of overcurrent regenerative Inverter e-Machine";
+CM_ SG_ 424 INV_bDernUndrUdc "Derating because of undervoltage HV";
+CM_ SG_ 424 INV_bDiagReq "Diag request for e-machine inverter calibration";
+CM_ SG_ 424 INV_bReadyHV "HV voltage operational";
+CM_ SG_ 424 INV_ElecTractionCtrlLight "Electric traction control light state";
+CM_ SG_ 424 INV_EVServiceLight "Flag that indicates Service light request is ON.";
+CM_ SG_ 424 INV_MIL_ActReq "MIL activation request of e-machine.";
+CM_ SG_ 402 mc_VCU_EDUCurrents "Message counter signal.";
+CM_ SG_ 402 CRC_VCU_EDUCurrents "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 402 VCU_INV_IdcMaxLongTerm "Maximum allowed inverter current consumption (motor mode) for long term";
+CM_ SG_ 402 VCU_INV_IdcMaxShortTerm "Maximum allowed inverter current consumption (motor mode) for short term";
+CM_ SG_ 402 VCU_INV_IdcMinLongTerm "Maximum allowed inverter current consumption (generator mode) for long term";
+CM_ SG_ 402 VCU_INV_IdcMinShortTerm "Maximum allowed inverter current consumption (generator mode) for short term";
+CM_ SG_ 404 mc_VCU_EDUCooling "Message counter signal.";
+CM_ SG_ 404 CRC_VCU_EDUCooling "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 404 VCU_INV_CoolantFlow "Coolant flow based on pump actuation";
+CM_ SG_ 404 VCU_INV_TCooltCirc "Temperature coolant circuit close to Inverter (upstream inverter preferred)";
+CM_ SG_ 388 ActiveDischarge_Req "Start request of the HV Bus Active Discharge procedure";
+CM_ SG_ 388 mc_VCU_EDUControl "Message counter signal.";
+CM_ SG_ 388 CRC_VCU_EDUControl "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 388 VCU_INV_DesiredTorque "Desired torque electric machine (pos: torque in principal rotational direction of EM | neg: torque against principal rotational direction of EM)";
+CM_ SG_ 388 VCU_INV_ParkLockUnlockRequest "Lock or unlock request to park lock system";
+CM_ SG_ 388 VCU_INVMode_Cmd "Requested state of the electric machine.";
+CM_ SG_ 388 VCU_INV_SurgeDamperState "Requested surge damper state";
+CM_ SG_ 646 mc_BMS_BattTargetVolt "Message counter signal.";
+CM_ SG_ 646 CRC_BMS_BattTargetVolt "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 646 BMS_DischargeVoltageMin "PACK allows minimum discharge voltage";
+CM_ SG_ 646 BMS_ChargeVoltageMax "PACK allows the maximum discharge voltage";
+CM_ SG_ 646 BMS_DcChargingVoltageTarget "DC charging request voltage";
+CM_ SG_ 653 mc_BMS_CellVolt "Message counter signal.";
+CM_ SG_ 653 CRC_BMS_CellVolt "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 653 BMS_CellMaxVoltCscNum "Highest voltage battery subsystem number (CSC number)";
+CM_ SG_ 653 BMS_CellMaxVoltPos "Highest voltage battery cell code";
+CM_ SG_ 653 BMS_CellMaxVoltage "The highest value of battery cell voltage";
+CM_ SG_ 653 BMS_CellMinVoltCscNum "Minimum voltage battery subsystem number (CSC number)";
+CM_ SG_ 653 BMS_CellMinVoltPos "Minimum voltage battery cell code";
+CM_ SG_ 653 BMS_CellMinVoltage "Minimum battery cell voltage";
+CM_ SG_ 652 mc_BMS_CellTemp "Message counter signal.";
+CM_ SG_ 652 CRC_BMS_CellTemp "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 652 BMS_CellMaxTempCscNum "Maximum temperature battery subsystem number (CSC number)";
+CM_ SG_ 652 BMS_CellMaxTempPos "Maximum temperature battery cell code";
+CM_ SG_ 652 BMS_CellMaxTemp "Maximum battery cell temperature";
+CM_ SG_ 652 BMS_CellMinTempCscNum "Minimum temperature battery subsystem number (CSC number)";
+CM_ SG_ 652 BMS_CellMinTempPos "Minimum temperature battery cell code";
+CM_ SG_ 652 BMS_CellMinTemp "Minimum battery cell temperature";
+CM_ SG_ 658 mc_BMS_BatterySN "Message counter signal.";
+CM_ SG_ 658 CRC_BMS_BatterySN "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 658 BMS_BattSN_FrameID "The id number of the battery code information frame, the sequence of the id number is 1, 2, 3, 4...";
+CM_ SG_ 658 BMS_BattSN_Length "Battery code length";
+CM_ SG_ 658 BMS_BattSN_Char1 "Battery code (SN) characters 1 in this frame (ASCII).";
+CM_ SG_ 658 BMS_BattSN_Char2 "Battery code (SN) characters 2 in this frame (ASCII).";
+CM_ SG_ 658 BMS_BattSN_Char3 "Battery code (SN) characters 3 in this frame (ASCII).";
+CM_ SG_ 658 BMS_BattSN_Char4 "Battery code (SN) characters 4 in this frame (ASCII).";
+CM_ SG_ 650 BMS_BattSN "Serial number of rechargeable energy storage system";
+CM_ SG_ 650 BMS_BattNum "Number of rechargeable energy storage systems";
+CM_ SG_ 650 BMS_TempSensNum "Total number of pack cell temperature points";
+CM_ SG_ 650 BMS_TotalCellNum "The total number of pack single cells";
+CM_ SG_ 650 BMS_RatedCap "Battery Pack rated capacity";
+CM_ SG_ 650 BMS_RatedVoltage "Battery Pack rated voltage";
+CM_ SG_ 650 BMS_BatteryCoolType "Battery cooling method";
+CM_ SG_ 650 BMS_BattCommProt "Communication protocol version LSB";
+CM_ SG_ 649 mc_BMS_ErrorInfo "Message counter signal.";
+CM_ SG_ 649 CRC_BMS_ErrorInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 649 BMS_CrashFeedback "Crash detection feedback from BMS";
+CM_ SG_ 649 BMS_DcChargingVoltage_FailSts "DC charging voltage signal fault.";
+CM_ SG_ 649 BMS_DcChargingCurr_FailSts "DC charging current signal fault.";
+CM_ SG_ 649 BMS_FaultTotalNum "Total Pack Failures";
+CM_ SG_ 649 BMS_FaultLevel "Pack failure level";
+CM_ SG_ 649 BMS_FaultCode "Pack Failure code";
+CM_ SG_ 649 BMS_AlarmIsoLossDouble "Double low isolation resistance alarm.";
+CM_ SG_ 649 HVIL_System_Sts "HV interlock state";
+CM_ SG_ 649 BMS_AlarmDeltaTemp "Abnormal battery temperature alarm";
+CM_ SG_ 649 BMS_AlarmOverTemp "Battery temperature is too high alarm";
+CM_ SG_ 649 BMS_AlarmPackOV "Pack overvoltage alarm";
+CM_ SG_ 649 BMS_AlarmPackUV "Pack undervoltage alarm";
+CM_ SG_ 649 BMS_AlarmPackLowSoC "SOC low alarm";
+CM_ SG_ 649 BMS_AlarmCellOV "Cell overvoltage alarm";
+CM_ SG_ 649 BMS_AlarmCellUV "Cell undervoltage alarm";
+CM_ SG_ 649 BMS_AlarmIsoLossSingle "Single low isolation resistance alarm.";
+CM_ SG_ 649 BMS_AlarmConsistency "Poor battery consistency alarm";
+CM_ SG_ 649 BMS_AlarmPackOverCharge "Vehicle energy storage device overcharge alarm";
+CM_ SG_ 649 BMS_AlarmPackHighSoC "SOC too high alarm";
+CM_ SG_ 649 BMS_AlarmSoCJump "SOC jump alarm";
+CM_ SG_ 649 BMS_AlarmBattSysNotMatch "Rechargeable energy storage system mismatch alarm";
+CM_ SG_ 643 ImmoRelease_Sts "Immo authentication status sent by EMS/VCU";
+CM_ SG_ 643 BMS_Balancing_Sts "Pack current balance state.";
+CM_ SG_ 643 BMS_Battery_Inhibit "Flag for engine inhibition";
+CM_ SG_ 643 GenericWL_Sts "Request to activate the Generic Warning Lamp, following a Safety Relevant DTC presence.";
+CM_ SG_ 643 BMS_Heating_Sts "HV battery heater status";
+CM_ SG_ 643 mc_BMS_BattStatus "Message counter signal.";
+CM_ SG_ 643 CRC_BMS_BattStatus "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 643 BMS_DeratingTempMax "Derating because of high temperature.";
+CM_ SG_ 643 BMS_DeratingTempMin "Derating because of low temperature.";
+CM_ SG_ 643 BMS_LimitedPower_Sts "Performance of battery is reduced";
+CM_ SG_ 643 BMS_InstantEmerOpen_Req "Error Status Battery: Requires opening battery connectors immediately";
+CM_ SG_ 643 BMS_DelayedEmerOpen_Req "Error Status Battery: Requires opening battery connectors within calibratable time";
+CM_ SG_ 643 BMS_State "State of electric energy storage";
+CM_ SG_ 643 BMS_BatteryAvgTemp "Average battery average cell temperature";
+CM_ SG_ 643 BMS_BatteryCurrent "Battery bus current (negative for charging, positive for discharging)";
+CM_ SG_ 643 BMS_BatteryVoltage "Total battery voltage";
+CM_ SG_ 647 mc_BMS_Isolation "Message counter signal.";
+CM_ SG_ 647 CRC_BMS_Isolation "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 647 BMS_IsoMeasurement_Sts "Isolation measurement";
+CM_ SG_ 647 BMS_IsoResPos "Pack positive insulation value";
+CM_ SG_ 647 BMS_IsoResNeg "Pack negative insulation value";
+CM_ SG_ 647 BMS_IsoResMeasurement "Pack system insulation value";
+CM_ SG_ 647 BMS_SelfTest_Sts "BMS self-test status";
+CM_ SG_ 640 mc_BMS_RelayInfo "Message counter signal.";
+CM_ SG_ 640 CRC_BMS_RelayInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 640 BMS_DcRelayWelded_Sts "Flag that informas aout at least an DC relay contact welded.";
+CM_ SG_ 640 BMS_DcRelayStuckOpen_Sts "Flag that informas aout at least an DC relay contact stuck open.";
+CM_ SG_ 640 BMS_HvContactors_Sts "State of the HV contactors.";
+CM_ SG_ 640 BMS_DcContactors_Sts "DC Contactors state.";
+CM_ SG_ 640 BMS_HvRelayStuckOpen_Sts "Flag that informas aout at least an HV relay contact stuck open.";
+CM_ SG_ 640 BMS_HvRelayWelded_Sts "Flag that informas aout at least an HV relay contact welded.";
+CM_ SG_ 640 BMS_RelayPrech_Cmd "Pre-charge relay command.";
+CM_ SG_ 640 BMS_RelayHvPos_Cmd "Main positive relay command.";
+CM_ SG_ 640 BMS_RelayNeg_Cmd "Negative relay command.";
+CM_ SG_ 640 BMS_RelayHeatPos_Cmd "Heating positive relay command.";
+CM_ SG_ 640 BMS_RelayDcPos_Cmd "DC positive relay status (applicable relay status is detected by BMS)";
+CM_ SG_ 640 BMS_RelayNeg_Sts "Negative relay status (applicable relay status is detected by BMS)";
+CM_ SG_ 640 BMS_RelayHvPos_Sts "Main positive relay status (applicable relay status is detected by BMS)";
+CM_ SG_ 640 BMS_RelayPrech_Sts "Pre-charge relay status (Applicable relay status is detected by BMS)";
+CM_ SG_ 640 BMS_RelayHeatPos_Sts "Heating positive relay status (applicable relay status is detected by BMS)";
+CM_ SG_ 640 BMS_RelayDcPos_Sts "DC positive relay status (applicable relay status is detected by BMS)";
+CM_ SG_ 648 mc_BMS_ChargeInfo "Message counter signal.";
+CM_ SG_ 648 CRC_BMS_ChargeInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 648 BMS_FastChargeRemNum "Remaining number of fast charging cycles.";
+CM_ SG_ 648 BMS_DcChargeCompleted_Sts "DC charging status.";
+CM_ SG_ 648 BMS_AcChargeCompleted_Sts "AC charging status.";
+CM_ SG_ 648 BMS_RemainingChargeTime "Charging remaining time";
+CM_ SG_ 651 mc_BMS_TotalEnergy "Message counter signal.";
+CM_ SG_ 651 CRC_BMS_TotalEnergy "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 651 BMS_CumulativeChargePower "Accumulated charging power (including recharging and external charging)";
+CM_ SG_ 651 BMS_CumulativeDischargePower "Cumulative discharge power";
+CM_ SG_ 1475 DC1_bReqMIL "MIL (Malfunction Indicator Lamp) request by DCDC1";
+CM_ SG_ 1475 DC1_stT30c "Terminal 30c (T30c) state: permanent supply, can be interrupted by crash (non-reversible) or service disconnect";
+CM_ SG_ 1475 GenericWL_Sts "Request to activate the Generic Warning Lamp, following a Safety Relevant DTC presence.";
+CM_ SG_ 1475 CHRGR_stHvIntlck "status of HV interlock evaluation (monitoring of HV connectors and covers)";
+CM_ SG_ 1475 CHRGR_stErr "error status (no charging possible if error present)";
+CM_ SG_ 1475 CRC_OBC_WarnInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1475 mc_OBC_WarnInfo "Message counter signal.";
+CM_ SG_ 1474 CHRGR_uAcActPha3 "AC voltage (RMS) (input voltage for unidirectional chargers; phase 3 for 3p-supply)";
+CM_ SG_ 1474 CHRGR_uAcActPha2 "AC voltage (RMS) (input voltage for unidirectional chargers; phase 2 for 3p-supply)";
+CM_ SG_ 1474 CHRGR_uAcActPha1 "AC voltage (RMS) (input voltage for unidirectional chargers; phase 1 for 3p-supply)";
+CM_ SG_ 1474 mc_OBC_AcVoltages "Message counter signal.";
+CM_ SG_ 1474 CRC_OBC_AcVoltages "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1472 CHRGR_iDcAct "DC current charger (pos: discharging vehicle | neg: charging vehicle)";
+CM_ SG_ 1472 CHRGR_uDcAct "DC voltage charger (output voltage for unidirectional chargers)";
+CM_ SG_ 1472 CHRGR_stOperAct "operation state of onboard charger (corrensponds to mode request from VCU if boundary 
+conditions allow to fullfill the request)";
+CM_ SG_ 1472 mc_OBC_Status "Message counter signal.";
+CM_ SG_ 1472 CRC_OBC_Status "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 390 VCU_iAcMaxAllwdChrgr "maximum allowed AC current (derived from CP signaling from EVSE)";
+CM_ SG_ 390 VCU_iDcLimChrgr "Limit for charge current DC (incorporating e.g. allowed charging current of battery, consumption of additional HV consumers, e.g. AC-Compressor, PTC-Heater, DCDC-Converter) (pos: unused | neg: into HV power net)";
+CM_ SG_ 390 VCU_uDcReqChrgr "requested max charging Voltage DC (maximum allowed charging voltage of battery)";
+CM_ SG_ 390 VCU_OBCMode_Cmd "Requested mode of operation of onboard charger";
+CM_ SG_ 390 mc_VCU_OBCControl "Message counter signal.";
+CM_ SG_ 390 CRC_VCU_OBCControl "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1488 CRC_DCDC_Status "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1488 mc_DCDC_Status "Message counter signal.";
+CM_ SG_ 1488 DC1_VoltageHV "Voltage at high voltage side";
+CM_ SG_ 1488 DC1_CurrentLV "Current on low voltage side (pos: into LV powernet  | neg: into DCDC)";
+CM_ SG_ 1488 DC1_Mode "State DC/DC converter";
+CM_ SG_ 1488 DC1_CurrentHV "Current at high voltage side (pos: into DCDC | neg: into HV powernet)";
+CM_ SG_ 1488 DC1_Temp "Coolant temperature (modelled value) of DCDC";
+CM_ SG_ 1488 DC1_VoltageLV "Voltage on low voltage side";
+CM_ SG_ 1489 CRC_DCDC_Setpoint "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1489 mc_DCDC_Setpoint "Message counter signal.";
+CM_ SG_ 1489 DC1_MaxCurrentHV "Maximal possible current at high voltage side (pos: into DCDC | neg: into HV power net)";
+CM_ SG_ 1489 DC1_MaxCurrentLV "Maximum possible current on low voltage side (pos: into LV power net | neg: unused)";
+CM_ SG_ 1489 DC1_SetPointVoltageHV "Present set point of high voltage (boost mode)";
+CM_ SG_ 1489 DC1_SetPointVoltageLV "Present set point of low voltage (buck mode)";
+CM_ SG_ 1489 DC1_Utilization "Utilization rate";
+CM_ SG_ 386 VCU_stHvDeactvnDC "HV deactivation signal (e.g. for service conditions)";
+CM_ SG_ 386 CRC_VCU_DCDCControl "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 386 mc_VCU_DCDCControl "Message counter signal.";
+CM_ SG_ 386 VCU_VoltageDemandHV "Desired voltage of the DCDC converter HV side (boost mode)";
+CM_ SG_ 386 VCU_CurrentLimitHV "Limit for HV- current of DC/DC converter (pos: into DCDC | neg: unused)";
+CM_ SG_ 386 VCU_CurrentLimitLV "Limit for LV- current of DC/DC converter (pos: into LV power net | neg: into DCDC)";
+CM_ SG_ 386 VCU_VoltageDemandLV "Desired voltage of the DCDC converter LV side (buck mode)";
+CM_ SG_ 386 VCU_DCDCMode_Cmd "Requested mode of the DCDC converter";
+CM_ SG_ 642 mc_BMS_EnergyInfo "Message counter signal.";
+CM_ SG_ 642 CRC_BMS_EnergyInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 642 BMS_RatedTotalEnergy "Total energy stored in electric energy storage @100% SoC, full performance (No thermal derating), including ageing effects";
+CM_ SG_ 642 BMS_DisplaySoC "Display SOC";
+CM_ SG_ 642 BMS_BatterySoH "SoH";
+CM_ SG_ 642 BMS_RemainingEnergy "Total energy stored in electric energy storage @100% SoC under actual environmental conditions (e.g. temperature), including ageing effects";
+CM_ SG_ 642 BMS_BatterySoC "Physical state of charge";
+CM_ SG_ 644 mc_BMS_PowerLimit "Message counter signal.";
+CM_ SG_ 644 CRC_BMS_PowerLimit "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 644 BMS_Power_ChargeLongTerm "Maximum charging long term (10 seconds) current, usage including determination of charging current for AC and DC charging.";
+CM_ SG_ 644 BMS_Power_DischargeLongTerm "Predicted maximum long term (10 seconds) discharging current.";
+CM_ SG_ 644 BMS_Power_ChargeShortTerm "Maximum charging short term (3 seconds) current.";
+CM_ SG_ 644 BMS_Power_DischargeShortTerm "Predicted maximum short term (3 seconds) discharging current.";
+CM_ SG_ 384 VCU_CoolDownReq "Cool Down Request for e.g. awaiting fast charging";
+CM_ SG_ 384 CRC_VCU_BMSControl "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 384 mc_VCU_BMSControl "Message counter signal.";
+CM_ SG_ 384 VCU_BMSMode_Cmd "Interface to request eletric energy storage target mode";
+CM_ SG_ 384 VCU_IsoMeasurement_Cmd "Isolation measurement switch off";
+CM_ SG_ 144 ReAuth_Req "Request of a new random number (seed) to enchipher the immo secret key with the XTEA encription algoritm. If the authentication is failed due to timeout or wrong response.";
+CM_ SG_ 56 Response_Sts "Immo procedure completion status.";
+CM_ SG_ 56 Response_Data "Encriphered immo secret key, a random number (seed) with the XTEA encription algoritm. ";
+CM_ SG_ 50 Challenge_Data "Random number to enchipher the IMMO secret key with the XTEA encription algoritm.";
+CM_ SG_ 2564554481 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 1970 OBC_VINMismatch "Mismatch flag sent by OBC following the check of VIN with respect to the one sent by BCU.";
+CM_ SG_ 1970 GenericFail_Sts "Fail present if at least a DTC is not physically present but stored in the fault memory";
+CM_ SG_ 1970 CurrentFail_Sts "Fail presence inside the key cycle";
+CM_ SG_ 1970 OBC_CodingMismatch "Mismatch flag sent by OBC following the check of internal coding parameters with respect to the ones sent by BCU.";
+CM_ SG_ 1969 EDU_VINMismatch "Mismatch flag sent by EDU following the check of VIN with respect to the one sent by BCU.";
+CM_ SG_ 1969 GenericFail_Sts "Fail present if at least a DTC is not physically present but stored in the fault memory";
+CM_ SG_ 1969 CurrentFail_Sts "Fail presence inside the key cycle";
+CM_ SG_ 1969 EDU_CodingMismatch "Mismatch flag sent by EDU following the check of internal coding parameters with respect to the ones sent by BCU.";
+CM_ SG_ 1968 BMS_VINMismatch "Mismatch flag sent by BMS following the check of VIN with respect to the one sent by BCU.";
+CM_ SG_ 1968 BMS_CodingMismatch "Mismatch flag sent by ACU following the check of internal coding parameters with respect to the ones sent by BCU.";
+CM_ SG_ 1968 GenericFail_Sts "Fail present if at least a DTC is not physically present but stored in the fault memory";
+CM_ SG_ 1968 CurrentFail_Sts "Fail presence inside the key cycle";
+CM_ SG_ 1282 ICTotOdometer "Mileage value updated during the travel. It is updated as soon as the journey takes one more km.";
+CM_ SG_ 1282 mc_IC_Data03 "Counter for IC_Data03 message";
+CM_ SG_ 1282 CRC_IC_Data03 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 258 CrashConfirmed_Sts "Post-crash activation, when active the vehicle shall power off the propulsion systems and inhibit a new ignition cycle until the service resets the DTC.";
+CM_ SG_ 258 CrashDetect "Crash Detection Signal that informs the system regarding a crash occurrence.";
+CM_ SG_ 258 mc_ACU_Crash "Counter for ESP_Data03 message";
+CM_ SG_ 258 CRC_ACU_Crash "Message CRC in accordance with SAE J1850";
+CM_ SG_ 2564485504 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564485456 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564485442 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564485444 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564456689 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564444401 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564440817 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 2564441329 N_PDU "Signal used for diagnostic purposes";
+CM_ SG_ 1584 NWM_WkUp_BCU_Rx "Network wake up command, sent from BCU, following the detection of a wake up event or a request from another ECU";
+CM_ SG_ 1584 NWM_WkUp_BCU_Reason "Reason for wake up command sent by BCU";
+CM_ SG_ 1584 NWM_WkUp_BCU_NodeAddress "Feedback on the node address that requested the BCU to wake up the network";
+CM_ SG_ 1584 NWM_Sleep_BCU_Req "Sleep command sent from BCU to all the other ECUs on the Vehicle Network";
+CM_ SG_ 1008 NWM_WkUp_VCU_Req "Network wake up request, sent from VCU to BCU, following a wake up event detected by VCU";
+CM_ SG_ 1008 NWM_WkUp_VCU_Reason "Reason for wake up event detected by VCU";
+CM_ SG_ 1008 NWM_WkUp_VCU_NodeAddress "Feedback on the node address that requested the BCU to wake up the network";
+CM_ SG_ 752 NWM_WkUp_BMS_Req "Network wake up request, sent from BMS to BCU, following a wake up event detected by BMS";
+CM_ SG_ 752 NWM_WkUp_BMS_Reason "Reason for wake up event detected by BMS";
+CM_ SG_ 752 NWM_WkUp_BMS_NodeAddress "Feedback on the node address that requested the BCU to wake up the network";
+CM_ SG_ 492 AcceleratorPedal_FailSts "Accelerator Pedal Fail Status - Acquired and sent by EMS";
+CM_ SG_ 492 MDriverRequest_Status "Fail Status for Driver Motor Torque Request";
+CM_ SG_ 492 MDriverRequest "Driver Torque request";
+CM_ SG_ 492 mc_EMS_DRIVER_TORQUE_CONTROL "Counter for EMS_Data05 message";
+CM_ SG_ 492 CRC_EMS_DRIVER_TORQUE_CONTROL "Message CRC in accordance with SAE J1850";
+CM_ SG_ 492 AcceleratorPedal_Value "raw value 0 … 254, 255 invalid";
+CM_ SG_ 1561 PTO_Sts "PTO status.";
+CM_ SG_ 1561 PTO_Configuration "CAN signal PTO config mode = 00 (NO PTO)
+CAN signal PTO config mode = 01 (PTO running mode - belt mode )
+CAN signal PTO config mode = 10 (PTO steady state mode- gbx mode)
+CAN signal PTO config mode = 11 (PTO steady state mode on CAN - gbx mode on CAN)";
+CM_ SG_ 1561 AC_FailSts "The signal communicates the fault status of AC to other ECUs.";
+CM_ SG_ 1561 Tra_NumGear "Calculated gear";
+CM_ SG_ 1561 ValidGear "Validation of  calculated gear: 
+- valid: when the calculated gear is equal to current gear
+- invalid: the calculatd gear can be different from current gear";
+CM_ SG_ 1561 ReverseGearSwitch "Bit set if reverse gear is engaged.";
+CM_ SG_ 1561 FuelConsumption "Gasoline injected in the last 100ms";
+CM_ SG_ 1561 Engine_Temp "Engine Temperature";
+CM_ SG_ 1561 ImmoRelease_Sts "Immo authentication status sent by EMS/VCU";
+CM_ SG_ 1561 mc_EMS_STATUS_1 "Counter for EMS_STATUS_1 message";
+CM_ SG_ 1561 CRC_EMS_STATUS_1 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 496 mc_EMS_MOTOR_DATA5 "Counter for EMS_MOTOR_DATA5 message";
+CM_ SG_ 496 CRC_EMS_MOTOR_DATA5 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 500 mc_EMS_MOTOR_DATA1 "Counter for EMS_MOTOR_DATA1 message";
+CM_ SG_ 500 CRC_EMS_MOTOR_DATA1 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 499 mc_EMS_MOTOR_DATA2 "Counter for EMS_MOTOR_DATA2 message";
+CM_ SG_ 499 CRC_EMS_MOTOR_DATA2 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 499 DiagnosticStatus "Bit0: Cat Fault Detected
+Bit1: LamSens Pre Cat Fault detected
+Bit2: LamSens Post Cat Fault detected
+Bit3: Cat diagnosis running
+Bit4: LamSens Pre Cat Diag running
+Bit5: LamSens Post Cat Diag running";
+CM_ SG_ 499 InjCutOff "Bit0: Inj1 cut off
+Bit1: Inj2 cut off
+Bit2: Inj3 cut off
+Bit3: Inj4 cut off";
+CM_ SG_ 498 CRC_EMS_MOTOR_DATA3 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 498 mc_EMS_MOTOR_DATA3 "Counter for EMS_MOTOR_DATA3 message";
+CM_ SG_ 497 mc_EMS_MOTOR_DATA4 "Counter for EMS_MOTOR_DATA4 message";
+CM_ SG_ 497 CRC_EMS_MOTOR_DATA4 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 491 mc_EMS_MOTOR_TORQUE_AVAILABLE "Counter for EMS_MOTOR_TORQUE_AVAILABLE message";
+CM_ SG_ 491 CRC_EMS_MOTOR_TORQUE_AVAILABLE "Message CRC in accordance with SAE J1850";
+CM_ SG_ 491 MaximumTorqueAvailable_Status "Fail Status for Maximum Torque available";
+CM_ SG_ 491 MaximumTorqueAvailable "Engine maximum torque available";
+CM_ SG_ 491 MinimumTorqueAvailable_Status "Fail Status for Minimum Torque available";
+CM_ SG_ 491 MinimumTorqueAvailable "Engine minimum torque available";
+CM_ SG_ 1408 TimeDate_Seconds "Seconds of the minute.";
+CM_ SG_ 1408 TimeDate_Year "Year.";
+CM_ SG_ 1408 TimeDate_Month "Month of the year.";
+CM_ SG_ 1408 TimeDate_Minutes "Minute of the hour.";
+CM_ SG_ 1408 TimeDate_Hours "Hour of the day.";
+CM_ SG_ 1408 TimeDate_Day "Day of the month.";
+CM_ SG_ 274 AltFuelSelected "Desired fuel selected by the user on the switch. Could be different from the actual fuel used.";
+CM_ SG_ 274 MSGCNT_BRC_REQUEST2 "Counter for BRC_Request2 message";
+CM_ SG_ 274 CheckSum_BRC_REQUEST2 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 274 AltFuelLvl_Pc "The signal is transmitted by WFSI, routed by BCU and used by IC in order to set the current Alternative Fuel Level Percentage on IC.";
+CM_ SG_ 273 MSGCNT_BRC_REQUEST1 "Counter for BRC_Request1 message";
+CM_ SG_ 273 CheckSum_BRC_REQUEST1 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 273 AltFuelFault_D_Stat "The signal is transmitted by WFSI, routed by BCU and used by IC in order to set the current Alternative Fuel Level system fault.";
+CM_ SG_ 273 AltFuelOpMde_D_Stat "Fuel actually used by the engine.";
+CM_ SG_ 273 EOI_Offset "BRC info. End Of Injection?";
+CM_ SG_ 1925 Coding_PCWPresence "Configuration setup for PCW presence";
+CM_ SG_ 1925 Coding_GasolineOnly "Configuration setup for only gasoline variant (no LPG/CNG)";
+CM_ SG_ 1925 Coding_FCAPresence "Configuration setup for FCA presence";
+CM_ SG_ 1925 Coding_DMCPresence "Configuration setup for DMC presence";
+CM_ SG_ 1925 Coding_RearParkingSensors "Configuration setup for rear parking sensors presence";
+CM_ SG_ 1925 Coding_WFSIPresence "Configuration setup for WFSI presence";
+CM_ SG_ 1925 Coding_VCUPresence "Configuration setup for VCU presence";
+CM_ SG_ 1925 Coding_TBMPresence "Configuration setup for TBM presence";
+CM_ SG_ 1925 Coding_SGWPresence "Configuration setup for SGW presence";
+CM_ SG_ 1925 Coding_PRNDPresence "Configuration setup for PRND presence";
+CM_ SG_ 1925 Coding_OBCPresence "Configuration setup for OBC presence";
+CM_ SG_ 1925 Coding_ICPresence "Configuration setup for IC presence";
+CM_ SG_ 1925 Coding_ESPPresence "Configuration setup for ESP presence";
+CM_ SG_ 1925 Coding_EPSPresence "Configuration setup for EPS presence";
+CM_ SG_ 1925 Coding_EMSPresence "Configuration setup for EMS presence";
+CM_ SG_ 1925 Coding_EDUPresence "Configuration setup for EDU presence";
+CM_ SG_ 1925 Coding_BMSPresence "Configuration setup for BMS presence";
+CM_ SG_ 1925 Coding_ExtECUPresence "Configuration setup for ExtECU presence";
+CM_ SG_ 1925 Coding_AVASPresence "Configuration setup for AVAS presence";
+CM_ SG_ 1925 Coding_ACUPresence "Configuration setup for ACU presence";
+CM_ SG_ 1925 Coding_ISAPresence "Configuration setup for ISA functionality presence";
+CM_ SG_ 1925 Coding_Market "Configuration setup for Market type for the vehicle";
+CM_ SG_ 1925 Coding_RVCPresence "Configuration setup for RVC presence";
+CM_ SG_ 1925 Coding_WheelsNum "Configuration setup for Wheels number";
+CM_ SG_ 1925 Coding_ATUPresence "Configuration setup for ATU presence";
+CM_ SG_ 1925 Coding_Tipper "Configuration setup for Tipper";
+CM_ SG_ 1925 Coding_EngineType "Configuration setup for Engine Type";
+CM_ SG_ 1925 Coding_AC "Configuration setup for AC presence";
+CM_ SG_ 1925 Coding_FrontFogLights "Configuration setup for front fog lights presence";
+CM_ SG_ 1925 Coding_WheelBase "Configuration setup for wheel base";
+CM_ SG_ 1925 Coding_FrontParkingSensors "Configuration setup for front parking sensors presence";
+CM_ SG_ 410 FAN_Sts "Status of FAN to other ECUs.";
+CM_ SG_ 410 PS2_Sts "Status of PS2 pressure sensor to other ECUs.";
+CM_ SG_ 410 PS1_Sts "Status of PS1 pressure sensor to other ECUs.";
+CM_ SG_ 410 TS4_Value "Coolant temperature at EM outlet?";
+CM_ SG_ 410 P3_Duty "Duty Cycle of CHP pump";
+CM_ SG_ 410 TV4_Sts "Status of REES bypass valve";
+CM_ SG_ 410 TV2_Sts "Status of REES chiller valve?";
+CM_ SG_ 410 TV1_Sts "Status of Cabin cooling on/off valve";
+CM_ SG_ 410 P1_Duty "Duty Cyle of CCP pump";
+CM_ SG_ 410 P2_Duty "Duty Cycle of CPP pump";
+CM_ SG_ 410 TS3_Value "Coolant temperature at radiator outlet (after CPP)";
+CM_ SG_ 410 TS2_Value "Coolant temperature at battery inlet";
+CM_ SG_ 410 TS1_Value "Refrigerant temperature at evaporator outlet";
+CM_ SG_ 410 TV3_Sts "Status of Radiator bypass valve";
+CM_ BO_ 1616 "This message is sent every key cycle";
+CM_ SG_ 1616 VIN_chars_3 "VIN characters";
+CM_ SG_ 1616 VIN_chars_2 "VIN characters";
+CM_ SG_ 1616 VIN_SeqNum "VIN identification sequence number";
+CM_ SG_ 1616 VIN_chars_1 "VIN characters";
+CM_ SG_ 385 KL15_EMS_Sts "Information about the KL15 signal status for ICE.";
+CM_ SG_ 385 StarterRelay_Sts "Information about the status of the Starter Relay, basing on the data provided to the EMS by the physical signals StRelayCmdH_Ph, StRelayCmdL_Ph and StRelayFb_Ph. Only the first 2 values are used.";
+CM_ SG_ 385 mc_EMS_Data01 "Counter for EMS_Data01 message";
+CM_ SG_ 385 CRC_EMS_Data01 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 385 PropulsionSys_Sts "The scope of this signal is to provide the information regarding the motor (for ICE vehicle) actual mode status.";
+CM_ SG_ 490 mc_EMS_MOTOR_TORQUE_CONTROL "Counter for EMS_MOTOR_TORQUE_CONTROL message";
+CM_ SG_ 490 CRC_EMS_MOTOR_TORQUE_CONTROL "Message CRC in accordance with SAE J1850";
+CM_ SG_ 490 MMotAct_Status "Fail Status for MMotAct signal";
+CM_ SG_ 490 MMotAct "Absolute Engine Torque";
+CM_ SG_ 490 EngineRPM_FailSts "Information regarding faults presence in the Engine Speed signal.";
+CM_ SG_ 490 EngineRPM "Engine Speed.";
+CM_ SG_ 392 CRC_VCU_SysControl "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 392 mc_VCU_SysControl "Message counter signal.";
+CM_ SG_ 392 ePWT_AvgCoolant_Temp "Average between MotorTemperature, InverterTemperature and OBC Temperature.";
+CM_ SG_ 392 HV_HVIL_Sts "HVIL Status";
+CM_ SG_ 392 KL15_VCU_Sts "Information about the KL15 signal status for BEV.";
+CM_ SG_ 392 AcceleratorPedal_Value "Accelerator Pedal expressed in percentage - Acquired and sent by VCU";
+CM_ SG_ 392 AcceleratorPedal_FailSts "Accelerator Pedal Fail Status - Acquired and sent by VCU";
+CM_ SG_ 528 VehicleMoving "Movement intended as direction of the movement of the total vehicle.";
+CM_ SG_ 528 VehicleSpeed_FailSts "Faults presence regarding the Vehicle Speed signal.";
+CM_ SG_ 528 VehicleSpeed "Vehicle Speed";
+CM_ SG_ 528 BrakePedalActuated "Actuation of brake pedal (pressed or not pressed).";
+CM_ SG_ 528 RollBenchMode_Sts "Inforrmation of vehicle over the end of line bench. The status is automatically detected by ESP or triggered through diagnostic tool.";
+CM_ SG_ 528 MasterCylinderPressure "Pressure acquired on Master Cylinder";
+CM_ SG_ 528 EstimatedBrakePedalPos_Value "Position of brake pedal (0%-100%). The value is estimated basing on master cylinder pressure and brake pedal switch status.";
+CM_ SG_ 528 mc_ESP_Data02 "Counter for ESP_Data02 message";
+CM_ SG_ 528 CRC_ESP_Data02 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 544 BAsc "When this signal is active, motor is supposed to follow ESP Motor Torque decrease (MMotRedFast/MMotRedSlow).";
+CM_ SG_ 544 BMsr "When this signal is active, motor is supposed to follow ESP Motor Torque increase (MMotInc).";
+CM_ SG_ 544 MMotRedSlow "Slow motor torque decrease (for deceleration of the powertrain) requested by ESP";
+CM_ SG_ 544 MMotRedFast "Fast motor torque decrease (for deceleration of the powertrain) requested by ESP";
+CM_ SG_ 544 MMotInc "Motor torque increase (for acceleration of the powertrain) requested by ESP.";
+CM_ SG_ 544 mc_ESP_Data09 "Counter for ESP_Data03 message";
+CM_ SG_ 544 CRC_ESP_Data09 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 529 CRC_ESP_Data03 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 529 mc_ESP_Data03 "Counter for ESP_Data03 message";
+CM_ SG_ 529 Ax_LongAcc "Longitudinal acceleration of the vehicle (positive for acceleration and negative for deceleration), provided by the Inertial Measurement Unit (IMU), acquired by the ESP.";
+CM_ SG_ 529 Ay_LatAcc "Lateral acceleration of the vehicle (negative = Left and positive = Right), provided by the Inertial Measurement Unit (IMU), acquired by the ESP.";
+CM_ SG_ 529 YawRate "Yaw rate of the vehicle (negative = Left and positive = Right), provided by the Inertial Measurement Unit (IMU), acquired by the ESP.";
+CM_ SG_ 529 Slope "Vehicle Slope value.";
+CM_ SG_ 529 Ax_LongAcc_FailSts "Status of the longitudinal acceleration.";
+CM_ SG_ 529 Ay_LatAcc_FailSts "Status of the lateral acceleration.";
+CM_ SG_ 529 YawRate_FailSts "Fail status of the yaw rate.";
+CM_ SG_ 1024 LogisticMode_Sts "Status of the logistic mode.";
+CM_ SG_ 1024 Doors_Sts "Doors Status";
+CM_ SG_ 1024 mc_BCU_Data03 "Counter for BCU_Data03 message";
+CM_ SG_ 1024 CRC_BCU_Data03 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 1536 Vehicle_Sts "Status of the vehicle taking into account the propulsion system and the keypawl";
+CM_ SG_ 1536 KL15On_Counter "Counter of the Ignition On event sent by the BCU on the xPWT CAN. This signal is the MASTER of the ignition on counting. The value of this counter is incremented every time that the KL15 value switch from OFF to ON.";
+CM_ SG_ 1536 KL15_BCU_Sts "Information about the KL15 signal status for ICE.";
+CM_ SG_ 1536 KeyPawlPos_Sts "Key Pawl Position Status: modified with respect to NP6 2020";
+CM_ SG_ 1536 CRC_BCU_Data01 "Message CRC in accordance with SAE J1850";
+CM_ SG_ 1536 mc_BCU_Data01 "Counter for BCU_Data01 message";
+BA_DEF_ SG_  "SR_WFSI" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_VCU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_SGW" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_PRND" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_PCW" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_OBC" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_IC" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_FCA" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_ESP" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_EPS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_EMS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_EDU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_DMC" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_BMS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_BCU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_BBU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_AVAS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_ATU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_ACU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "GenSigSpontaneousTrigger" ENUM  "FALSE","TRUE";
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 1215752192;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","spontaneous","cyclicIfActive","spontaneousWithDelay","cyclicAndSpontaneous","cyclicAndSpontaneousWithDelay","spontaneousWithRepetition","cyclicIfActiveAndSpontaneousWD","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 2000;
+BA_DEF_DEF_  "SR_WFSI" "ND";
+BA_DEF_DEF_  "SR_VCU" "ND";
+BA_DEF_DEF_  "SR_SGW" "ND";
+BA_DEF_DEF_  "SR_PRND" "ND";
+BA_DEF_DEF_  "SR_PCW" "ND";
+BA_DEF_DEF_  "SR_OBC" "ND";
+BA_DEF_DEF_  "SR_IC" "ND";
+BA_DEF_DEF_  "SR_FCA" "ND";
+BA_DEF_DEF_  "SR_ESP" "ND";
+BA_DEF_DEF_  "SR_EPS" "ND";
+BA_DEF_DEF_  "SR_EMS" "ND";
+BA_DEF_DEF_  "SR_EDU" "ND";
+BA_DEF_DEF_  "SR_DMC" "ND";
+BA_DEF_DEF_  "SR_BMS" "ND";
+BA_DEF_DEF_  "SR_BCU" "ND";
+BA_DEF_DEF_  "SR_BBU" "ND";
+BA_DEF_DEF_  "SR_AVAS" "ND";
+BA_DEF_DEF_  "SR_ATU" "ND";
+BA_DEF_DEF_  "SR_ACU" "ND";
+BA_DEF_DEF_  "SR" "ND";
+BA_DEF_DEF_  "GenSigSpontaneousTrigger" "FALSE";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgSendType" "cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 100;
+BA_ "GenMsgSendType" BO_ 1280 4;
+BA_ "GenMsgCycleTime" BO_ 420 10;
+BA_ "GenMsgCycleTime" BO_ 400 10;
+BA_ "GenMsgCycleTime" BO_ 416 10;
+BA_ "GenMsgCycleTime" BO_ 422 100;
+BA_ "GenMsgCycleTime" BO_ 418 10;
+BA_ "GenMsgCycleTime" BO_ 426 100;
+BA_ "GenMsgSendType" BO_ 1473 0;
+BA_ "GenMsgCycleTime" BO_ 1473 100;
+BA_ "GenMsgCycleTime" BO_ 645 100;
+BA_ "GenMsgCycleTime" BO_ 657 100;
+BA_ "GenMsgCycleTime" BO_ 656 100;
+BA_ "GenMsgCycleTime" BO_ 641 20;
+BA_ "GenMsgCycleTime" BO_ 424 100;
+BA_ "GenMsgCycleTime" BO_ 402 10;
+BA_ "GenMsgCycleTime" BO_ 404 100;
+BA_ "GenMsgCycleTime" BO_ 388 10;
+BA_ "GenMsgSendType" BO_ 646 0;
+BA_ "GenMsgCycleTime" BO_ 646 100;
+BA_ "GenMsgSendType" BO_ 653 0;
+BA_ "GenMsgCycleTime" BO_ 653 500;
+BA_ "GenMsgSendType" BO_ 652 0;
+BA_ "GenMsgCycleTime" BO_ 652 500;
+BA_ "GenMsgSendType" BO_ 658 0;
+BA_ "GenMsgCycleTime" BO_ 658 500;
+BA_ "GenMsgSendType" BO_ 650 0;
+BA_ "GenMsgCycleTime" BO_ 650 500;
+BA_ "GenMsgSendType" BO_ 649 0;
+BA_ "GenMsgCycleTime" BO_ 649 100;
+BA_ "GenMsgSendType" BO_ 643 0;
+BA_ "GenMsgCycleTime" BO_ 643 20;
+BA_ "GenMsgSendType" BO_ 647 0;
+BA_ "GenMsgCycleTime" BO_ 647 100;
+BA_ "GenMsgSendType" BO_ 640 0;
+BA_ "GenMsgCycleTime" BO_ 640 10;
+BA_ "GenMsgSendType" BO_ 648 0;
+BA_ "GenMsgCycleTime" BO_ 648 100;
+BA_ "GenMsgSendType" BO_ 651 0;
+BA_ "GenMsgCycleTime" BO_ 651 500;
+BA_ "GenMsgSendType" BO_ 1475 0;
+BA_ "GenMsgCycleTime" BO_ 1475 20;
+BA_ "GenMsgCycleTime" BO_ 1474 100;
+BA_ "GenMsgSendType" BO_ 1474 0;
+BA_ "GenMsgCycleTime" BO_ 1472 100;
+BA_ "GenMsgSendType" BO_ 1472 0;
+BA_ "GenMsgCycleTime" BO_ 390 100;
+BA_ "GenMsgSendType" BO_ 390 0;
+BA_ "GenMsgSendType" BO_ 1488 0;
+BA_ "GenMsgCycleTime" BO_ 1488 10;
+BA_ "GenMsgSendType" BO_ 1489 0;
+BA_ "GenMsgCycleTime" BO_ 1489 100;
+BA_ "GenMsgSendType" BO_ 386 0;
+BA_ "GenMsgCycleTime" BO_ 386 10;
+BA_ "GenMsgSendType" BO_ 642 0;
+BA_ "GenMsgCycleTime" BO_ 642 20;
+BA_ "GenMsgSendType" BO_ 644 0;
+BA_ "GenMsgCycleTime" BO_ 644 100;
+BA_ "GenMsgSendType" BO_ 384 0;
+BA_ "GenMsgCycleTime" BO_ 384 20;
+BA_ "GenMsgCycleTime" BO_ 144 50;
+BA_ "GenMsgSendType" BO_ 144 2;
+BA_ "GenMsgCycleTime" BO_ 56 0;
+BA_ "GenMsgSendType" BO_ 56 1;
+BA_ "GenMsgCycleTime" BO_ 50 0;
+BA_ "GenMsgSendType" BO_ 50 1;
+BA_ "GenMsgSendType" BO_ 2564554481 8;
+BA_ "GenMsgCycleTime" BO_ 2564554481 0;
+BA_ "GenMsgCycleTime" BO_ 258 10;
+BA_ "GenMsgSendType" BO_ 258 4;
+BA_ "GenMsgCycleTime" BO_ 2564485504 0;
+BA_ "GenMsgSendType" BO_ 2564485504 8;
+BA_ "GenMsgCycleTime" BO_ 2564485456 0;
+BA_ "GenMsgSendType" BO_ 2564485456 8;
+BA_ "GenMsgCycleTime" BO_ 2564485442 0;
+BA_ "GenMsgSendType" BO_ 2564485442 8;
+BA_ "GenMsgCycleTime" BO_ 2564485444 0;
+BA_ "GenMsgSendType" BO_ 2564485444 8;
+BA_ "GenMsgCycleTime" BO_ 2564456689 0;
+BA_ "GenMsgSendType" BO_ 2564456689 8;
+BA_ "GenMsgCycleTime" BO_ 2564444401 0;
+BA_ "GenMsgSendType" BO_ 2564444401 8;
+BA_ "GenMsgCycleTime" BO_ 2564440817 0;
+BA_ "GenMsgSendType" BO_ 2564440817 8;
+BA_ "GenMsgCycleTime" BO_ 2564441329 0;
+BA_ "GenMsgSendType" BO_ 2564441329 8;
+BA_ "GenMsgSendType" BO_ 1584 6;
+BA_ "GenMsgSendType" BO_ 1008 6;
+BA_ "GenMsgSendType" BO_ 752 6;
+BA_ "GenMsgCycleTime" BO_ 492 20;
+BA_ "GenMsgCycleTime" BO_ 496 10;
+BA_ "GenMsgCycleTime" BO_ 500 10;
+BA_ "GenMsgCycleTime" BO_ 499 10;
+BA_ "GenMsgCycleTime" BO_ 498 10;
+BA_ "GenMsgCycleTime" BO_ 497 10;
+BA_ "GenMsgCycleTime" BO_ 491 20;
+BA_ "GenMsgCycleTime" BO_ 1408 500;
+BA_ "GenMsgCycleTime" BO_ 273 10;
+BA_ "GenMsgCycleTime" BO_ 1925 50;
+BA_ "GenMsgSendType" BO_ 1925 2;
+BA_ "GenMsgCycleTime" BO_ 410 500;
+BA_ "GenMsgCycleTime" BO_ 385 10;
+BA_ "GenMsgCycleTime" BO_ 490 20;
+BA_ "GenMsgCycleTime" BO_ 392 10;
+BA_ "GenMsgSendType" BO_ 392 4;
+BA_ "GenMsgCycleTime" BO_ 528 20;
+BA_ "GenMsgCycleTime" BO_ 544 20;
+BA_ "GenMsgCycleTime" BO_ 529 20;
+BA_ "GenMsgSendType" BO_ 1024 4;
+BA_ "GenMsgCycleTime" BO_ 1536 10;
+BA_ "GenMsgSendType" BO_ 1536 0;
+BA_ "GenSigStartValue" SG_ 412 mc_VCU_CCSTemp 0;
+BA_ "GenSigStartValue" SG_ 412 CRC_VCU_CCSTemp 0;
+BA_ "GenSigStartValue" SG_ 414 mc_VCU_CCSInfo 0;
+BA_ "GenSigStartValue" SG_ 414 CRC_VCU_CCSInfo 0;
+BA_ "GenSigStartValue" SG_ 414 Proximity_Vlt 100;
+BA_ "GenSigStartValue" SG_ 414 ControlPilot_Vlt 0;
+BA_ "GenSigStartValue" SG_ 420 INV_TorqueOutput 2048;
+BA_ "GenSigStartValue" SG_ 400 VCU_INV_LimMinTorque 2048;
+BA_ "GenSigStartValue" SG_ 400 VCU_INV_LimMaxTorque 2048;
+BA_ "GenSigStartValue" SG_ 400 VCU_INV_MinCurrHV 4095;
+BA_ "GenSigStartValue" SG_ 400 VCU_INV_MaxCurrHV 4095;
+BA_ "GenSigStartValue" SG_ 400 mc_VCU_EDULimits 0;
+BA_ "GenSigStartValue" SG_ 416 mc_EDU_Power 0;
+BA_ "GenSigStartValue" SG_ 416 INV_CurrentHV 8190;
+BA_ "SR" SG_ 422 PropulsionSys_Sts 2;
+BA_ "GenSigStartValue" SG_ 1473 mc_OBC_AcCurrents 0;
+BA_ "GenSigStartValue" SG_ 1473 CRC_OBC_AcCurrents 0;
+BA_ "GenSigStartValue" SG_ 1473 CHRGR_iAcAct3 2046;
+BA_ "GenSigStartValue" SG_ 1473 CHRGR_iAcAct2 2046;
+BA_ "GenSigStartValue" SG_ 1473 CHRGR_iAcAct 2046;
+BA_ "GenSigStartValue" SG_ 424 mc_EDU_WarnInfo 0;
+BA_ "GenSigStartValue" SG_ 402 mc_VCU_EDUCurrents 0;
+BA_ "GenSigStartValue" SG_ 402 VCU_INV_IdcMaxLongTerm 4095;
+BA_ "GenSigStartValue" SG_ 402 VCU_INV_IdcMaxShortTerm 4095;
+BA_ "GenSigStartValue" SG_ 402 VCU_INV_IdcMinLongTerm 4095;
+BA_ "GenSigStartValue" SG_ 402 VCU_INV_IdcMinShortTerm 4095;
+BA_ "GenSigStartValue" SG_ 404 mc_VCU_EDUCooling 0;
+BA_ "GenSigSpontaneousTrigger" SG_ 388 ActiveDischarge_Req 1;
+BA_ "GenSigStartValue" SG_ 388 mc_VCU_EDUControl 0;
+BA_ "GenSigStartValue" SG_ 388 VCU_INV_DesiredTorque 2048;
+BA_ "GenSigStartValue" SG_ 649 BMS_CrashFeedback 0;
+BA_ "GenSigStartValue" SG_ 649 BMS_AlarmIsoLossDouble 0;
+BA_ "SR" SG_ 643 BMS_Heating_Sts 2;
+BA_ "GenSigStartValue" SG_ 643 BMS_DeratingTempMax 0;
+BA_ "GenSigStartValue" SG_ 643 BMS_DeratingTempMin 0;
+BA_ "GenSigStartValue" SG_ 643 BMS_LimitedPower_Sts 0;
+BA_ "GenSigStartValue" SG_ 643 BMS_InstantEmerOpen_Req 0;
+BA_ "GenSigStartValue" SG_ 643 BMS_DelayedEmerOpen_Req 0;
+BA_ "GenSigStartValue" SG_ 643 BMS_State 7;
+BA_ "GenSigStartValue" SG_ 643 BMS_BatteryAvgTemp 0;
+BA_ "GenSigStartValue" SG_ 647 BMS_IsoMeasurement_Sts 0;
+BA_ "GenSigStartValue" SG_ 640 BMS_DcRelayWelded_Sts 0;
+BA_ "GenSigStartValue" SG_ 640 BMS_DcRelayStuckOpen_Sts 0;
+BA_ "GenSigStartValue" SG_ 640 BMS_HvContactors_Sts 6;
+BA_ "GenSigStartValue" SG_ 640 BMS_HvRelayStuckOpen_Sts 0;
+BA_ "GenSigStartValue" SG_ 640 BMS_HvRelayWelded_Sts 0;
+BA_ "GenSigStartValue" SG_ 648 BMS_FastChargeRemNum 127;
+BA_ "GenSigStartValue" SG_ 1475 DC1_stT30c 2;
+BA_ "GenSigStartValue" SG_ 1475 CRC_OBC_WarnInfo 0;
+BA_ "GenSigStartValue" SG_ 1475 mc_OBC_WarnInfo 0;
+BA_ "GenSigStartValue" SG_ 1474 CHRGR_uAcActPha3 4094;
+BA_ "GenSigStartValue" SG_ 1474 CHRGR_uAcActPha2 4094;
+BA_ "GenSigStartValue" SG_ 1474 CHRGR_uAcActPha1 4094;
+BA_ "GenSigStartValue" SG_ 1474 mc_OBC_AcVoltages 0;
+BA_ "GenSigStartValue" SG_ 1474 CRC_OBC_AcVoltages 0;
+BA_ "GenSigStartValue" SG_ 1472 CHRGR_iDcAct 8190;
+BA_ "GenSigStartValue" SG_ 1472 CHRGR_uDcAct 4094;
+BA_ "GenSigStartValue" SG_ 1472 CHRGR_stOperAct 0;
+BA_ "GenSigStartValue" SG_ 1472 mc_OBC_Status 0;
+BA_ "GenSigStartValue" SG_ 1472 CRC_OBC_Status 0;
+BA_ "GenSigStartValue" SG_ 390 VCU_iAcMaxAllwdChrgr 2046;
+BA_ "GenSigStartValue" SG_ 390 VCU_iDcLimChrgr 8190;
+BA_ "GenSigStartValue" SG_ 390 VCU_uDcReqChrgr 4094;
+BA_ "GenSigStartValue" SG_ 390 VCU_OBCMode_Cmd 0;
+BA_ "GenSigStartValue" SG_ 390 mc_VCU_OBCControl 0;
+BA_ "GenSigStartValue" SG_ 390 CRC_VCU_OBCControl 0;
+BA_ "GenSigStartValue" SG_ 1488 CRC_DCDC_Status 0;
+BA_ "GenSigStartValue" SG_ 1488 mc_DCDC_Status 0;
+BA_ "GenSigStartValue" SG_ 1488 DC1_VoltageHV 1022;
+BA_ "GenSigStartValue" SG_ 1488 DC1_CurrentLV 2046;
+BA_ "GenSigStartValue" SG_ 1488 DC1_Mode 6;
+BA_ "GenSigStartValue" SG_ 1488 DC1_CurrentHV 2046;
+BA_ "GenSigStartValue" SG_ 1488 DC1_Temp 254;
+BA_ "GenSigStartValue" SG_ 1488 DC1_VoltageLV 510;
+BA_ "GenSigStartValue" SG_ 1489 CRC_DCDC_Setpoint 0;
+BA_ "GenSigStartValue" SG_ 1489 mc_DCDC_Setpoint 0;
+BA_ "GenSigStartValue" SG_ 1489 DC1_MaxCurrentHV 0;
+BA_ "GenSigStartValue" SG_ 1489 DC1_MaxCurrentLV 1023;
+BA_ "GenSigStartValue" SG_ 1489 DC1_SetPointVoltageHV 0;
+BA_ "GenSigStartValue" SG_ 1489 DC1_SetPointVoltageLV 0;
+BA_ "GenSigStartValue" SG_ 1489 DC1_Utilization 0;
+BA_ "GenSigStartValue" SG_ 386 CRC_VCU_DCDCControl 0;
+BA_ "GenSigStartValue" SG_ 386 mc_VCU_DCDCControl 0;
+BA_ "GenSigStartValue" SG_ 386 VCU_VoltageDemandHV 1022;
+BA_ "GenSigStartValue" SG_ 386 VCU_CurrentLimitHV 2046;
+BA_ "GenSigStartValue" SG_ 386 VCU_CurrentLimitLV 2046;
+BA_ "GenSigStartValue" SG_ 386 VCU_VoltageDemandLV 510;
+BA_ "GenSigStartValue" SG_ 386 VCU_DCDCMode_Cmd 0;
+BA_ "GenSigStartValue" SG_ 642 BMS_RatedTotalEnergy 0;
+BA_ "GenSigStartValue" SG_ 642 BMS_RemainingEnergy 0;
+BA_ "GenSigStartValue" SG_ 642 BMS_BatterySoC 0;
+BA_ "GenSigStartValue" SG_ 644 BMS_Power_ChargeLongTerm 0;
+BA_ "GenSigStartValue" SG_ 644 BMS_Power_DischargeLongTerm 0;
+BA_ "GenSigStartValue" SG_ 644 BMS_Power_ChargeShortTerm 0;
+BA_ "GenSigStartValue" SG_ 644 BMS_Power_DischargeShortTerm 0;
+BA_ "GenSigStartValue" SG_ 384 VCU_CoolDownReq 0;
+BA_ "GenSigStartValue" SG_ 384 VCU_BMSMode_Cmd 7;
+BA_ "GenSigStartValue" SG_ 384 VCU_IsoMeasurement_Cmd 0;
+BA_ "SR" SG_ 2564554481 N_PDU 1;
+BA_ "SR" SG_ 1282 mc_IC_Data03 1;
+BA_ "SR" SG_ 1282 CRC_IC_Data03 1;
+BA_ "SR" SG_ 258 mc_ACU_Crash 1;
+BA_ "SR" SG_ 258 CRC_ACU_Crash 1;
+BA_ "SR" SG_ 2564485504 N_PDU 1;
+BA_ "SR" SG_ 2564485456 N_PDU 1;
+BA_ "SR" SG_ 2564485442 N_PDU 1;
+BA_ "SR" SG_ 2564485444 N_PDU 1;
+BA_ "SR" SG_ 2564456689 N_PDU 1;
+BA_ "SR" SG_ 2564444401 N_PDU 1;
+BA_ "SR" SG_ 2564440817 N_PDU 1;
+BA_ "SR" SG_ 2564441329 N_PDU 1;
+BA_ "SR" SG_ 1584 NWM_WkUp_BCU_Rx 1;
+BA_ "SR" SG_ 1584 NWM_WkUp_BCU_Reason 1;
+BA_ "SR" SG_ 1584 NWM_WkUp_BCU_NodeAddress 1;
+BA_ "SR" SG_ 1584 NWM_Sleep_BCU_Req 1;
+BA_ "SR" SG_ 1008 NWM_WkUp_VCU_Req 1;
+BA_ "SR" SG_ 1008 NWM_WkUp_VCU_Reason 1;
+BA_ "SR" SG_ 1008 NWM_WkUp_VCU_NodeAddress 1;
+BA_ "SR" SG_ 752 NWM_WkUp_BMS_Req 1;
+BA_ "SR" SG_ 752 NWM_WkUp_BMS_Reason 1;
+BA_ "SR" SG_ 752 NWM_WkUp_BMS_NodeAddress 1;
+BA_ "SR" SG_ 492 AcceleratorPedal_FailSts 2;
+BA_ "GenSigSpontaneousTrigger" SG_ 492 MDriverRequest 1;
+BA_ "SR" SG_ 492 mc_EMS_DRIVER_TORQUE_CONTROL 1;
+BA_ "SR" SG_ 492 CRC_EMS_DRIVER_TORQUE_CONTROL 1;
+BA_ "SR" SG_ 492 AcceleratorPedal_Value 2;
+BA_ "SR" SG_ 1561 ClutchSwitchState 2;
+BA_ "SR" SG_ 1561 ReverseGearSwitch 2;
+BA_ "SR" SG_ 1561 EMSService_Sts 2;
+BA_ "SR" SG_ 1561 MILLamp_Sts 2;
+BA_ "SR" SG_ 1561 mc_EMS_STATUS_1 1;
+BA_ "SR" SG_ 1561 CRC_EMS_STATUS_1 1;
+BA_ "SR" SG_ 496 mc_EMS_MOTOR_DATA5 1;
+BA_ "SR" SG_ 496 CRC_EMS_MOTOR_DATA5 1;
+BA_ "SR" SG_ 500 mc_EMS_MOTOR_DATA1 1;
+BA_ "SR" SG_ 500 CRC_EMS_MOTOR_DATA1 1;
+BA_ "SR" SG_ 499 mc_EMS_MOTOR_DATA2 1;
+BA_ "SR" SG_ 499 CRC_EMS_MOTOR_DATA2 1;
+BA_ "SR" SG_ 498 CRC_EMS_MOTOR_DATA3 1;
+BA_ "SR" SG_ 498 mc_EMS_MOTOR_DATA3 1;
+BA_ "SR" SG_ 497 mc_EMS_MOTOR_DATA4 1;
+BA_ "SR" SG_ 497 CRC_EMS_MOTOR_DATA4 1;
+BA_ "SR" SG_ 491 mc_EMS_MOTOR_TORQUE_AVAILABLE 1;
+BA_ "SR" SG_ 491 CRC_EMS_MOTOR_TORQUE_AVAILABLE 1;
+BA_ "GenSigStartValue" SG_ 1408 TimeDate_Year 0;
+BA_ "GenSigStartValue" SG_ 1408 TimeDate_Month 1;
+BA_ "GenSigStartValue" SG_ 1408 TimeDate_Day 1;
+BA_ "SR" SG_ 274 MSGCNT_BRC_REQUEST2 1;
+BA_ "SR" SG_ 274 CheckSum_BRC_REQUEST2 1;
+BA_ "SR" SG_ 273 MSGCNT_BRC_REQUEST1 1;
+BA_ "SR" SG_ 273 CheckSum_BRC_REQUEST1 1;
+BA_ "SR" SG_ 273 AltFuelFault_D_Stat 2;
+BA_ "SR" SG_ 273 AltFuelOpMde_D_Stat 2;
+BA_ "SR" SG_ 385 KL15_EMS_Sts 2;
+BA_ "SR" SG_ 385 StarterRelay_Sts 2;
+BA_ "SR" SG_ 385 mc_EMS_Data01 1;
+BA_ "SR" SG_ 385 CRC_EMS_Data01 1;
+BA_ "SR" SG_ 385 PropulsionSys_Sts 2;
+BA_ "SR" SG_ 490 mc_EMS_MOTOR_TORQUE_CONTROL 1;
+BA_ "SR" SG_ 490 CRC_EMS_MOTOR_TORQUE_CONTROL 1;
+BA_ "GenSigStartValue" SG_ 392 CRC_VCU_SysControl 0;
+BA_ "GenSigStartValue" SG_ 392 mc_VCU_SysControl 0;
+BA_ "SR" SG_ 392 ePWT_AvgCoolant_Temp 2;
+BA_ "SR" SG_ 392 HV_HVIL_Sts 2;
+BA_ "SR" SG_ 392 KL15_VCU_Sts 2;
+BA_ "SR" SG_ 392 AcceleratorPedal_Value 2;
+BA_ "SR" SG_ 392 AcceleratorPedal_FailSts 2;
+BA_ "SR" SG_ 528 VehicleMoving 2;
+BA_ "SR" SG_ 528 VehicleSpeed_FailSts 2;
+BA_ "SR" SG_ 528 VehicleSpeed 2;
+BA_ "SR" SG_ 528 BrakePedalActuated 2;
+BA_ "SR" SG_ 528 RollBenchMode_Sts 2;
+BA_ "SR" SG_ 528 MasterCylinderPressure 2;
+BA_ "SR" SG_ 528 EstimatedBrakePedalPos_Value 2;
+BA_ "SR" SG_ 528 mc_ESP_Data02 1;
+BA_ "SR" SG_ 528 CRC_ESP_Data02 1;
+BA_ "SR" SG_ 544 mc_ESP_Data09 1;
+BA_ "SR" SG_ 544 CRC_ESP_Data09 1;
+BA_ "SR" SG_ 1024 mc_BCU_Data03 1;
+BA_ "SR" SG_ 1024 CRC_BCU_Data03 1;
+BA_ "SR" SG_ 1536 Vehicle_Sts 2;
+BA_ "SR" SG_ 1536 KL15_BCU_Sts 2;
+BA_ "SR" SG_ 1536 KeyPawlPos_Sts 2;
+BA_ "SR" SG_ 1536 CRC_BCU_Data01 1;
+BA_ "SR" SG_ 1536 mc_BCU_Data01 1;
+VAL_ 1280 Heat_DeltaTime_WkUp 1 "Wkup" 0 "Default" ;
+VAL_ 1280 Sched_Set 1 "Active - TRUE - ON - SET" 0 "Not Active - FALSE - OFF - RESET" ;
+VAL_ 1280 Bypass_Sched_Charge 1 "Bypass scheduled charge" 0 "Do not bypass scheduled charge" ;
+VAL_ 1280 WakeUpSchedule 1 "Wkup" 0 "Default" ;
+VAL_ 414 CCS_PlugLock_Sts 1 "Locked" 0 "Unlocked" ;
+VAL_ 414 CCS_LED_Sts 4 "Red" 3 "Green" 2 "Blue" 1 "BLINK Blue" 0 "OFF" ;
+VAL_ 414 SLAC_Sts 2 "Fault" 1 "OK" 0 "EVSE_Not_Found" ;
+VAL_ 414 Proximity_Sts 3 "Proximity Hi" 2 "Proximity Lo" 1 "Proximity In" 0 "Proximity Out" ;
+VAL_ 414 S2_Sts 1 "Close" 0 "Open" ;
+VAL_ 414 CCS_PushButton_Sts 1 "STOP" 0 "Default" ;
+VAL_ 414 ControlPilot_Sts 3 "VOOR" 2 "HW_FAULT" 1 "CP_DET" 0 "No_EVSE" ;
+VAL_ 414 CCS_Plug_Sts 3 "Fault" 2 "Reserved" 1 "Connected" 0 "Disconnected" ;
+VAL_ 420 INV_TorqueRaw 0 "TBD" ;
+VAL_ 420 INV_TorqueOutput 0 "TBD" ;
+VAL_ 400 VCU_INV_LimMinTorque 0 "TBD" ;
+VAL_ 400 VCU_INV_LimMaxTorque 0 "TBD" ;
+VAL_ 400 VCU_INV_MinCurrHV 0 "TBD" ;
+VAL_ 400 VCU_INV_MaxCurrHV 0 "TBD" ;
+VAL_ 416 INV_VoltageT30 0 "TBD" ;
+VAL_ 416 INV_VoltageHV 0 "TBD" ;
+VAL_ 416 INV_CurrentHV 0 "TBD" ;
+VAL_ 422 GenericWL_Sts 1 "ON" 0 "OFF" ;
+VAL_ 422 EM_ResolverLearning_Sts 0 "TBD" ;
+VAL_ 422 ActiveDischarge_Sts 2 "ENDED" 1 "ONGOING" 0 "OFF" ;
+VAL_ 422 PropulsionSys_Sts 7 "Not Available" 6 "Reserved" 5 "Fault" 4 "Reserved" 3 "Reserved" 2 "ON" 1 "Cranking (only ICE)" 0 "OFF" ;
+VAL_ 422 INV_State 31 "Emergency Shutoff" 30 "Failure / Error" 29 "OFF" 28 "Post-run / Shutdown" 27 "Discharge" 26 "Reserved" 25 "Reserved" 24 "Reserved" 23 "Reserved" 22 "Reserved" 21 "Active Short Circuit" 20 "Freewheeling" 19 "Reserved" 18 "Reserved" 17 "Reserved" 16 "Reserved" 15 "HillHold" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Idle control" 8 "Current control" 7 "Voltage control" 6 "Offset calibration" 5 "Speed control mode" 4 "Torque control mode" 3 "Engine start mode" 2 "Standby / Idle" 1 "Pre-run" 0 "Init" ;
+VAL_ 422 INV_Speed 0 "TBD" ;
+VAL_ 422 INV_ParkLock_Sts 7 "FailureParkLockUnknown" 6 "FailureParkLockEngagaed" 5 "FailureParkLockDisengaged" 4 "Disengaging" 3 "Engaging" 2 "LockedPosReached" 1 "UnlockPosReached" 0 "Init" ;
+VAL_ 422 INV_MinCoolantFlow 0 "TBD" ;
+VAL_ 422 INV_InterlockStatus 0 "TBD" ;
+VAL_ 418 INV_TorqueMin 0 "TBD" ;
+VAL_ 418 INV_TorqueMax 0 "TBD" ;
+VAL_ 426 INV_Coolant_Temp 0 "TBD" ;
+VAL_ 426 INV_Stator_Temp 0 "TBD" ;
+VAL_ 426 INV_Rotor_Temp 0 "TBD" ;
+VAL_ 426 INV_Inverter_Temp 0 "TBD" ;
+VAL_ 1473 CHRGR_iAcAct3 2046 "Init" 2047 "Error" ;
+VAL_ 1473 CHRGR_iAcAct2 2046 "Init" 2047 "Error" ;
+VAL_ 1473 CHRGR_iAcAct 2046 "Init" 2047 "Error" ;
+VAL_ 424 INV_EmergencyShutoffRequest 0 "TBD" ;
+VAL_ 424 INV_bDernOvrIdc 0 "TBD" ;
+VAL_ 424 INV_bDernOvrUdc 0 "TBD" ;
+VAL_ 424 INV_bDernTemp_Emachine 0 "TBD" ;
+VAL_ 424 INV_bDernTemp_Inverter 0 "TBD" ;
+VAL_ 424 INV_bDernTrqMax 0 "TBD" ;
+VAL_ 424 INV_bDernTrqMin 0 "TBD" ;
+VAL_ 424 INV_bDernUndrIdc 0 "TBD" ;
+VAL_ 424 INV_bDernUndrUdc 0 "TBD" ;
+VAL_ 424 INV_bDiagReq 0 "TBD" ;
+VAL_ 424 INV_bReadyHV 0 "TBD" ;
+VAL_ 424 INV_ElecTractionCtrlLight 0 "TBD" ;
+VAL_ 424 INV_EVServiceLight 0 "TBD" ;
+VAL_ 424 INV_MIL_ActReq 3 "Reserved" 2 "Lamp ON" 1 "Lamp Blink" 0 "Lamp OFF" ;
+VAL_ 402 VCU_INV_IdcMaxLongTerm 0 "TBD" ;
+VAL_ 402 VCU_INV_IdcMaxShortTerm 0 "TBD" ;
+VAL_ 402 VCU_INV_IdcMinLongTerm 0 "TBD" ;
+VAL_ 402 VCU_INV_IdcMinShortTerm 0 "TBD" ;
+VAL_ 404 VCU_INV_CoolantFlow 0 "TBD" ;
+VAL_ 404 VCU_INV_TCooltCirc 0 "TBD" ;
+VAL_ 388 ActiveDischarge_Req 1 "Activation request" 0 "De-activation request" ;
+VAL_ 388 VCU_INV_ParkLockUnlockRequest 3 "Reserved" 2 "Unlock System" 1 "Lock System" 0 "No Request" ;
+VAL_ 388 VCU_INVMode_Cmd 31 "Emergency Shutoff" 30 "Failure / Error" 29 "OFF" 28 "Post-run / Shutdown" 27 "Discharge" 26 "Reserved" 25 "Reserved" 24 "Reserved" 23 "Reserved" 22 "Reserved" 21 "Active Short Circuit" 20 "Freewheeling" 19 "Reserved" 18 "Reserved" 17 "Reserved" 16 "Reserved" 15 "HillHold" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Idle control" 8 "Current control" 7 "Voltage control" 6 "Offset calibration" 5 "Speed control mode" 4 "Torque control mode" 3 "Engine start mode" 2 "Standby / Idle" 1 "Pre-run" 0 "Init" ;
+VAL_ 388 VCU_INV_SurgeDamperState 0 "TBD" ;
+VAL_ 650 BMS_BatteryCoolType 3 "Reserved" 2 "Reserved" 1 "Liquid Cooling" 0 "Natural Cooling" ;
+VAL_ 650 BMS_BattCommProt 0 "TBD" ;
+VAL_ 649 BMS_CrashFeedback 1 "Crash" 0 "No Crash" ;
+VAL_ 649 BMS_DcChargingVoltage_FailSts 1 "Not Valid" 0 "Valid" ;
+VAL_ 649 BMS_DcChargingCurr_FailSts 1 "Not Valid" 0 "Valid" ;
+VAL_ 649 BMS_FaultLevel 15 "Reserved" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Level 8" 7 "Level 7" 6 "Level 6" 5 "Level 5" 4 "Level 4" 0 "No Fault" 1 "Level 1" 2 "Level 2" 3 "Level 3" ;
+VAL_ 649 BMS_AlarmIsoLossDouble 0 "Normal" 1 "Alarm" ;
+VAL_ 649 HVIL_System_Sts 0 "Open" 1 "Closed" ;
+VAL_ 649 BMS_AlarmDeltaTemp 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmOverTemp 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmPackOV 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmPackUV 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmPackLowSoC 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmCellOV 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmCellUV 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmIsoLossSingle 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmConsistency 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmPackOverCharge 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmPackHighSoC 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmSoCJump 0 "Normal" 1 "Alarm" ;
+VAL_ 649 BMS_AlarmBattSysNotMatch 0 "Normal" 1 "Alarm" ;
+VAL_ 643 ImmoRelease_Sts 3 "Reserved" 2 "Authentication Success" 1 "Authentication Failure" 0 "Authentication in Process" ;
+VAL_ 643 BMS_Balancing_Sts 3 "Reserved" 2 "Cells Unbalanced" 1 "Cells Balanced" 0 "Balancing Ongoing" ;
+VAL_ 643 BMS_Battery_Inhibit 1 "True" 0 "False" ;
+VAL_ 643 GenericWL_Sts 1 "ON" 0 "OFF" ;
+VAL_ 643 BMS_Heating_Sts 1 "ON" 0 "OFF" ;
+VAL_ 643 BMS_DeratingTempMax 1 "Active" 0 "Not Active" ;
+VAL_ 643 BMS_DeratingTempMin 1 "Active" 0 "Not Active" ;
+VAL_ 643 BMS_LimitedPower_Sts 1 "Active" 0 "Not Active" ;
+VAL_ 643 BMS_InstantEmerOpen_Req 1 "Request" 0 "No Request" ;
+VAL_ 643 BMS_DelayedEmerOpen_Req 1 "Request" 0 "No Request" ;
+VAL_ 643 BMS_State 0 "Standby" 1 "HVActive" 2 "Balancing" 3 "AC_Charging" 4 "DC_Charging" 5 "BatteryError" 6 "Reserved" 7 "Initializing" ;
+VAL_ 647 BMS_IsoMeasurement_Sts 0 "Not Active" 1 "Active" ;
+VAL_ 647 BMS_SelfTest_Sts 0 "Initialize" 1 "Self-testing" 2 "Self-testing successful" 3 "Self-test failed" ;
+VAL_ 640 BMS_DcRelayWelded_Sts 1 "Welded" 0 "Normal" ;
+VAL_ 640 BMS_DcRelayStuckOpen_Sts 1 "Stuck" 0 "Normal" ;
+VAL_ 640 BMS_HvContactors_Sts 15 "Reserved" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 5 "Reserved" 4 "Reserved" 0 "Open" 1 "Closed" 2 "Switching_On" 3 "Switching_Off" 6 "Init" 7 "Error" ;
+VAL_ 640 BMS_DcContactors_Sts 15 "Reserved" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 5 "Reserved" 4 "Reserved" 0 "Open" 1 "Closed" 2 "Switching_On" 3 "Switching_Off" 6 "Init" 7 "Error" ;
+VAL_ 640 BMS_HvRelayStuckOpen_Sts 1 "Stuck" 0 "Normal" ;
+VAL_ 640 BMS_HvRelayWelded_Sts 1 "Welded" 0 "Normal" ;
+VAL_ 640 BMS_RelayPrech_Cmd 1 "Close" 0 "Open" ;
+VAL_ 640 BMS_RelayHvPos_Cmd 1 "Close" 0 "Open" ;
+VAL_ 640 BMS_RelayNeg_Cmd 1 "Close" 0 "Open" ;
+VAL_ 640 BMS_RelayHeatPos_Cmd 1 "Close" 0 "Open" ;
+VAL_ 640 BMS_RelayDcPos_Cmd 1 "Close" 0 "Open" ;
+VAL_ 640 BMS_RelayNeg_Sts 1 "Closed" 0 "Open" ;
+VAL_ 640 BMS_RelayHvPos_Sts 1 "Closed" 0 "Open" ;
+VAL_ 640 BMS_RelayPrech_Sts 1 "Closed" 0 "Open" ;
+VAL_ 640 BMS_RelayHeatPos_Sts 1 "Closed" 0 "Open" ;
+VAL_ 640 BMS_RelayDcPos_Sts 1 "Closed" 0 "Open" ;
+VAL_ 648 BMS_DcChargeCompleted_Sts 1 "Completed" 0 "Default" ;
+VAL_ 648 BMS_AcChargeCompleted_Sts 1 "Completed" 0 "Default" ;
+VAL_ 1475 DC1_bReqMIL 0 "MIL Off" 1 "MIL On" ;
+VAL_ 1475 DC1_stT30c 3 "error" 2 "init" 0 "T30c off" 1 "T30c on" ;
+VAL_ 1475 GenericWL_Sts 1 "ON" 0 "OFF" ;
+VAL_ 1475 CHRGR_stHvIntlck 0 "open" 1 "closed" ;
+VAL_ 1475 CHRGR_stErr 0 "no warning" 1 "warning present" ;
+VAL_ 1474 CHRGR_uAcActPha3 4095 "Error" 4094 "Init" ;
+VAL_ 1474 CHRGR_uAcActPha2 4095 "Error" 4094 "Init" ;
+VAL_ 1474 CHRGR_uAcActPha1 4095 "Error" 4094 "Init" ;
+VAL_ 1472 CHRGR_iDcAct 8191 "Error" 8190 "Init" ;
+VAL_ 1472 CHRGR_uDcAct 4095 "Error" 4094 "Init" ;
+VAL_ 1472 CHRGR_stOperAct 15 "shutdown" 14 "unused" 13 "unused" 12 "unused" 11 "unused" 10 "unused" 9 "unused" 8 "unused" 7 "unused" 6 "error_nonrecoverable" 5 "error_recoverable" 4 "reserved" 0 "Init" 1 "standby_noAC" 2 "standby_ready2charge" 3 "charging" ;
+VAL_ 390 VCU_iAcMaxAllwdChrgr 2046 "Init" 2047 "Error" ;
+VAL_ 390 VCU_iDcLimChrgr 8190 "Init" ;
+VAL_ 390 VCU_uDcReqChrgr 4094 "Init" ;
+VAL_ 390 VCU_OBCMode_Cmd 15 "shutdown" 14 "unused" 13 "unused" 12 "unused" 11 "unused" 10 "unused" 9 "unused" 8 "unused" 7 "unused" 6 "reserved" 5 "reserved" 4 "reserved" 0 "Init" 1 "reserved" 2 "standby (no chargng operation)" 3 "charging" ;
+VAL_ 1488 DC1_VoltageHV 1023 "Failure" 1022 "Init" ;
+VAL_ 1488 DC1_CurrentLV 2047 "Failure" 2046 "Init" ;
+VAL_ 1488 DC1_Mode 5 "Reserved" 7 "Failure" 6 "Init" 4 "Reserved" 0 "Standby" 1 "Buck" 2 "Boost" 3 "Reserved" ;
+VAL_ 1488 DC1_CurrentHV 2047 "Failure" 2046 "Init" ;
+VAL_ 1488 DC1_Temp 254 "Init" 255 "Error" ;
+VAL_ 1488 DC1_VoltageLV 511 "Failure" 510 "Init" ;
+VAL_ 1489 DC1_MaxCurrentHV 0 "Init" ;
+VAL_ 1489 DC1_MaxCurrentLV 1023 "Init" ;
+VAL_ 1489 DC1_SetPointVoltageHV 0 "Init" ;
+VAL_ 1489 DC1_SetPointVoltageLV 0 "Init" ;
+VAL_ 1489 DC1_Utilization 0 "Init" ;
+VAL_ 386 VCU_stHvDeactvnDC 3 "reserved" 2 "reserved" 0 "no deactivation of HV" 1 "HV deactivation" ;
+VAL_ 386 VCU_VoltageDemandHV 1022 "Init" 1023 "Error" ;
+VAL_ 386 VCU_CurrentLimitHV 2046 "Init" 2047 "Error" ;
+VAL_ 386 VCU_CurrentLimitLV 2046 "Init" 2047 "Error" ;
+VAL_ 386 VCU_VoltageDemandLV 510 "Init" 511 "Error" ;
+VAL_ 386 VCU_DCDCMode_Cmd 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Reserved" 0 "Standby" 1 "Buck" 2 "Boost" 3 "Reserved" ;
+VAL_ 384 VCU_CoolDownReq 1 "request to cool down" 0 "No cool down  request(Default)" ;
+VAL_ 384 VCU_BMSMode_Cmd 6 "Reserved" 0 "Standby" 1 "HVActive" 2 "Reserved" 3 "ExternalCharging" 4 "FastCharging" 5 "Reserved" 7 "Reserved" ;
+VAL_ 384 VCU_IsoMeasurement_Cmd 0 "Off(Default)" 1 "On" ;
+VAL_ 144 ReAuth_Req 1 "New Challenge Requested" 0 "No Request" ;
+VAL_ 56 Response_Sts 245 "Busy BCM is proc. the encription" 240 "Busy BCM is proc. the key" 95 "BCM-Key validation failure" 0 "BCM Key validation success" ;
+VAL_ 1970 OBC_VINMismatch 1 "True" 0 "False" ;
+VAL_ 1970 GenericFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 1970 CurrentFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 1970 OBC_CodingMismatch 1 "True" 0 "False" ;
+VAL_ 1969 EDU_VINMismatch 1 "True" 0 "False" ;
+VAL_ 1969 GenericFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 1969 CurrentFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 1969 EDU_CodingMismatch 1 "True" 0 "False" ;
+VAL_ 1968 BMS_VINMismatch 1 "True" 0 "False" ;
+VAL_ 1968 BMS_CodingMismatch 1 "True" 0 "False" ;
+VAL_ 1968 GenericFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 1968 CurrentFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 258 CrashConfirmed_Sts 1 "Active - TRUE - ON - SET" 0 "Not Active - FALSE - OFF - RESET" ;
+VAL_ 258 CrashDetect 1 "Crash" 0 "No Crash" ;
+VAL_ 1584 NWM_WkUp_BCU_Rx 1 "WakeUp" 0 "Default" ;
+VAL_ 1584 NWM_WkUp_BCU_Reason 31 "Reason30" 30 "Reason29" 29 "Reason28" 28 "Reason27" 27 "Reason26" 26 "Reason25" 25 "Reason24" 24 "Reason23" 23 "Reason22" 22 "Reason21" 21 "Reason20" 20 "Reason19" 19 "Reason18" 18 "Reason17" 17 "Reason16" 16 "Reason15" 15 "Reason14" 14 "Reason13" 13 "Reason12" 12 "Reason11" 11 "Reason10" 10 "Reason9" 9 "Reason8" 8 "Reason7" 7 "Reason6" 6 "Reason5" 5 "Reason4" 4 "Reason3" 3 "Reason2" 2 "Reason1" 1 "Diagnosis" 0 "Network" ;
+VAL_ 1584 NWM_Sleep_BCU_Req 1 "Sleep" 0 "Default" ;
+VAL_ 1008 NWM_WkUp_VCU_Req 1 "WakeUp" 0 "Default" ;
+VAL_ 1008 NWM_WkUp_VCU_Reason 31 "Reason30" 30 "Reason29" 29 "Reason28" 28 "Reason27" 27 "Reason26" 26 "Reason25" 25 "Reason24" 24 "Reason23" 23 "Reason22" 22 "Reason21" 21 "Reason20" 20 "Reason19" 19 "Reason18" 18 "Reason17" 17 "Reason16" 16 "Reason15" 15 "Reason14" 14 "Reason13" 13 "Reason12" 12 "Reason11" 11 "Reason10" 10 "Reason9" 9 "Reason8" 8 "Reason7" 7 "Reason6" 6 "Reason5" 5 "Reason4" 4 "Reason3" 3 "Reason2" 2 "Reason1" 1 "Diagnosis" 0 "Network" ;
+VAL_ 752 NWM_WkUp_BMS_Req 1 "WakeUp" 0 "Default" ;
+VAL_ 752 NWM_WkUp_BMS_Reason 31 "Reason30" 30 "Reason29" 29 "Reason28" 28 "Reason27" 27 "Reason26" 26 "Reason25" 25 "Reason24" 24 "Reason23" 23 "Reason22" 22 "Reason21" 21 "Reason20" 20 "Reason19" 19 "Reason18" 18 "Reason17" 17 "Reason16" 16 "Reason15" 15 "Reason14" 14 "Reason13" 13 "Reason12" 12 "Reason11" 11 "Reason10" 10 "Reason9" 9 "Reason8" 8 "Reason7" 7 "Reason6" 6 "Reason5" 5 "Reason4" 4 "Reason3" 3 "Reason2" 2 "Reason1" 1 "Diagnosis" 0 "Network" ;
+VAL_ 492 AcceleratorPedal_FailSts 1 "Accelerator Pedal Pos Valid" 0 "Accelerator Pedal Pos NOT Valid" ;
+VAL_ 492 MDriverRequest_Status 1 "Driver request valid" 0 "Driver request invalid" ;
+VAL_ 1561 PTO_Sts 1 "ON" 0 "OFF" ;
+VAL_ 1561 PTO_Configuration 3 "PTO GBX steady CAN" 2 "PTO GBX steady" 1 "PTO BM running" 0 "NO PTO" ;
+VAL_ 1561 AC_FailSts 1 "Fault" 0 "No Fault" ;
+VAL_ 1561 Tra_NumGear 7 "Gear6" 6 "Gear5" 5 "Gear4" 4 "Gear3" 3 "Gear2" 2 "Gear1" 1 "Neutral" 0 "Rev-gear" ;
+VAL_ 1561 ValidGear 1 "Valid" 0 "Invalid" ;
+VAL_ 1561 ClutchSwitchState 1 "Pressed" 0 "Not Pressed" ;
+VAL_ 1561 ReverseGearSwitch 1 "Reverse gear engaged" 0 "Reverse gear not engaged" ;
+VAL_ 1561 AC_Sts 1 "A/C on" 0 "A/C off" ;
+VAL_ 1561 EMSService_Sts 2 "Service Lamp ON" 1 "Service Lamp BLINK" 0 "Service Lamp OFF" ;
+VAL_ 1561 MILLamp_Sts 2 "Lamp On" 1 "Lamp Blink" 0 "Lamp Off" ;
+VAL_ 1561 ImmoRelease_Sts 3 "Reserved" 2 "Authentication Success" 1 "Authentication Failure" 0 "Authentication in Process" ;
+VAL_ 1561 CruiseStatus 9 "Error" 8 "Resume from below" 7 "Resume from above" 6 "Tip down" 5 "Tip up" 4 "Deceleration" 3 "Acceleration" 2 "Cruise( On)" 1 "Stand by" 0 "Off" ;
+VAL_ 499 GasModeOK 1 "GasMode OK" 0 "GasMode not OK" ;
+VAL_ 499 SystemStatus 1 "Closed Loop Operation" 0 "Open Loop Operation" ;
+VAL_ 499 LambdaPreCat_STATUS 1 "Lambda Sensor Voltage Valid" 0 "Lambda Sensor Voltage Invalid" ;
+VAL_ 499 LambdaPostCat_STATUS 1 "Lambda Sensor Voltage Valid" 0 "Lambda Sensor Voltage Invalid" ;
+VAL_ 491 MaximumTorqueAvailable_Status 1 "Max torque available valid" 0 "Max torque available invalid" ;
+VAL_ 491 MinimumTorqueAvailable_Status 1 "Min torque available valid" 0 "Min torque available invalid" ;
+VAL_ 274 AltFuelSelected 1 "AltFuel Selected" 0 "Petrol Selected" ;
+VAL_ 273 AltFuelFault_D_Stat 3 "Not Used" 2 "Fault_MIL" 1 "Fault_NoMIL" 0 "Normal" ;
+VAL_ 273 AltFuelOpMde_D_Stat 7 "Not Used" 6 "AltFuelMde_To_PetrolMde" 5 "PetrolMde_To_AltFuelMde" 4 "Reserved" 3 "AltFuelMode" 2 "ForcedPetrolMde_AltFuelSysErr" 1 "ForcedPetrolMde_AltFuelLow" 0 "PetrolMode" ;
+VAL_ 273 WallW_App_Dis 1 "Wall wetting not applied" 0 "Wall wetting active" ;
+VAL_ 1925 Coding_PCWPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_GasolineOnly 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_FCAPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_DMCPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_RearParkingSensors 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_WFSIPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_VCUPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_TBMPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_SGWPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_PRNDPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_OBCPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_ICPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_ESPPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_EPSPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_EMSPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_EDUPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_BMSPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_ExtECUPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_AVASPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_ACUPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_ISAPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_Market 45 "CY" 44 "UA" 43 "TR" 42 "SK" 41 "SI" 40 "SE" 39 "RS" 38 "RO" 37 "RE" 36 "PT" 35 "PL" 34 "PF" 33 "NO" 32 "NL" 31 "NC" 30 "MT" 29 "MK" 28 "MD" 27 "LV" 26 "LU" 25 "LT" 24 "IT" 23 "IS" 22 "IL" 21 "IE" 20 "HU" 19 "HR" 18 "GR" 17 "GP" 16 "GE" 15 "GB" 14 "FR" 13 "FI" 12 "ES" 11 "EE" 10 "DK" 9 "DE" 8 "CZ" 7 "CL" 6 "CH" 5 "BY" 4 "BG" 3 "BE" 2 "AT" 1 "AL" 0 "Market not defined" ;
+VAL_ 1925 Coding_RVCPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_WheelsNum 1 "6 Wheels" 0 "4 Wheels" ;
+VAL_ 1925 Coding_ATUPresence 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_Tipper 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_EngineType 3 "Electric" 2 "CNG" 1 "GPL" 0 "Not defined" ;
+VAL_ 1925 Coding_AC 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_FrontFogLights 0 "Not Present" 1 "Present" ;
+VAL_ 1925 Coding_WheelBase 0 "Short Wheel Base" 1 "Long Wheel Base" ;
+VAL_ 1925 Coding_FrontParkingSensors 0 "Not Present" 1 "Present" ;
+VAL_ 410 FAN_Sts 1 "ON" 0 "OFF" ;
+VAL_ 410 PS2_Sts 0 "TBD" ;
+VAL_ 410 PS1_Sts 0 "TBD" ;
+VAL_ 410 TV4_Sts 1 "ON" 0 "OFF" ;
+VAL_ 410 TV2_Sts 1 "ON" 0 "OFF" ;
+VAL_ 410 TV1_Sts 1 "ON" 0 "OFF" ;
+VAL_ 410 TV3_Sts 1 "ON" 0 "OFF" ;
+VAL_ 1616 VIN_SeqNum 2 "VIN chars from 15 to 17" 1 "VIN chars from 8 to 14" 0 "VIN chars from 1 to 7" ;
+VAL_ 385 EngineShutOff_Req 1 "Active - TRUE - ON - SET" 0 "Not Active - FALSE - OFF - RESET" ;
+VAL_ 385 KL15_EMS_Sts 1 "ON" 0 "OFF" ;
+VAL_ 385 KickDown_Req 1 "Request" 0 "No Request" ;
+VAL_ 385 StarterRelay_Sts 7 "Reserved" 6 "Reserved" 5 "Feedback Fault" 4 "Command Error" 3 "Closed but not commanded" 2 "Commanded but not closed" 1 "Closed" 0 "Open" ;
+VAL_ 385 PropulsionSys_Sts 7 "Not Available" 6 "Reserved" 5 "Fault" 4 "Reserved" 3 "Reserved" 2 "ON" 1 "Cranking (only ICE)" 0 "OFF" ;
+VAL_ 490 MMotAct_Status 1 "Engine Torque Valid" 0 "Engine Torque Invalid" ;
+VAL_ 490 EngineRPM_FailSts 1 "Engine RPM valid" 0 "Engine RPM invalid" ;
+VAL_ 392 HV_HVIL_Sts 1 "HVIL Closed" 0 "HVIL Open" ;
+VAL_ 392 KL15_VCU_Sts 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Feedback Fault" 3 "Fault on relay coil" 2 "Fault on relay contact" 1 "ON" 0 "OFF" ;
+VAL_ 392 AcceleratorPedal_FailSts 1 "Accelerator Pedal Pos Valid" 0 "Accelerator Pedal Pos NOT Valid" ;
+VAL_ 528 VehicleMoving 3 "SNA" 2 "Moving Backward" 1 "Moving Forward" 0 "Standstill" ;
+VAL_ 528 VehicleSpeed_FailSts 3 "Reserved" 2 "Fail (at least one wheel error)" 1 "Valid (speed OK)" 0 "Invalid (not poss. to calculate)" ;
+VAL_ 528 BrakePedalActuated 3 "Reserved" 2 "Released" 1 "Pushed" 0 "Invalid" ;
+VAL_ 528 RollBenchMode_Sts 3 "Roll bench diagnostic tool" 2 "Reserved" 1 "Roll bench auto-detection" 0 "No roll bench" ;
+VAL_ 544 BAsc 1 "TSC Active" 0 "TSC Inactive" ;
+VAL_ 544 BMsr 1 "DTC Active" 0 "DTC Inactive" ;
+VAL_ 529 Ax_LongAcc_FailSts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 529 Ay_LatAcc_FailSts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 529 YawRate_FailSts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 1024 LogisticMode_Sts 1 "Active - TRUE - ON - SET" 0 "Not Active - FALSE - OFF - RESET" ;
+VAL_ 1024 Doors_Sts 3 "Doors Open" 2 "Right Door Open" 1 "Left Door Open" 0 "Doors Closed" ;
+VAL_ 1536 Vehicle_Sts 15 "SNA" 14 "HV Ready" 13 "HV Disabled" 12 "Sleep" 11 "HV Consumption Disabled" 10 "Function OFF" 9 "Drive Active" 8 "Propulsion System Ready" 7 "Propulsion Disabled" 6 "Free Drive" 5 "Ready To Move Backward" 4 "Cranking" 3 "Ready To Move Forward" 2 "Propulsion Enabled" 1 "ImmoCheck" 0 "Init" ;
+VAL_ 1536 KL15_BCU_Sts 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "Feedback Fault (only BEV)" 3 "Fault on relay coil (only BEV)" 2 "Fault on relay contact (BEV)" 1 "ON" 0 "OFF" ;
+VAL_ 1536 KeyPawlPos_Sts 7 "ERROR" 6 "RESERVED" 5 "RESERVED" 4 "PostStart" 3 "Start" 2 "PreStart" 1 "Acc - ICE only" 0 "KeyOff" ;
+

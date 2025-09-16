@@ -1,0 +1,236 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: OBC_DCDC_BEV VCU_BEV
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ N_PDU : 0|64@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OBC_VINMismatch : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GenericFail_Sts : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CurrentFail_Sts : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OBC_CodingMismatch : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1473 P_OBC_AcCurrents: 8 OBC_DCDC_BEV
+ SG_ mc_OBC_AcCurrents : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_OBC_AcCurrents : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ CHRGR_iAcAct3 : 26|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  VCU_BEV
+ SG_ CHRGR_iAcAct2 : 15|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  VCU_BEV
+ SG_ CHRGR_iAcAct : 4|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  VCU_BEV
+
+BO_ 1475 P_OBC_DCDC_WarnInfo: 8 OBC_DCDC_BEV
+ SG_ DC1_bReqMIL : 6|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ DC1_stT30c : 4|2@1+ (1,0) [0|3] "-"  VCU_BEV
+ SG_ GenericWL_Sts : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CHRGR_stHvIntlck : 33|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ CHRGR_stErr : 32|1@1+ (1,0) [0|1] "-"  VCU_BEV
+ SG_ CRC_OBC_WarnInfo : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+ SG_ mc_OBC_WarnInfo : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+
+BO_ 1474 P_OBC_AcVoltages: 8 OBC_DCDC_BEV
+ SG_ CHRGR_uAcActPha3 : 28|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ CHRGR_uAcActPha2 : 16|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ CHRGR_uAcActPha1 : 4|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ mc_OBC_AcVoltages : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_OBC_AcVoltages : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+
+BO_ 1472 P_OBC_CHRGRStatus: 8 OBC_DCDC_BEV
+ SG_ CHRGR_iDcAct : 20|13@1+ (0.1,-409.4) [-409.4|409.5] "A"  VCU_BEV
+ SG_ CHRGR_uDcAct : 8|12@1+ (0.25,0) [0|1023.25] "V"  VCU_BEV
+ SG_ CHRGR_stOperAct : 4|4@1+ (1,0) [0|15] "-"  VCU_BEV
+ SG_ mc_OBC_Status : 0|4@1+ (1,0) [0|15] "counts"  VCU_BEV
+ SG_ CRC_OBC_Status : 56|8@1+ (1,0) [0|255] "-"  VCU_BEV
+
+BO_ 390 P_VCU_OBCControl: 8 VCU_BEV
+ SG_ VCU_iAcMaxAllwdChrgr : 33|11@1+ (0.1,-102.2) [-102.2|102.3] "A"  OBC_DCDC_BEV
+ SG_ VCU_iDcLimChrgr : 20|13@1+ (0.1,-409.4) [-409.4|409.5] "A"  OBC_DCDC_BEV
+ SG_ VCU_uDcReqChrgr : 8|12@1+ (0.25,0) [0|1023.25] "V"  OBC_DCDC_BEV
+ SG_ VCU_OBCMode_Cmd : 4|4@1+ (1,0) [0|15] "-"  OBC_DCDC_BEV
+ SG_ mc_VCU_OBCControl : 0|4@1+ (1,0) [0|15] "counts"  OBC_DCDC_BEV
+ SG_ CRC_VCU_OBCControl : 56|8@1+ (1,0) [0|255] "-"  OBC_DCDC_BEV
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+CM_ SG_ 3221225472 N_PDU "Signal used for diagnostic purposesSignal used for diagnostic purposes";
+CM_ SG_ 3221225472 OBC_VINMismatch "Mismatch flag sent by OBC following the check of VIN with respect to the one sent by BCU.";
+CM_ SG_ 3221225472 GenericFail_Sts "Fail present if at least a DTC is not physically present but stored in the fault memory";
+CM_ SG_ 3221225472 CurrentFail_Sts "Fail presence inside the key cycle";
+CM_ SG_ 3221225472 OBC_CodingMismatch "Mismatch flag sent by OBC following the check of internal coding parameters with respect to the ones sent by BCU.";
+CM_ SG_ 1473 mc_OBC_AcCurrents "Message counter signal.";
+CM_ SG_ 1473 CRC_OBC_AcCurrents "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1473 CHRGR_iAcAct3 "AC current (RMS, phase 3 current for 3p-supply), 
+sign convention:
+- neagtive: energy flow from AC grid to vehicles DC bus (vehicle charging)
+- positive: energy from vehicles DC bus to AC grid (veh2grid)";
+CM_ SG_ 1473 CHRGR_iAcAct2 "AC current (RMS, phase 2 current for 3p-supply), 
+sign convention:
+- neagtive: energy flow from AC grid to vehicles DC bus (vehicle charging)
+- positive: energy from vehicles DC bus to AC grid (veh2grid)";
+CM_ SG_ 1473 CHRGR_iAcAct "AC current (RMS, phase 1 for 1p-supply, maximum phase current for 3p-supply), 
+sign convention:
+- neagtive: energy flow from AC grid to vehicles DC bus (vehicle charging)
+- positive: energy from vehicles DC bus to AC grid (veh2grid)";
+CM_ SG_ 1475 DC1_bReqMIL "MIL (Malfunction Indicator Lamp) request by DCDC1";
+CM_ SG_ 1475 DC1_stT30c "Terminal 30c (T30c) state: permanent supply, can be interrupted by crash (non-reversible) or service disconnect";
+CM_ SG_ 1475 GenericWL_Sts "Request to activate the Generic Warning Lamp, following a Safety Relevant DTC presence.";
+CM_ SG_ 1475 CHRGR_stHvIntlck "status of HV interlock evaluation (monitoring of HV connectors and covers)";
+CM_ SG_ 1475 CHRGR_stErr "error status (no charging possible if error present)";
+CM_ SG_ 1475 CRC_OBC_WarnInfo "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1475 mc_OBC_WarnInfo "Message counter signal.";
+CM_ SG_ 1474 CHRGR_uAcActPha3 "AC voltage (RMS) (input voltage for unidirectional chargers; phase 3 for 3p-supply)";
+CM_ SG_ 1474 CHRGR_uAcActPha2 "AC voltage (RMS) (input voltage for unidirectional chargers; phase 2 for 3p-supply)";
+CM_ SG_ 1474 CHRGR_uAcActPha1 "AC voltage (RMS) (input voltage for unidirectional chargers; phase 1 for 3p-supply)";
+CM_ SG_ 1474 mc_OBC_AcVoltages "Message counter signal.";
+CM_ SG_ 1474 CRC_OBC_AcVoltages "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 1472 CHRGR_iDcAct "DC current charger (pos: discharging vehicle | neg: charging vehicle)";
+CM_ SG_ 1472 CHRGR_uDcAct "DC voltage charger (output voltage for unidirectional chargers)";
+CM_ SG_ 1472 CHRGR_stOperAct "operation state of onboard charger (corrensponds to mode request from VCU if boundary 
+conditions allow to fullfill the request)";
+CM_ SG_ 1472 mc_OBC_Status "Message counter signal.";
+CM_ SG_ 1472 CRC_OBC_Status "Message CRC signal in accordance with SAE J1850.";
+CM_ SG_ 390 VCU_iAcMaxAllwdChrgr "maximum allowed AC current (derived from CP signaling from EVSE)";
+CM_ SG_ 390 VCU_iDcLimChrgr "Limit for charge current DC (incorporating e.g. allowed charging current of battery, consumption of additional HV consumers, e.g. AC-Compressor, PTC-Heater, DCDC-Converter) (pos: unused | neg: into HV power net)";
+CM_ SG_ 390 VCU_uDcReqChrgr "requested max charging Voltage DC (maximum allowed charging voltage of battery)";
+CM_ SG_ 390 VCU_OBCMode_Cmd "Requested mode of operation of onboard charger";
+CM_ SG_ 390 mc_VCU_OBCControl "Message counter signal.";
+CM_ SG_ 390 CRC_VCU_OBCControl "Message CRC signal in accordance with SAE J1850.";
+BA_DEF_ SG_  "SR_WFSI" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_VCU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_SGW" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_PRND" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_PCW" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_OBC" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_IC" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_FCA" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_ESP" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_EPS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_EMS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_EDU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_DMC" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_BMS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_BCU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_BBU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_AVAS" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_ATU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR_ACU" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "SR" ENUM  "ND","N","Y";
+BA_DEF_ SG_  "GenSigSpontaneousTrigger" ENUM  "FALSE","TRUE";
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 1215752192;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","spontaneous","cyclicIfActive","spontaneousWithDelay","cyclicAndSpontaneous","cyclicAndSpontaneousWithDelay","spontaneousWithRepetition","cyclicIfActiveAndSpontaneousWD","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 2000;
+BA_DEF_DEF_  "SR_WFSI" "ND";
+BA_DEF_DEF_  "SR_VCU" "ND";
+BA_DEF_DEF_  "SR_SGW" "ND";
+BA_DEF_DEF_  "SR_PRND" "ND";
+BA_DEF_DEF_  "SR_PCW" "ND";
+BA_DEF_DEF_  "SR_OBC" "ND";
+BA_DEF_DEF_  "SR_IC" "ND";
+BA_DEF_DEF_  "SR_FCA" "ND";
+BA_DEF_DEF_  "SR_ESP" "ND";
+BA_DEF_DEF_  "SR_EPS" "ND";
+BA_DEF_DEF_  "SR_EMS" "ND";
+BA_DEF_DEF_  "SR_EDU" "ND";
+BA_DEF_DEF_  "SR_DMC" "ND";
+BA_DEF_DEF_  "SR_BMS" "ND";
+BA_DEF_DEF_  "SR_BCU" "ND";
+BA_DEF_DEF_  "SR_BBU" "ND";
+BA_DEF_DEF_  "SR_AVAS" "ND";
+BA_DEF_DEF_  "SR_ATU" "ND";
+BA_DEF_DEF_  "SR_ACU" "ND";
+BA_DEF_DEF_  "SR" "ND";
+BA_DEF_DEF_  "GenSigSpontaneousTrigger" "FALSE";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgSendType" "cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 100;
+BA_ "GenMsgSendType" BO_ 1473 0;
+BA_ "GenMsgCycleTime" BO_ 1473 100;
+BA_ "GenMsgSendType" BO_ 1475 0;
+BA_ "GenMsgCycleTime" BO_ 1475 20;
+BA_ "GenMsgCycleTime" BO_ 1474 100;
+BA_ "GenMsgSendType" BO_ 1474 0;
+BA_ "GenMsgCycleTime" BO_ 1472 100;
+BA_ "GenMsgSendType" BO_ 1472 0;
+BA_ "GenMsgCycleTime" BO_ 390 100;
+BA_ "GenMsgSendType" BO_ 390 0;
+BA_ "SR" SG_ 3221225472 N_PDU 1;
+BA_ "GenSigStartValue" SG_ 1473 mc_OBC_AcCurrents 0;
+BA_ "GenSigStartValue" SG_ 1473 CRC_OBC_AcCurrents 0;
+BA_ "GenSigStartValue" SG_ 1473 CHRGR_iAcAct3 2046;
+BA_ "GenSigStartValue" SG_ 1473 CHRGR_iAcAct2 2046;
+BA_ "GenSigStartValue" SG_ 1473 CHRGR_iAcAct 2046;
+BA_ "GenSigStartValue" SG_ 1475 DC1_stT30c 2;
+BA_ "GenSigStartValue" SG_ 1475 CRC_OBC_WarnInfo 0;
+BA_ "GenSigStartValue" SG_ 1475 mc_OBC_WarnInfo 0;
+BA_ "GenSigStartValue" SG_ 1474 CHRGR_uAcActPha3 4094;
+BA_ "GenSigStartValue" SG_ 1474 CHRGR_uAcActPha2 4094;
+BA_ "GenSigStartValue" SG_ 1474 CHRGR_uAcActPha1 4094;
+BA_ "GenSigStartValue" SG_ 1474 mc_OBC_AcVoltages 0;
+BA_ "GenSigStartValue" SG_ 1474 CRC_OBC_AcVoltages 0;
+BA_ "GenSigStartValue" SG_ 1472 CHRGR_iDcAct 8190;
+BA_ "GenSigStartValue" SG_ 1472 CHRGR_uDcAct 4094;
+BA_ "GenSigStartValue" SG_ 1472 CHRGR_stOperAct 0;
+BA_ "GenSigStartValue" SG_ 1472 mc_OBC_Status 0;
+BA_ "GenSigStartValue" SG_ 1472 CRC_OBC_Status 0;
+BA_ "GenSigStartValue" SG_ 390 VCU_iAcMaxAllwdChrgr 2046;
+BA_ "GenSigStartValue" SG_ 390 VCU_iDcLimChrgr 8190;
+BA_ "GenSigStartValue" SG_ 390 VCU_uDcReqChrgr 4094;
+BA_ "GenSigStartValue" SG_ 390 VCU_OBCMode_Cmd 0;
+BA_ "GenSigStartValue" SG_ 390 mc_VCU_OBCControl 0;
+BA_ "GenSigStartValue" SG_ 390 CRC_VCU_OBCControl 0;
+VAL_ 3221225472 OBC_VINMismatch 1 "True" 0 "False" ;
+VAL_ 3221225472 GenericFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 3221225472 CurrentFail_Sts 1 "Fail Present" 0 "Fail Not Present" ;
+VAL_ 3221225472 OBC_CodingMismatch 1 "True" 0 "False" ;
+VAL_ 1473 CHRGR_iAcAct3 2046 "Init" 2047 "Error" ;
+VAL_ 1473 CHRGR_iAcAct2 2046 "Init" 2047 "Error" ;
+VAL_ 1473 CHRGR_iAcAct 2046 "Init" 2047 "Error" ;
+VAL_ 1475 DC1_bReqMIL 0 "MIL Off" 1 "MIL On" ;
+VAL_ 1475 DC1_stT30c 3 "error" 2 "init" 0 "T30c off" 1 "T30c on" ;
+VAL_ 1475 GenericWL_Sts 1 "ON" 0 "OFF" ;
+VAL_ 1475 CHRGR_stHvIntlck 0 "open" 1 "closed" ;
+VAL_ 1475 CHRGR_stErr 0 "no warning" 1 "warning present" ;
+VAL_ 1474 CHRGR_uAcActPha3 4095 "Error" 4094 "Init" ;
+VAL_ 1474 CHRGR_uAcActPha2 4095 "Error" 4094 "Init" ;
+VAL_ 1474 CHRGR_uAcActPha1 4095 "Error" 4094 "Init" ;
+VAL_ 1472 CHRGR_iDcAct 8191 "Error" 8190 "Init" ;
+VAL_ 1472 CHRGR_uDcAct 4095 "Error" 4094 "Init" ;
+VAL_ 1472 CHRGR_stOperAct 15 "shutdown" 14 "unused" 13 "unused" 12 "unused" 11 "unused" 10 "unused" 9 "unused" 8 "unused" 7 "unused" 6 "error_nonrecoverable" 5 "error_recoverable" 4 "reserved" 0 "Init" 1 "standby_noAC" 2 "standby_ready2charge" 3 "charging" ;
+VAL_ 390 VCU_iAcMaxAllwdChrgr 2046 "Init" 2047 "Error" ;
+VAL_ 390 VCU_iDcLimChrgr 8190 "Init" ;
+VAL_ 390 VCU_uDcReqChrgr 4094 "Init" ;
+VAL_ 390 VCU_OBCMode_Cmd 15 "shutdown" 14 "unused" 13 "unused" 12 "unused" 11 "unused" 10 "unused" 9 "unused" 8 "unused" 7 "unused" 6 "reserved" 5 "reserved" 4 "reserved" 0 "Init" 1 "reserved" 2 "standby (no chargng operation)" 3 "charging" ;
+

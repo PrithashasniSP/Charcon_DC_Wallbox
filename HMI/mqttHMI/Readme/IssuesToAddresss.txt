@@ -1,0 +1,4 @@
+1. Saving data methodology and format
+2. Publishing data format
+3. Specific changes in the call methodology
+4. Limit of data to store

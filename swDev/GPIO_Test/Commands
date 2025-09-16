@@ -1,0 +1,10 @@
+OUTPUT:
+echo 138 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio138/direction 
+echo 1 > /sys/class/gpio/gpio138/value
+echo 0 > /sys/class/gpio/gpio138/value 
+
+INPUT:
+echo 140 > /sys/class/gpio/export
+echo in > /sys/class/gpio/gpio138/direction 
+cat /sys/class/gpio/gpio138/value
